@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "backend/*.kernel": "php",
+        "*.smake": "php",
+        "*.settings": "json"
+    }
+}

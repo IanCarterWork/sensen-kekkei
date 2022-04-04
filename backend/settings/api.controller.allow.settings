@@ -1,0 +1,33 @@
+{
+
+    "Basic": {
+
+        "Origin": "*",
+
+        "Headers": "*"
+        
+    },
+
+    "Medium": {
+
+        "Origin": "*",
+
+        "Headers": "Content-Type, API-KEY, API-LANG",
+
+        "Methods": "POST, GET, OPTIONS, PATCH, DISPATCH, DELETE, HEAD"
+        
+    },
+
+    "Advanced": {
+
+        "Origin": "*",
+
+        "Credentials": "true",
+
+        "Headers": "Content-Type, API-KEY, API-LANG",
+
+        "Methods": "POST, GET, OPTIONS, PATCH, DISPATCH, DELETE, HEAD"
+        
+    }
+    
+}

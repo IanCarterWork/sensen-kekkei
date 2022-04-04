@@ -1,0 +1,13 @@
+<?php
+
+namespace Smake;
+
+require dirname(__FILE__) . "/.sensen/index.php";
+
+require dirname(__FILE__) . "/.sensen/kernel.smake";
+
+
+(new Console())->Run($_SERVER['argv']);
+
+
+

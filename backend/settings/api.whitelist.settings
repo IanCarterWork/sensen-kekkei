@@ -1,0 +1,64 @@
+{
+    "list": [
+        {
+            "secure": true,
+            "platform": "MacOSX",
+            "domain": "localhost",
+            "browser": "Firefox",
+            "publickey": "",
+            "secretkey": ""
+        },
+        {
+            "domain": "localhost",
+            "secure": false,
+            "platform": "",
+            "browser": "",
+            "publickey": "bfc2f59afc3d06ad39665e71f3c72942395f61f7",
+            "secretkey": "8g4DPoQIChuDcjHtDj8z6B92Dl8NZZfOXNrzgbPzVznGOS4cLgWtruQJGz15FcgQ74FZvY5fBllIH05LrknJpuhuBH0zsaZJ5JCIwoEwTAxq0FIcsg1DTvvf7L9VhrZKEmbLZh1UWahRc6gwK2NzoHjn0bbZtNUsy2dxvpbN8yy07stvFg3f5ItSnOLD24kRUAtgmnJyly7RHAkfOimDixmWxvEtYgZMYqDbWfcqAAyrEK3nDOD090vSCajf8VaE"
+        },
+        {
+            "domain": "127.0.0.1",
+            "secure": true,
+            "platform": "",
+            "browser": "",
+            "publickey": "f17af4daadbf03d801480a99416204e03b2f82ae",
+            "secretkey": "v7Z5cNF4cKxMDD6s95anKkA2TfjuJxbtu6yiWj6ztYK8bfDX6ycX9IjJxkJJW6lDnxsmqXr41grZjVvhHJIcD4o73ROp50mUrZwTrmgbos01u1JCHVQ0vYya3h2PUgSfJudVArcJcT44q9eQNFuydhmk9aGmytFYYd6cynIK1JjKXs3OyzuC6tk2VblN9cArad54Zt57fi32WoUq3xXhinkjOkOGlLvbpxxvj8atv9UWs1IVjIDgJpjcgPqPwqDH"
+        },
+        {
+            "domain": "localhost",
+            "secure": false,
+            "platform": "MacOSX",
+            "browser": "Firefox",
+            "publickey": "f76d2af032844fda9c17b9ffee33bb5159ca0703",
+            "secretkey": "qeWIItDqKgCF9DIL0sjvYMhrVmnFL5jcGYCJxjsTegNLUbXDlOuLjpH0l2kEKIriEj7Pu3IwbRT91MlG0kkSQlhjEB3y5IOgY8pwiorSUlyEx7JqS71qyQ6IscQL6XPZhIRq5G9KCtPqaIHWO9kxEeIkf8VIo7PzQvSIBh1cPRqcPXjV4VXFrPSuzeLQao7p3sT8vwDqytcLRVlClG52gOr6aXTFRbmOrSXbJJ2jCPZF8JjdCkgdkFAorPAjrdlA"
+        },
+        {
+            "domain": "iancarter.work",
+            "secure": true,
+            "platform": "Win",
+            "browser": "edge",
+            "browserVersion": "10",
+            "publickey": "44dcbfa101a4c014a338a668aab7f89facb1de0f",
+            "secretkey": "Sfi7CoELU4aJfpHTGBmmBnhK8Zf6cHfjktSFkbBTIWZy1kXrtTqJOl4x9lItTb1DFMT5OJkTDgEmp9ghMHco4bR2EVepqHN7bptByZagyY5U6hs7Crk9B68ZRShq2nPJ00q8xsgTq2hyj5AsSKEBTgOcnEUOLc9xoZZRRgSweBXYJou8q2MnODC28QeJLOZ1SZxpiQl6YUSFIvAGORzFcNOVZSu1L346ozHesxdCZwBVsSWwZu17iktLfa0sIqDa"
+        },
+        {
+            "domain": "",
+            "secure": false,
+            "platform": "",
+            "browser": "",
+            "browserVersion": "",
+            "publickey": "2f138635e53721d7b8ecce05fa611623566837b0",
+            "secretkey": "UxJvHWFU80hWLy7cCwOHrYRAm0aD5WNiA8q3JB1DpsLgl8lNbhXoG6cbHFmWR9VIxhADfpbmcbw081cF6hMFsHOaNH3Y5b4wjOveLPByKdPOz5Eo7X3EKuN7F0uC510iZ3Gukra4QhA6VW4HefLtgzLHr8FjaeDtO0bpKwo7xQ0vMf0okqwgh1NKPdhAhwfgE3P077q4HG2yjtH88wBZ6nGgRVDLUQLRsUNtv2hjwpkxEwm3GhqQULewGGTBumUO"
+        },
+        {
+            "said": "default",
+            "domain": "*",
+            "secure": false,
+            "platform": "*",
+            "browser": "*",
+            "browserVersion": "*",
+            "publickey": "aa6d67c7711eb57b440da006565955aed91e3c48",
+            "secretkey": "PIjUgRcf2CACEYTPEFyhT6TJkkaqHkPgHkWKl3MljQkZPoxQaII8llpFj98SZqfBXPaWPhTCoacVww0krjPcAZn2UM3QxyLAPljwA5TrZixceZ1rIGPCutmgFnJvGw5wOMXXb7l3Iuvn71OxEP1pLWeghV0E89uuYb7WLKoaHM3MyUb4guznNtSYIBQtCt1b3fhVRXZ5gpqY7CQYPSNxeJCPlYulMUtld9Hr1YJuDXaB9mNasUwezjdYFsfLaeh6"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+
+    "name": "sensen.php.akwabamedias",
+    
+    "version": "0.0.1",
+
+    "alias": {
+
+        "Services" : "services",
+
+        "Smake" : ".sensen/smake",
+
+        "Package" : "packages",
+
+        "Sensen" : "components"
+
+    }
+    
+}

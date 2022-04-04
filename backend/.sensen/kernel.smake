@@ -1,0 +1,30 @@
+<?php
+
+namespace Smake\Utilities{
+
+
+    function ArrayRange(array $array, int $from = 0, int $to = 0) : array{
+
+        $range = [];
+
+
+        $to = $to ? $to : count($array);
+
+
+        for ($i=$from; $i < $to; $i++) { 
+
+            if($array[$i]){
+
+                $range[] = $array[$i];
+
+            }
+            
+        }
+
+
+        return $range;
+        
+    }
+
+    
+}

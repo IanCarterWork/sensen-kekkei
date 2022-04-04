@@ -1,0 +1,22 @@
+{
+  "name": "sensen-kekkei",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "IanCarterWork",
+  "license": "MIT",
+  "scripts": {
+    
+    "get:pkg" : "cd ./backend && sensen get:pkg",
+
+
+    "run:backend" : "php backend/sensen serve -run",
+    "api:create" : "php backend/sensen api-whitelist:create",
+    "api:get" : "php backend/sensen api-whitelist:get",
+
+    "run-frontend" : "node frontend/sensen serve -run",
+    
+    "backend" : "php backend/sensen",
+    "frontend" : "php frontend/sensen"
+    
+  }
+}

@@ -1,0 +1,37 @@
+{
+
+    "modules":[
+
+        {
+            "name": "serve",
+            "execute": "Smake\\Modules\\Serve\\Run",
+            "directives":{}
+        },
+
+        {
+            "name": "api-whitelist:create",
+            "execute": "Smake\\Modules\\API\\CreateWhitelist",
+            "directives":{}
+        },
+
+        {
+            "name": "api-whitelist:get",
+            "execute": "Smake\\Modules\\API\\GetWhitelist",
+            "directives":{}
+        },
+
+        {
+            "name": "api-blacklist:create",
+            "execute": "Smake\\Modules\\API\\CreateBlacklist",
+            "directives":{}
+        },
+
+        {
+            "name": "api-blacklist:get",
+            "execute": "Smake\\Modules\\API\\GetBlacklist",
+            "directives":{}
+        }
+        
+    ]
+    
+}
