@@ -5,9 +5,6 @@
   "author": "IanCarterWork",
   "license": "MIT",
   "scripts": {
-    
-    "get:pkg" : "cd ./backend && sensen get:pkg",
-
 
     "run:backend" : "php backend/sensen serve -run",
     "api:create" : "php backend/sensen api-whitelist:create",
@@ -18,5 +15,11 @@
     "backend" : "php backend/sensen",
     "frontend" : "php frontend/sensen"
     
+  },
+  "sensen":{
+    "path":{
+      "back": "./backend",
+      "front": "./frontend"
+    }
   }
 }

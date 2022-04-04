@@ -1,19 +1,21 @@
 {
-
-    "name": "sensen.php.akwabamedias",
-    
-    "version": "0.0.1",
-
-    "alias": {
-
-        "Services" : "services",
-
-        "Smake" : ".sensen/smake",
-
-        "Package" : "packages",
-
-        "Sensen" : "components"
-
-    }
-    
+ "name": "sensen.php.akwabamedias",
+ "version": "0.0.1",
+ "alias": {
+  "Services": "services",
+  "Smake": ".sensen/smake",
+  "Package": "packages",
+  "Sensen": "components"
+ },
+ "packages": {
+  "sensen-package-hello": {
+   "id": "sensen-package-hello",
+   "name": "Hello",
+   "version": "0.0.1",
+   "respository": "https://github.com/IanCarterWork/sensen-package-hello.git",
+   "type": "-chakra"
+  }
+ }
 }
+
+

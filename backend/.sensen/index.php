@@ -84,4 +84,6 @@ $ENV_JSON = (object) is_file(ENV_CONFIG_FILE) ? ( json_decode( file_get_contents
 
 $Sensen->Alias = $ENV_JSON->alias ?: (object) [];
 
+$Sensen->Packages = $ENV_JSON->packages ?: (object) [];
+
 
