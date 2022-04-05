@@ -1,0 +1,107 @@
+
+
+plugin-modal{
+
+    position: fixed;
+
+    z-index: 910;
+    
+    background-color: var(--color-layer-rgb-big);
+
+
+    
+    &, &[plugin\:status="0"]{
+        
+        transform: translateY(100%);
+
+        opacity: 0.0;
+        
+    }
+    
+    &[plugin\:status="1"]{
+
+        transform: translateY(0%);
+        
+        opacity: 1;
+
+    }
+
+
+
+    [plugin-child="@overlay"]{
+        
+        opacity: 0.0;
+
+        transform: translateY(10%);
+
+    }
+
+    &[plugin\:status="1"] [plugin-child="@overlay"]{
+        
+        opacity: 1;
+
+        transition-delay: calc( var(--fx-duration) - ( var(--fx-duration) / 90 ) );
+        
+        transform: translateY(0%);
+
+    }
+
+
+
+
+
+    &, [plugin-child="@underlay"]{
+
+        display: flex;
+    
+        justify-content: center;
+    
+        align-items: center;
+    
+        flex-direction: column;
+
+        top: 0; left: 0;
+
+        width: 100vw;
+    
+        height: 100vh;
+    
+    }
+
+    
+
+
+
+    [plugin-child="@underlay"]{
+
+        position: absolute;
+
+    }
+
+
+//    [plugin-child="@overlay"]{
+
+//     }
+
+    
+}
+
+
+
+
+:root:not([advance-appearance-disabled~="backdrop-filter"]) plugin-modal, 
+:root:not([advance-appearance-disabled~="backdrop-filter"]) plugin-modal[plugin\:status="0"]{
+    
+    backdrop-filter: blur(0);
+
+}
+
+
+
+
+
+:root:not([advance-appearance-disabled~="backdrop-filter"]) plugin-modal[plugin\:status="1"]{
+
+    backdrop-filter: blur(1.5rem);
+
+}

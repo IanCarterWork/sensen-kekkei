@@ -1,0 +1,14 @@
+
+
+[ui-fx="transition"],
+[ui-fx="transition"][fx-global] *
+{
+
+    transition-property: all;
+
+    transition-timing-function: var( --fx-timing-function );
+
+    transition-duration: var( --fx-duration );
+
+}
+

@@ -1,0 +1,129 @@
+
+@import "../config";
+
+
+
+[ui-toolbox]{
+
+    position: relative;
+
+    border-radius: inherit;
+
+    max-width: calc( 100vw - 2rem);
+
+    overflow-y: hidden;
+
+    overflow-x: auto;
+    
+
+
+    & > *{
+        border-radius: inherit;
+    }
+
+
+    // & > *:first-child{
+    //     border-top-left-radius: inherit;
+    //     border-top-right-radius: inherit;
+    // }
+
+    // & > *:last-child{
+    //     border-bottom-left-radius: inherit;
+    //     border-bottom-right-radius: inherit;
+    // }
+    
+
+    
+    &[ui-toolbox~="absolute"]{
+        position: absolute;
+    }
+
+    &[ui-toolbox~="fixed"]{
+        position: fixed;
+    }
+
+    &[ui-toolbox~="top"]{ top: 0; }
+
+    &[ui-toolbox~="left"]{ left: 0; }
+
+    &[ui-toolbox~="right"]{ right: 0; }
+
+    &[ui-toolbox~="bottom"]{ bottom: 0; }
+
+
+
+    [toolbox-item]{
+
+        padding: var(--encaps-3x) ;
+
+        border-bottom: 1px dashed var(--color-layer);
+
+
+        [toolbox-icon]{
+
+            padding-left: var(--encaps-2x);
+
+            padding-right: var(--encaps-2x);
+            
+        }
+        
+
+
+        &:hover{
+            
+            background-color: var(--color-one);
+            
+            color: var(--color-white);
+            
+            border-width: 0px;
+
+            border-style: solid;
+
+        }
+
+
+
+        &:last-child{
+
+            border-bottom-width: 0px;
+
+        }
+
+
+    }
+
+
+
+
+    
+}
+
+
+
+
+
+
+@media (max-width: #{ $device-size-medium }) {
+
+
+    [ui-toolbox]{
+
+        max-width: calc( 100vw - 2rem);
+    
+        overflow-y: hidden;
+    
+        overflow-x: auto;
+
+        scrollbar-width: none;
+
+        &::-webkit-scrollbar{
+            display: none;
+        }
+
+    }
+
+
+
+}
+
+

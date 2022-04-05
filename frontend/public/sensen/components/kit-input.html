@@ -1,0 +1,62 @@
+
+<label ui-fx="transition" fx-global ui-textinput ui-rounded="{{ this.props.rounded || 'larger' }}" >
+
+    <div input-icon ui-flex="row align-center-v align-center-h"> <i class="fa-thin fa-{{ this.props.icon || 'circle-dashed' }}"></i> </div>
+
+    <div input-stack >
+
+        {% if(this.props.type == "textarea"){ %}
+
+            <textarea 
+
+            @blur="this.methods.leaved" 
+            
+            type="{%= this.props.type || 'text' %}" 
+            
+            name="{%= this.props.name || '' %}" 
+
+            placeholder="{%= this.props.label || '' %}" 
+            
+            input-field >{%= this.props.value || '' %}</textarea>
+
+        {% } else{ %}
+            
+            <input 
+                
+                @blur="this.methods.leaved" 
+                
+                type="{%= this.props.type || 'text' %}" 
+                
+                name="{%= this.props.name || '' %}" 
+
+                placeholder="{%= this.props.label || '' %}" 
+                
+                input-field 
+                
+            />
+        
+        {% } %}
+
+        <div input-label >{%= this.props.label %}</div>
+
+    </div>
+
+
+    <div input-tools ui-flex="align-center-v align-center-h">
+
+        <div ui-tools >
+
+            {% if(this.props.label){ %}
+
+            <div tool-item @click="this.methods.cleaner" > <i class="fa-thin fa-times"></i> </div>
+            
+            {% } %}
+            
+        </div>
+        
+    </div>
+
+
+
+</label>
+

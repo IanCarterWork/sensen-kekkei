@@ -1,0 +1,254 @@
+:root{
+
+
+    // Texts
+
+    --global-font-size: small;
+
+    --global-font-weight: 400;
+    
+    
+
+
+    // User Interface : Dimension
+
+    --dimension-header: 48px;
+
+    --dimension-menu: 48px;
+
+    --dimension-safe-size: calc( 100vh - ( var(--dimension-header) + var(--dimension-menu) ) );
+
+
+
+
+
+    // Animations & Transitions
+
+    --fx-duration: 360ms;
+
+    --fx-timing-function: cubic-bezier(0.6, 0, 0.02, 1);
+    
+    
+
+
+    // Icon
+
+    --icon-smaller: .8rem;
+
+    --icon-small: 1rem;
+
+    --icon-medium: 1.2rem;
+
+    --icon-big: 1.8rem;
+
+    --icon-bigger: 2.2rem;
+    
+
+
+
+    // Device 
+    
+    --device-size-smaller: 480px;
+
+    --device-size-small: 768px;
+    
+    --device-size-medium: 960px;
+    
+    --device-size-large: 1280px;
+    
+    --device-size-larger: 1920px;
+    
+
+
+
+    // Encaps : Margin & Padding
+
+    --encaps-0x: 0; 
+
+    --encaps-1x: .3rem; 
+
+    --encaps-2x: .5rem; 
+    
+    --encaps-3x: 1rem; 
+    
+    --encaps-4x: 1.5rem; 
+    
+    --encaps-5x: 2rem; 
+
+    --encaps-6x: 2.5rem; 
+
+    --encaps-7x: 3rem; 
+
+    --encaps-8x: 3.5rem; 
+
+    --encaps-9x: 4rem; 
+
+    --encaps-10x: 5rem; 
+
+
+
+
+    // Border : Radius
+
+    --radius-smaller: .3rem; 
+
+    --radius-small: .5rem; 
+    
+    --radius-medium: 1rem; 
+    
+    --radius-large: 1.5rem; 
+    
+    --radius-larger: 2rem; 
+    
+
+
+
+
+
+    // Thickness : Volume
+
+    --thickness-smaller: .3rem; 
+
+    --thickness-small: .5rem; 
+    
+    --thickness-medium: 1rem; 
+    
+    --thickness-large: 1.5rem; 
+    
+    --thickness-larger: 2rem; 
+
+    --thickness-extra: 3rem; 
+    
+    
+
+
+    // Border : Epaisseur
+
+    --border-thickness-smaller: 1px; 
+
+    --border-thickness-small: 2px; 
+    
+    --border-thickness-medium: 3px; 
+    
+    --border-thickness-large: 7px; 
+    
+    --border-thickness-larger: 10px; 
+    
+    
+
+}
+
+
+
+body{
+
+    margin: 0;
+    
+    padding: 0;
+
+    background-color: var(--color-layer);
+
+}
+
+
+*, :root{
+
+    color: var(--color-text);
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-size: var(--global-font-size);
+
+}
+
+*, :root{
+
+    color: inherit;
+    
+}
+
+a{
+
+    color: var(--color-one);
+
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+// Rounded
+
+[ui-rounded], [ui-rounded="medium"] { border-radius: var(--radius-medium); }
+
+[ui-rounded="smaller"]{ border-radius: var(--radius-smaller); }
+
+[ui-rounded="small"]{ border-radius: var(--radius-small); }
+
+[ui-rounded="large"]{ border-radius: var(--radius-large); }
+
+[ui-rounded="larger"]{ border-radius: var(--radius-larger); }
+
+[ui-circle]{ border-radius: 100%; }
+
+
+
+// Padding & Margin
+
+@for $encaps from 0 through 10 {
+    
+    [ui-padding~="#{ $encaps }x"]{ padding: var(--encaps-#{ $encaps }x) !important;}
+
+    [ui-padding~="h:#{ $encaps }x"],
+    [ui-padding~="horizontal:#{ $encaps }x"]
+    {
+        padding-left: var(--encaps-#{ $encaps }x) !important;
+        padding-right: var(--encaps-#{ $encaps }x) !important;
+    }
+
+    
+    [ui-padding~="v:#{ $encaps }x"],
+    [ui-padding~="vertical:#{ $encaps }x"]
+    { 
+        padding-top: var(--encaps-#{ $encaps }x) !important;
+        padding-bottom: var(--encaps-#{ $encaps }x) !important;
+    }
+    
+    [ui-padding~="top:#{ $encaps }x"]{ padding-top: var(--encaps-#{ $encaps }x) !important; }
+    [ui-padding~="right:#{ $encaps }x"]{ padding-right: var(--encaps-#{ $encaps }x) !important; }
+    [ui-padding~="bottom:#{ $encaps }x"]{ padding-bottom: var(--encaps-#{ $encaps }x) !important; }
+    [ui-padding~="left:#{ $encaps }x"]{ padding-left: var(--encaps-#{ $encaps }x) !important; }
+    
+
+
+    [ui-margin~="#{ $encaps }x"]{ margin: var(--encaps-#{ $encaps }x) !important;}
+
+    [ui-margin~="h:#{ $encaps }x"],
+    [ui-margin~="horizontal:#{ $encaps }x"]
+    { 
+        margin-left: var(--encaps-#{ $encaps }x) !important;
+        margin-right: var(--encaps-#{ $encaps }x) !important;
+    }
+    
+    [ui-margin~="v:#{ $encaps }x"],
+    [ui-margin~="vertical:#{ $encaps }x"]
+    { 
+        margin-top: var(--encaps-#{ $encaps }x) !important;
+        margin-bottom: var(--encaps-#{ $encaps }x) !important;
+    }
+    
+    [ui-margin~="top:#{ $encaps }x"]{ margin-top: var(--encaps-#{ $encaps }x) !important; }
+    [ui-margin~="right:#{ $encaps }x"]{ margin-right: var(--encaps-#{ $encaps }x) !important; }
+    [ui-margin~="bottom:#{ $encaps }x"]{ margin-bottom: var(--encaps-#{ $encaps }x) !important; }
+    [ui-margin~="left:#{ $encaps }x"]{ margin-left: var(--encaps-#{ $encaps }x) !important; }
+    
+
+}
+
+

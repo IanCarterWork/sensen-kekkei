@@ -1,0 +1,31 @@
+
+
+
+[ui-tools]{
+
+    position: relative;
+
+    &[ui-tools~="absolute"]{
+        position: absolute;
+    }
+
+    &[ui-tools~="fixed"]{
+        position: fixed;
+    }
+
+    &[ui-tools~="top"]{ top: 0; }
+
+    &[ui-tools~="left"]{ left: 0; }
+
+    &[ui-tools~="right"]{ right: 0; }
+
+    &[ui-tools~="bottom"]{ bottom: 0; }
+
+
+    // [ui-tool]{
+
+    //     padding: var(--encaps-x2);
+        
+    // }
+    
+}

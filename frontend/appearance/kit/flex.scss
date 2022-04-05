@@ -1,0 +1,274 @@
+
+@import '../config';
+
+
+@mixin flexFactory($prefix : ''){
+
+
+    [#{ $prefix }ui-flex]{
+        display: flex;
+    }
+
+
+    [#{ $prefix }flex~="fill"]{
+        flex: 1 1 auto;
+    }
+
+
+
+    /* Flex : Row */
+    [#{ $prefix }ui-flex~="row"]{
+
+        flex-direction: row;
+
+
+
+        /* Row : Horizontal  */
+
+        &[#{ $prefix }ui-flex~="align-start"] {
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        &[#{ $prefix }ui-flex~="align-end"] {
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+
+        &[#{ $prefix }ui-flex~="align-center"] {
+            justify-content: center;
+            align-items: center;
+        }
+
+        &[#{ $prefix }ui-flex~="align-baseline"] {
+            justify-content: baseline;
+            align-items: baseline;
+        }
+
+        &[#{ $prefix }ui-flex~="align-space-between"] {
+            justify-content: space-between;
+            align-items: space-between;
+        }
+
+        &[#{ $prefix }ui-flex~="align-space-around"] {
+            justify-content: space-around;
+            align-items: space-around;
+        }
+
+        &[#{ $prefix }ui-flex~="align-space-evenly"] {
+            justify-content: space-evenly;
+            align-items: space-evenly;
+        }
+
+
+
+        /* Row : Horizontal Alignment */
+
+        &[#{ $prefix }ui-flex~="align-start-h"] {
+            justify-content: flex-start;
+        }
+
+        &[#{ $prefix }ui-flex~="align-center-h"] {
+            justify-content: center;
+        }
+
+        &[#{ $prefix }ui-flex~="align-end-h"] {
+            justify-content: flex-end;
+        }
+
+        &[#{ $prefix }ui-flex~="align-baseline-h"] {
+            justify-content: baseline;
+        }
+
+        &[#{ $prefix }ui-flex~="align-space-between-h"] {
+            justify-content: space-between;
+        }
+
+        &[#{ $prefix }ui-flex~="align-space-around-h"] {
+            justify-content: space-around;
+        }
+
+        &[#{ $prefix }ui-flex~="align-space-evenly-h"] {
+            justify-content: space-evenly;
+        }
+
+
+
+        /* Row : Vertical Alignment */
+
+        &[#{ $prefix }ui-flex~="align-start-v"] {
+            align-items: flex-start;
+        }
+
+        &[#{ $prefix }ui-flex~="align-center-v"] {
+            align-items: center;
+        }
+
+        &[#{ $prefix }ui-flex~="align-end-v"] {
+            align-items: flex-end;
+        }
+
+        &[#{ $prefix }ui-flex~="align-baseline-v"] {
+            align-items: baseline;
+        }
+
+        &[#{ $prefix }ui-flex~="align-space-between-v"] {
+            align-items: space-between;
+        }
+
+        &[#{ $prefix }ui-flex~="align-space-around-v"] {
+            align-items: space-around;
+        }
+
+        &[#{ $prefix }ui-flex~="align-space-evenly-v"] {
+            align-items: space-evenly;
+        }
+
+
+        
+    }
+
+
+
+
+
+
+
+    /* Flex : Column */
+    [#{ $prefix }ui-flex~="column"]{
+        
+        flex-direction: column;
+
+
+
+
+        /* Column : Vertical  */
+
+        &[#{ $prefix }ui-flex~="align-start"] {
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        &[#{ $prefix }ui-flex~="align-center"] {
+            justify-content: center;
+            align-items: center;
+        }
+
+        &[#{ $prefix }ui-flex~="align-end"] {
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+
+        &[#{ $prefix }ui-flex~="align-baseline"] {
+            justify-content: baseline;
+            align-items: baseline;
+        }
+
+        &[#{ $prefix }ui-flex~="align-space-between"] {
+            justify-content: space-between;
+            align-items: space-between;
+        }
+
+        &[#{ $prefix }ui-flex~="align-space-around"] {
+            justify-content: space-around;
+            align-items: space-around;
+        }
+
+        &[#{ $prefix }ui-flex~="align-space-evenly"] {
+            justify-content: space-evenly;
+            align-items: space-evenly;
+        }
+
+
+
+
+        /* Column : Vertical Alignment */
+
+        &[#{ $prefix }ui-flex~="align-start-v"] {
+            justify-content: flex-start;
+        }
+
+        &[#{ $prefix }ui-flex~="align-center-v"] {
+            justify-content: center;
+        }
+
+        &[#{ $prefix }ui-flex~="align-end-v"] {
+            justify-content: flex-end;
+        }
+
+        &[#{ $prefix }ui-flex~="align-baseline-v"] {
+            justify-content: baseline;
+        }
+
+        &[#{ $prefix }ui-flex~="align-space-between-v"] {
+            justify-content: space-between;
+        }
+
+        &[#{ $prefix }ui-flex~="align-space-around-v"] {
+            justify-content: space-around;
+        }
+
+        &[#{ $prefix }ui-flex~="align-space-evenly-v"] {
+            justify-content: space-evenly;
+        }
+
+
+
+
+        /* Column : Horizontal Alignment */
+
+        &[#{ $prefix }ui-flex~="align-start-h"] {
+            align-items: flex-start;
+        }
+
+        &[#{ $prefix }ui-flex~="align-center-h"] {
+            align-items: center;
+        }
+
+        &[#{ $prefix }ui-flex~="align-end-h"] {
+            align-items: flex-end;
+        }
+
+        &[#{ $prefix }ui-flex~="align-baseline-h"] {
+            align-items: baseline;
+        }
+
+        &[#{ $prefix }ui-flex~="align-space-between-h"] {
+            align-items: space-between;
+        }
+
+        &[#{ $prefix }ui-flex~="align-space-around-h"] {
+            align-items: space-around;
+        }
+
+        &[#{ $prefix }ui-flex~="align-space-evenly-h"] {
+            align-items: space-evenly;
+        }
+
+        
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@include flexFactory('');
+
+@media (max-width: #{ $device-size-smaller }) { @include flexFactory('sl-'); }
+
+@media (max-width: #{ $device-size-small }) { @include flexFactory('sm-'); }
+
+@media (max-width: #{ $device-size-medium }) { @include flexFactory('md-'); }
+
+@media (max-width: #{ $device-size-large }) { @include flexFactory('xs-'); }
+
+@media (max-width: #{ $device-size-larger }) { @include flexFactory('xl-'); }

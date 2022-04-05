@@ -6,14 +6,14 @@
   "license": "MIT",
   "scripts": {
 
-    "run:backend" : "php backend/sensen serve -run",
-    "api:create" : "php backend/sensen api-whitelist:create",
-    "api:get" : "php backend/sensen api-whitelist:get",
+    "run:backend" : "php backend/smake serve -run",
+    "api:create" : "php backend/smake api-whitelist:create",
+    "api:get" : "php backend/smake api-whitelist:get",
 
-    "run-frontend" : "node frontend/sensen serve -run",
+    "run-frontend" : "node frontend/smake serve -run",
     
-    "backend" : "php backend/sensen",
-    "frontend" : "php frontend/sensen"
+    "backend" : "php backend/smake",
+    "frontend" : "php frontend/smake"
     
   },
   "sensen":{

@@ -1,0 +1,42 @@
+* > plugin-tenzo-maps {
+  padding: 0 !important;
+}
+
+plugin-tenzo-maps {
+  background-color: var(--color-layer-high-rgb-medium);
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+plugin-tenzo-maps, plugin-tenzo-maps [plugin-child="@underlay"] {
+  position: relative;
+  display: block;
+  flex: 1 1 auto;
+  border-radius: inherit;
+  box-shadow: inherit;
+  display: flex;
+}
+plugin-tenzo-maps [plugin-child="@underlay"] {
+  align-items: center;
+  justify-content: center;
+}
+plugin-tenzo-maps [plugin-child="@overlay"] {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-layer-lite-rgb-medium);
+  border-radius: var(--radius-medium);
+  min-height: calc(20vh - var(--encaps-5x));
+  width: calc(100% - var(--encaps-5x));
+  margin: calc(var(--encaps-5x) / 2);
+}
+plugin-tenzo-maps[plugin-status="0"] [plugin-child="@overlay"] {
+  transform: translateY(85%);
+}
+plugin-tenzo-maps[plugin-status="1"] [plugin-child="@overlay"] {
+  transform: translateY(0%);
+}
+
+/*# sourceMappingURL=maps.css.map */

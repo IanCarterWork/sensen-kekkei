@@ -1,0 +1,105 @@
+
+
+@mixin size-bundle($prefix, $divided){
+
+    // Normal
+
+    [ui-box~="#{ $prefix }square-#{ $divided }"]{ 
+        
+        width: calc(#{ $divided } * 32px); 
+
+        height: calc(#{ $divided } * 32px); 
+    
+    }
+
+    [ui-box~="#{ $prefix }width-#{ $divided }"]{ width: calc(#{ $divided } * 32px); }
+
+    [ui-box~="#{ $prefix }height-#{ $divided }"]{ height: calc(#{ $divided } * 32px); }
+
+
+    [ui-box~="#{ $prefix }width-#{ $divided }%"]{ width: calc((#{ $divided } / 16) * 100%); }
+
+    [ui-box~="#{ $prefix }width-#{ $divided }x"]{ width: calc((#{ $divided } / 16) * 100vw); }
+
+
+    [ui-box~="#{ $prefix }height-#{ $divided }%"]{ height: calc((#{ $divided } / 16) * 100%); }
+
+    [ui-box~="#{ $prefix }height-#{ $divided }x"]{ height: calc((#{ $divided } / 16) * 100vh); }
+
+
+    // Min
+
+    [ui-box~="#{ $prefix }width-#{ $divided }-min"]{ min-width: calc(#{ $divided } * 32px); }
+
+    [ui-box~="#{ $prefix }height-#{ $divided }-min"]{ min-height: calc(#{ $divided } * 32px); }
+
+    // [ui-box~="#{ $prefix }width-#{ $divided }%-min"]{ min-width: calc((#{ $divided } / 16) * 100%); }
+
+    [ui-box~="#{ $prefix }width-#{ $divided }x-min"]{ min-width: calc((#{ $divided } / 16) * 100vw); }
+
+
+    // [ui-box~="#{ $prefix }height-#{ $divided }%-min"]{ min-height: calc((#{ $divided } / 16) * 100%); }
+
+    [ui-box~="#{ $prefix }height-#{ $divided }x-min"]{ min-height: calc((#{ $divided } / 16) * 100vh); }
+
+
+    // Max
+
+    [ui-box~="#{ $prefix }width-#{ $divided }-max"]{ max-width: calc(#{ $divided } * 32px); }
+
+    [ui-box~="#{ $prefix }height-#{ $divided }-max"]{ max-height: calc(#{ $divided } * 32px); }
+
+    // [ui-box~="#{ $prefix }width-#{ $divided }%-max"]{ max-width: calc((#{ $divided } / 16) * 100%); }
+
+    [ui-box~="#{ $prefix }width-#{ $divided }x-max"]{ max-width: calc((#{ $divided } / 16) * 100vw); }
+
+
+    // [ui-box~="#{ $prefix }height-#{ $divided }%-max"]{ max-height: calc((#{ $divided } / 16) * 100%); }
+
+    [ui-box~="#{ $prefix }height-#{ $divided }x-max"]{ max-height: calc((#{ $divided } / 16) * 100vh); }
+
+
+}
+
+
+
+@for $divided from 0 through 16 {
+    
+    @include size-bundle('', $divided);
+    
+
+
+    @media (max-width: var(--device-size-smaller)) {
+        
+        @include size-bundle('sl-', $divided);
+        
+    }
+    
+    @media (max-width: var(--device-size-small)) {
+        
+        @include size-bundle('sm-', $divided);
+        
+    }
+    
+    @media (max-width: var(--device-size-medium)) {
+        
+        @include size-bundle('md-', $divided);
+        
+    }
+    
+    @media (max-width: var(--device-size-large)) {
+        
+        @include size-bundle('xs-', $divided);
+        
+    }
+    
+    @media (max-width: var(--device-size-larger)) {
+        
+        @include size-bundle('xl-', $divided);
+        
+    }
+
+
+}
+
+

@@ -1,0 +1,39 @@
+
+ 
+// Display : NONE 
+
+[ui-hide]{
+
+
+    @media (max-width: 480px ) {
+        
+        &[ui-hide~="sl"]{display: none !important;}
+        
+    }
+    
+    @media (max-width: 768px ) {
+    
+        &[ui-hide~="sm"]{display: none !important;}
+        
+    }
+    
+    @media (max-width: 960px ) {
+          
+        &[ui-hide~="md"]{display: none !important;}
+        
+    }
+    
+    @media (max-width:  1280px) {
+          
+        &[ui-hide~="xs"]{display: none !important;}
+        
+    }
+    
+    @media (max-width: 1920px) {
+          
+        &[ui-hide~="xl"]{display: none !important;}
+        
+    }
+
+    
+}

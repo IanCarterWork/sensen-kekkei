@@ -1,0 +1,144 @@
+
+ 
+// Display : NONE 
+
+
+[theme-color-tone="light"]{
+
+    [ui-hide~="tone:light"]{display: none !important;}
+    
+    [ui-show~="tone:light"]{display: block !important;}
+
+}
+
+
+[theme-color-tone="snow"]{
+
+    [ui-hide~="tone:snow"]{display: none !important;}
+    
+    [ui-show~="tone:snow"]{display: block !important;}
+
+}
+
+
+
+[theme-color-tone="dark"]{
+
+    [ui-hide~="tone:dark"]{display: none !important;}
+    
+    [ui-show~="tone:dark"]{display: block !important;}
+
+}
+
+
+
+[theme-color-tone="night"]{
+
+    [ui-hide~="tone:night"]{display: none !important;}
+    
+    [ui-show~="tone:night"]{display: block !important;}
+
+}
+
+
+
+
+
+[ui-hide]{
+
+
+    @media (max-width: 480px ) {
+        
+        &[ui-hide~="sl"]{display: none !important;}
+
+    }
+    
+    @media (max-width: 768px ) {
+    
+        &[ui-hide~="sm"]{display: none !important;}
+        
+    }
+    
+    @media (max-width: 960px ) {
+          
+        &[ui-hide~="md"]{display: none !important;}
+        
+    }
+    
+    @media (max-width:  1280px) {
+          
+        &[ui-hide~="xs"]{display: none !important;}
+        
+    }
+    
+    @media (max-width: 1920px) {
+          
+        &[ui-hide~="xl"]{display: none !important;}
+        
+    }
+
+    
+}
+ 
+
+
+
+// Display : Block
+
+[ui-show]{
+
+    display: none !important;
+
+
+    @media (max-width: 480px ) {
+        
+        &[ui-show~="sl"]{display: block !important;}
+
+        &[ui-show~="sl:flex"]{display: flex !important;}
+
+        &[ui-show~="sl:grid"]{display: grid !important;}
+        
+    }
+    
+    @media (max-width: 768px ) {
+    
+        &[ui-show~="sm"]{display: block !important;}
+
+        &[ui-show~="sm:flex"]{display: flex !important;}
+
+        &[ui-show~="sm:grid"]{display: grid !important;}
+        
+    }
+    
+    @media (max-width: 960px ) {
+          
+        &[ui-show~="md"]{display: block !important;}
+
+        &[ui-show~="md:flex"]{display: flex !important;}
+
+        &[ui-show~="md:grid"]{display: grid !important;}
+        
+    }
+    
+    @media (max-width:  1280px) {
+          
+        &[ui-show~="xs"]{display: block !important;}
+
+        &[ui-show~="xs:flex"]{display: flex !important;}
+
+        &[ui-show~="xs:grid"]{display: grid !important;}
+        
+    }
+    
+    @media (max-width: 1920px) {
+          
+        &[ui-show~="xl"]{display: block !important;}
+
+        &[ui-show~="xl:flex"]{display: flex !important;}
+
+        &[ui-show~="xl:grid"]{display: grid !important;}
+        
+    }
+
+    
+}

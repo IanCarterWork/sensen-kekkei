@@ -1,0 +1,47 @@
+{
+    "compilerOptions": {
+        
+        // "lib": [ "ES5", "ES6", "ES7", "ES2015", "ES2016", "ES2017", "ES2018", "ESNext" ],
+        // "module": "commonjs",
+
+        "noImplicitAny": true,
+        "allowJs": true,
+        "moduleResolution":"node",
+        "jsx": "react",
+        "outDir": "pipe",
+        "rootDirs": ["app", "./plugins/js"],
+        "removeComments": false,
+        "target": "ES2020",
+        "declaration": true,
+        "declarationMap": false,
+        "inlineSourceMap": false,
+        "inlineSources": false,
+        "strict": true,
+        "module": "ES2020",
+        "esModuleInterop": true,
+        "types": ["node"],
+        "paths": {
+            "@App/*": ["./app/*"],
+            "@Components/*": ["./app/components/*"],
+            "@Activities/*": ["./app/activities/*"],
+            "@Themes/*": ["./app/theme/*"],
+            "@Palette/*": ["./app/theme/palette/*"],
+            "@Tone/*": ["./app/theme/tone/*"],
+            "@Plugins/*": ["./plugins/*"],
+            "@PluginsScript/*": ["./plugins/script/*"],
+            "@PluginsAppearance/*": ["./plugins/appearance/*"],
+            "@Assets/*": ["./assets/*"],
+            "@AssetsCSS/*": ["./assets/css/*"],
+            "@AssetsJS/*": ["./assets/js/*"],
+            "@AssetsFonts/*": ["./assets/fonts/*"],
+            "@AssetsImages/*": ["./assets/images/*"],
+        }
+    },
+
+	"include": [
+        "**/*", 
+        "./node_modules/sensen-jutsu/framework.d.ts",
+        "./node_modules/sensen-plugin-themecolor/**/*",
+    ],
+    
+}

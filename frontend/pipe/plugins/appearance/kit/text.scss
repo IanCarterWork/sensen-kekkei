@@ -1,0 +1,216 @@
+
+*,:root{
+
+    font-weight: var(--global-font-weight);
+    
+}
+
+
+/* Title */
+
+h1, h2, h3, h4, h5,
+[ui-title] 
+{
+
+    padding: .5rem 1rem;
+
+    margin: 0;
+
+    font-size: 1.1rem;
+
+}
+
+h4,
+[ui-title~="small"]
+{ font-size: 1.3rem; }
+
+h5,
+[ui-title~="smaller"]
+{ font-size: 1.1rem; }
+
+h3,
+[ui-title~="medium"]
+{ font-size: 1.5rem; }
+
+h2,
+[ui-title~="big"]
+{ font-size: 1.8rem; }
+
+h1,
+[ui-title~="bigger"] 
+{ font-size: 2.1rem; }
+
+
+
+
+
+/* Text Weight */
+
+[ui-text~="thin"] { font-weight: 100; }
+
+[ui-text~="extra-light"] { font-weight: 200; }
+
+[ui-text~="light"] { font-weight: 300; }
+
+[ui-text~="normal"] { font-weight: 400; }
+
+[ui-text~="medium"] { font-weight: 500; }
+
+[ui-text~="semi-bold"] { font-weight: 600; }
+
+[ui-text~="bold"] { font-weight: 700; }
+
+[ui-text~="extra-bold"] { font-weight: 800; }
+
+[ui-text~="black"] { font-weight: 900; }
+
+[ui-text~="extra-black"] { font-weight: 950; }
+
+
+
+
+/* Text Size */
+
+[ui-text~="smaller"] { font-size: .5rem; }
+
+[ui-text~="small"] { font-size: .8rem; }
+
+[ui-text~="medium"] { font-size: 1rem; }
+
+[ui-text~="big"] { font-size: 1.2rem; }
+
+[ui-text~="bigger"] { font-size: 1.6rem; }
+
+
+
+// Entete : M
+
+[ui-text~="m-smaller"] { font-size: 2rem; }
+
+[ui-text~="m-small"] { font-size: 2.5rem; }
+
+[ui-text~="m-medium"] { font-size: 3rem; }
+
+[ui-text~="m-big"] { font-size: 4rem; }
+
+[ui-text~="m-bigger"] { font-size: 4.5rem; }
+
+
+
+
+// Entete : X
+
+[ui-text~="x-smaller"] { font-size: 5rem; }
+
+[ui-text~="x-small"] { font-size: 8rem; }
+
+[ui-text~="x-medium"] { font-size: 10rem; }
+
+[ui-text~="x-big"] { font-size: 12rem; }
+
+[ui-text~="x-bigger"] { font-size: 16rem; }
+
+
+
+
+/* Text Alignment */
+
+[ui-text~="align-left"] { text-align: left; }
+
+[ui-text~="align-center"] { text-align:center; }
+
+[ui-text~="align-justify"] { text-align:justify; }
+
+[ui-text~="align-right"] { text-align:right; }
+
+[ui-text~="align-start"] { text-align:start; }
+
+[ui-text~="align-end"] { text-align:end; }
+
+
+
+
+
+// Couleur
+
+[ui-text~="color-normal"]{ color: ( var(--color-text) ) }
+
+[ui-text~="color-normal:hover"]:hover{ color: ( var(--color-text)) }
+
+
+
+[ui-text~="color-layer"]{ color: ( var(--color-layer) ) }
+
+[ui-text~="color-layer:hover"]:hover{ color: ( var(--color-layer) ) }
+
+
+
+[ui-text~="color-dark"]{ color: ( var(--color-dark) ) }
+
+[ui-text~="color-dark:hover"]:hover{ color: ( var(--color-dark) ) }
+
+
+
+[ui-text~="color-light"]{ color: (var(--color-light) ) }
+
+[ui-text~="color-light:hover"]:hover{ color: (var(--color-light) ) }
+
+
+
+[ui-text~="color-white"]{ color: (var(--color-white) ) }
+
+[ui-text~="color-white:hover"]:hover{ color: (var(--color-white) ) }
+
+
+
+[ui-text~="color-black"]{ color: (var(--color-black) ) }
+
+[ui-text~="color-black:hover"]:hover{ color: (var(--color-black) ) }
+
+
+
+[ui-text~="color-one"]{ color: (var(--color-one) ) }
+
+[ui-text~="color-one:hover"]:hover{ color: (var(--color-one) ) }
+
+
+
+[ui-text~="color-two"]{ color: (var(--color-two) ) }
+
+[ui-text~="color-two:hover"]:hover{ color: (var(--color-two) ) }
+
+
+
+[ui-text~="color-three"]{ color: (var(--color-three) ) }
+
+[ui-text~="color-three:hover"]:hover{ color: (var(--color-three) ) }
+
+
+
+[ui-text~="color-four"]{ color: (var(--color-four) ) }
+
+[ui-text~="color-four:hover"]:hover{ color: (var(--color-four) ) }
+
+
+
+[ui-text~="color-five"]{ color: (var(--color-five) ) }
+
+[ui-text~="color-five:hover"]:hover{ color: (var(--color-five) ) }
+
+
+
+[ui-text~="color-success"]{ color: ( var(--color-success) ) }
+
+[ui-text~="color-success:hover"]:hover{ color: ( var(--color-success) ) }
+
+
+
+[ui-text~="color-warning"]{ color: (var(--color-warning) ) }
+
+[ui-text~="color-warning:hover"]:hover{ color: (var(--color-warning) ) }
+
+
+
+[ui-text~="color-error"]{ color: (var(--color-error) ) }
+
+[ui-text~="color-error:hover"]:hover{ color: (var(--color-error) ) }

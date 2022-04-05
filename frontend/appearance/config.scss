@@ -1,0 +1,159 @@
+
+
+// Texts
+
+$global-font-size: small;
+
+$global-font-weight: 400;
+
+
+
+
+// User Interface : Dimension
+
+$dimension-header: 48px;
+
+$dimension-menu: 48px;
+
+$dimension-safe-size: calc( 100vh - ( var($dimension-header) + var($dimension-menu) ) );
+
+
+
+
+
+// Animations & Transitions
+
+$fx-duration: 360ms;
+
+$fx-timing-function: cubic-bezier(0.6, 0, 0.02, 1);
+
+
+
+
+// Icon
+
+$icon-smaller: .8rem;
+
+$icon-small: 1rem;
+
+$icon-medium: 1.2rem;
+
+$icon-big: 1.8rem;
+
+$icon-bigger: 2.2rem;
+
+
+
+
+// Device 
+
+$device-size-smaller-minus: 320px;
+
+$device-size-smaller: 480px;
+
+$device-size-smaller-plus: 560px;
+
+
+$device-size-small-minus: 608px;
+
+$device-size-small: 768px;
+
+$device-size-small-plus: 800px;
+
+
+$device-size-medium-minus: 860px;
+
+$device-size-medium: 960px;
+
+$device-size-medium-plus: 1024px;
+
+
+$device-size-large-minus: 1100px;
+
+$device-size-large: 1280px;
+
+$device-size-large-plus: 1366px;
+
+
+$device-size-larger-minus: 1600px;
+
+$device-size-larger: 1920px;
+
+$device-size-larger-plus: 2560px;
+
+
+
+
+// Encaps : Margin & Padding
+
+$encaps-0x: 0; 
+
+$encaps-1x: .3rem; 
+
+$encaps-2x: .5rem; 
+
+$encaps-3x: 1rem; 
+
+$encaps-4x: 1.5rem; 
+
+$encaps-5x: 2rem; 
+
+$encaps-6x: 2.5rem; 
+
+$encaps-7x: 3rem; 
+
+$encaps-8x: 3.5rem; 
+
+$encaps-9x: 4rem; 
+
+$encaps-10x: 5rem; 
+
+
+
+
+// Border : Radius
+
+$radius-smaller: .3rem; 
+
+$radius-small: .5rem; 
+
+$radius-medium: 1rem; 
+
+$radius-large: 1.5rem; 
+
+$radius-larger: 2rem; 
+
+
+
+
+
+
+// Thickness : Volume
+
+$thickness-smaller: .3rem; 
+
+$thickness-small: .5rem; 
+
+$thickness-medium: 1rem; 
+
+$thickness-large: 1.5rem; 
+
+$thickness-larger: 2rem; 
+
+$thickness-extra: 3rem; 
+
+
+
+
+// Border : Epaisseur
+
+$border-thickness-smaller: 1px; 
+
+$border-thickness-small: 2px; 
+
+$border-thickness-medium: 3px; 
+
+$border-thickness-large: 7px; 
+
+$border-thickness-larger: 10px; 
+

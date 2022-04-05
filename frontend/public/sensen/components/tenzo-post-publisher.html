@@ -1,0 +1,248 @@
+
+
+<plugin-stages
+plug:bind="@kit-modal"
+plugin:default="index"
+ui-rounded
+ui-flex="column" 
+ui-box="fill width-smaller sm-width-smaller-minus height-14x-max" >
+
+
+
+    <stage-scene plugin:name="index">
+
+
+        <div 
+        ui-flex="row align-center-v"
+        ui-box="content clean fill">
+    
+            <div 
+            flex="fill"
+            ui-padding="v:3x" 
+            ui-title="bigger" 
+            ui-text="weight-medium color-normal" >Publier</div>
+
+            <div 
+            plug:bind="@kit-modal"
+            onclick="this.$plugin.$close()"
+            ui-padding="h:4x">
+
+                <i class="fa-thin fa-times fa-2x"></i>
+
+            </div>
+    
+        </div>
+    
+    
+
+        <div ui-box="slide:vertical height-13x-max">
+    
+            <div 
+            ui-grid="column" 
+            grid-gap="small"
+            grid-column="2x">
+        
+        
+                {% (this.state.publishTypes||[]).map(item=>{ %}
+        
+                <div grid-case="">
+        
+                    <div 
+                    plug:bind="@kit-stages"
+                    onclick="this.$plugin.$go('{%= item.slug %}')"
+                    ui-rounded
+                    ui-flex="column"
+                    ui-box="layer aspect-square">
+        
+                        <div 
+                        ui-flex="row align-center"
+                        flex="fill"> 
+        
+                            <i class="fa-thin fa-{%= item.icon %} fa-4x"></i> 
+                            
+                        </div>
+        
+                        <div 
+                        ui-padding="v:2x h:3x"
+                        ui-text="big align-center">{%= item.label %}</div>
+                        
+                    </div>
+        
+                </div>
+        
+                {% }) %}
+                
+                
+                
+            </div>
+        
+        </div>
+        
+
+    </stage-scene>
+
+    
+
+
+
+
+
+
+
+
+
+
+    <stage-scene plugin:name="post">
+
+
+        <div 
+        ui-flex="row align-center-v"
+        ui-box="content clean fill">
+        
+            <div 
+            plug:bind="@kit-stages"
+            onclick="this.$plugin.$go('index')"
+            ui-padding="left:4x">
+
+                <i class="fa-thin fa-long-arrow-left fa-2x"></i>
+
+            </div>
+
+            <div 
+            flex="fill"
+            ui-padding="v:3x" 
+            ui-title="bigger" 
+            ui-text="weight-medium color-normal align-left" >Quoi de neuf ?</div>
+
+            <div 
+            plug:bind="@kit-modal"
+            onclick="this.$plugin.$close()"
+            ui-padding="h:4x">
+
+                <i class="fa-thin fa-times fa-2x"></i>
+
+            </div>
+    
+        </div>
+    
+
+
+
+        <form ui-form action="" ui-box="fill height-8x-min" ui-flex="column" flex="fill" @submit.prevent="this.methods.connect" enctype="multipart/form-data">
+
+
+            <div ui-padding="top:2x" >
+
+                <sense-kit-input prop:icon="bag-shopping" prop:label="Nom du produit" prop:type="textarea" prop:name="_name" ></sense-kit-input>
+
+            </div>
+
+                        
+
+        </form>
+            
+        
+
+    
+
+    </stage-scene>
+
+    
+
+
+
+
+
+
+
+
+
+
+    <stage-scene plugin:name="product">
+
+
+        <div 
+        ui-flex="row align-center-v"
+        ui-box="content clean fill">
+        
+            <div 
+            plug:bind="@kit-stages"
+            onclick="this.$plugin.$go('index')"
+            ui-padding="left:4x">
+
+                <i class="fa-thin fa-long-arrow-left fa-2x"></i>
+
+            </div>
+
+            <div 
+            flex="fill"
+            ui-padding="v:3x" 
+            ui-title="bigger" 
+            ui-text="weight-medium color-normal align-left" >Ajouter un produit</div>
+
+            <div 
+            plug:bind="@kit-modal"
+            onclick="this.$plugin.$close()"
+            ui-padding="h:4x">
+
+                <i class="fa-thin fa-times fa-2x"></i>
+
+            </div>
+    
+        </div>
+    
+
+
+
+        <form ui-form action="" ui-box="fill height-8x-min" ui-flex="column" flex="fill" @submit.prevent="this.methods.connect" enctype="multipart/form-data">
+
+
+            <div ui-padding="top:2x" >
+
+                <sense-kit-input prop:icon="bag-shopping" prop:label="Nom du produit" prop:type="text" prop:name="_name" ></sense-kit-input>
+
+            </div>
+
+            <div ui-padding="top:2x" >
+
+                <sense-kit-input prop:icon="circle" prop:label="Description du produit" prop:type="text" prop:name="_description" ></sense-kit-input>
+
+            </div>
+
+            <div ui-padding="top:2x" >
+
+                <sense-kit-input prop:icon="arrow-up-1-9" prop:label="Stock" prop:type="number" prop:name="_stock" ></sense-kit-input>
+
+            </div>
+
+                        
+
+        </form>
+            
+        
+
+    
+
+    </stage-scene>
+
+
+
+
+
+
+
+
+
+
+    <stage-scene plugin:name="showroom">
+
+        <h1>ShowRoom</h1>
+
+    </stage-scene>
+
+
+    
+    
+
+
+</plugin-stages>

@@ -1,0 +1,7274 @@
+[ui-box~=width-small-minus] {
+  width: var(--device-size-small-minus);
+}
+
+[ui-box~=width-small] {
+  width: var(--device-size-small);
+}
+
+[ui-box~=width-small-safe] {
+  width: calc(var(--device-size-small) - var(--safe-size));
+}
+
+[ui-box~=width-small-plus] {
+  width: var(--device-size-small-plus);
+}
+
+[ui-box~=width-smaller-minus] {
+  width: var(--device-size-smaller-minus);
+}
+
+[ui-box~=width-smaller] {
+  width: var(--device-size-smaller);
+}
+
+[ui-box~=width-smaller-safe] {
+  width: calc(var(--device-size-smaller) - var(--safe-size));
+}
+
+[ui-box~=width-smaller-plus] {
+  width: var(--device-size-smaller-plus);
+}
+
+[ui-box~=width-medium-minus] {
+  width: var(--device-size-medium-minus);
+}
+
+[ui-box~=width-medium] {
+  width: var(--device-size-medium);
+}
+
+[ui-box~=width-medium-safe] {
+  width: calc(var(--device-size-medium) - var(--safe-size));
+}
+
+[ui-box~=width-medium-plus] {
+  width: var(--device-size-medium-plus);
+}
+
+[ui-box~=width-large-minus] {
+  width: var(--device-size-large-minus);
+}
+
+[ui-box~=width-large] {
+  width: var(--device-size-large);
+}
+
+[ui-box~=width-large-safe] {
+  width: calc(var(--device-size-large) - var(--safe-size));
+}
+
+[ui-box~=width-large-plus] {
+  width: var(--device-size-large-plus);
+}
+
+[ui-box~=width-larger-minus] {
+  width: var(--device-size-larger-minus);
+}
+
+[ui-box~=width-larger] {
+  width: var(--device-size-larger);
+}
+
+[ui-box~=width-larger-safe] {
+  width: calc(var(--device-size-larger) - var(--safe-size));
+}
+
+[ui-box~=width-larger-plus] {
+  width: var(--device-size-larger-plus);
+}
+
+[ui-box~=height-small-minus] {
+  height: var(--device-size-small-minus);
+}
+
+[ui-box~=height-small] {
+  height: var(--device-size-small);
+}
+
+[ui-box~=height-small-safe] {
+  height: calc(var(--device-size-small) - var(--safe-size));
+}
+
+[ui-box~=height-small-plus] {
+  height: var(--device-size-small-plus);
+}
+
+[ui-box~=height-smaller-minus] {
+  height: var(--device-size-smaller-minus);
+}
+
+[ui-box~=height-smaller] {
+  height: var(--device-size-smaller);
+}
+
+[ui-box~=height-smaller-safe] {
+  height: calc(var(--device-size-smaller) - var(--safe-size));
+}
+
+[ui-box~=height-smaller-plus] {
+  height: var(--device-size-smaller-plus);
+}
+
+[ui-box~=height-medium-minus] {
+  height: var(--device-size-medium-minus);
+}
+
+[ui-box~=height-medium] {
+  height: var(--device-size-medium);
+}
+
+[ui-box~=height-medium-safe] {
+  height: calc(var(--device-size-medium) - var(--safe-size));
+}
+
+[ui-box~=height-medium-plus] {
+  height: var(--device-size-medium-plus);
+}
+
+[ui-box~=height-large-minus] {
+  height: var(--device-size-large-minus);
+}
+
+[ui-box~=height-large] {
+  height: var(--device-size-large);
+}
+
+[ui-box~=height-large-safe] {
+  height: calc(var(--device-size-large) - var(--safe-size));
+}
+
+[ui-box~=height-large-plus] {
+  height: var(--device-size-large-plus);
+}
+
+[ui-box~=height-larger-minus] {
+  height: var(--device-size-larger-minus);
+}
+
+[ui-box~=height-larger] {
+  height: var(--device-size-larger);
+}
+
+[ui-box~=height-larger-safe] {
+  height: calc(var(--device-size-larger) - var(--safe-size));
+}
+
+[ui-box~=height-larger-plus] {
+  height: var(--device-size-larger-plus);
+}
+
+@media (max-width: 480px) {
+  [ui-box~=sl-width-small-minus] {
+    width: var(--device-size-small-minus);
+  }
+
+  [ui-box~=sl-width-small] {
+    width: var(--device-size-small);
+  }
+
+  [ui-box~=sl-width-small-safe] {
+    width: calc(var(--device-size-small) - var(--safe-size));
+  }
+
+  [ui-box~=sl-width-small-plus] {
+    width: var(--device-size-small-plus);
+  }
+
+  [ui-box~=sl-width-smaller-minus] {
+    width: var(--device-size-smaller-minus);
+  }
+
+  [ui-box~=sl-width-smaller] {
+    width: var(--device-size-smaller);
+  }
+
+  [ui-box~=sl-width-smaller-safe] {
+    width: calc(var(--device-size-smaller) - var(--safe-size));
+  }
+
+  [ui-box~=sl-width-smaller-plus] {
+    width: var(--device-size-smaller-plus);
+  }
+
+  [ui-box~=sl-width-medium-minus] {
+    width: var(--device-size-medium-minus);
+  }
+
+  [ui-box~=sl-width-medium] {
+    width: var(--device-size-medium);
+  }
+
+  [ui-box~=sl-width-medium-safe] {
+    width: calc(var(--device-size-medium) - var(--safe-size));
+  }
+
+  [ui-box~=sl-width-medium-plus] {
+    width: var(--device-size-medium-plus);
+  }
+
+  [ui-box~=sl-width-large-minus] {
+    width: var(--device-size-large-minus);
+  }
+
+  [ui-box~=sl-width-large] {
+    width: var(--device-size-large);
+  }
+
+  [ui-box~=sl-width-large-safe] {
+    width: calc(var(--device-size-large) - var(--safe-size));
+  }
+
+  [ui-box~=sl-width-large-plus] {
+    width: var(--device-size-large-plus);
+  }
+
+  [ui-box~=sl-width-larger-minus] {
+    width: var(--device-size-larger-minus);
+  }
+
+  [ui-box~=sl-width-larger] {
+    width: var(--device-size-larger);
+  }
+
+  [ui-box~=sl-width-larger-safe] {
+    width: calc(var(--device-size-larger) - var(--safe-size));
+  }
+
+  [ui-box~=sl-width-larger-plus] {
+    width: var(--device-size-larger-plus);
+  }
+
+  [ui-box~=sl-height-small-minus] {
+    height: var(--device-size-small-minus);
+  }
+
+  [ui-box~=sl-height-small] {
+    height: var(--device-size-small);
+  }
+
+  [ui-box~=sl-height-small-safe] {
+    height: calc(var(--device-size-small) - var(--safe-size));
+  }
+
+  [ui-box~=sl-height-small-plus] {
+    height: var(--device-size-small-plus);
+  }
+
+  [ui-box~=sl-height-smaller-minus] {
+    height: var(--device-size-smaller-minus);
+  }
+
+  [ui-box~=sl-height-smaller] {
+    height: var(--device-size-smaller);
+  }
+
+  [ui-box~=sl-height-smaller-safe] {
+    height: calc(var(--device-size-smaller) - var(--safe-size));
+  }
+
+  [ui-box~=sl-height-smaller-plus] {
+    height: var(--device-size-smaller-plus);
+  }
+
+  [ui-box~=sl-height-medium-minus] {
+    height: var(--device-size-medium-minus);
+  }
+
+  [ui-box~=sl-height-medium] {
+    height: var(--device-size-medium);
+  }
+
+  [ui-box~=sl-height-medium-safe] {
+    height: calc(var(--device-size-medium) - var(--safe-size));
+  }
+
+  [ui-box~=sl-height-medium-plus] {
+    height: var(--device-size-medium-plus);
+  }
+
+  [ui-box~=sl-height-large-minus] {
+    height: var(--device-size-large-minus);
+  }
+
+  [ui-box~=sl-height-large] {
+    height: var(--device-size-large);
+  }
+
+  [ui-box~=sl-height-large-safe] {
+    height: calc(var(--device-size-large) - var(--safe-size));
+  }
+
+  [ui-box~=sl-height-large-plus] {
+    height: var(--device-size-large-plus);
+  }
+
+  [ui-box~=sl-height-larger-minus] {
+    height: var(--device-size-larger-minus);
+  }
+
+  [ui-box~=sl-height-larger] {
+    height: var(--device-size-larger);
+  }
+
+  [ui-box~=sl-height-larger-safe] {
+    height: calc(var(--device-size-larger) - var(--safe-size));
+  }
+
+  [ui-box~=sl-height-larger-plus] {
+    height: var(--device-size-larger-plus);
+  }
+}
+@media (max-width: 768px) {
+  [ui-box~=sm-width-small-minus] {
+    width: var(--device-size-small-minus);
+  }
+
+  [ui-box~=sm-width-small] {
+    width: var(--device-size-small);
+  }
+
+  [ui-box~=sm-width-small-safe] {
+    width: calc(var(--device-size-small) - var(--safe-size));
+  }
+
+  [ui-box~=sm-width-small-plus] {
+    width: var(--device-size-small-plus);
+  }
+
+  [ui-box~=sm-width-smaller-minus] {
+    width: var(--device-size-smaller-minus);
+  }
+
+  [ui-box~=sm-width-smaller] {
+    width: var(--device-size-smaller);
+  }
+
+  [ui-box~=sm-width-smaller-safe] {
+    width: calc(var(--device-size-smaller) - var(--safe-size));
+  }
+
+  [ui-box~=sm-width-smaller-plus] {
+    width: var(--device-size-smaller-plus);
+  }
+
+  [ui-box~=sm-width-medium-minus] {
+    width: var(--device-size-medium-minus);
+  }
+
+  [ui-box~=sm-width-medium] {
+    width: var(--device-size-medium);
+  }
+
+  [ui-box~=sm-width-medium-safe] {
+    width: calc(var(--device-size-medium) - var(--safe-size));
+  }
+
+  [ui-box~=sm-width-medium-plus] {
+    width: var(--device-size-medium-plus);
+  }
+
+  [ui-box~=sm-width-large-minus] {
+    width: var(--device-size-large-minus);
+  }
+
+  [ui-box~=sm-width-large] {
+    width: var(--device-size-large);
+  }
+
+  [ui-box~=sm-width-large-safe] {
+    width: calc(var(--device-size-large) - var(--safe-size));
+  }
+
+  [ui-box~=sm-width-large-plus] {
+    width: var(--device-size-large-plus);
+  }
+
+  [ui-box~=sm-width-larger-minus] {
+    width: var(--device-size-larger-minus);
+  }
+
+  [ui-box~=sm-width-larger] {
+    width: var(--device-size-larger);
+  }
+
+  [ui-box~=sm-width-larger-safe] {
+    width: calc(var(--device-size-larger) - var(--safe-size));
+  }
+
+  [ui-box~=sm-width-larger-plus] {
+    width: var(--device-size-larger-plus);
+  }
+
+  [ui-box~=sm-height-small-minus] {
+    height: var(--device-size-small-minus);
+  }
+
+  [ui-box~=sm-height-small] {
+    height: var(--device-size-small);
+  }
+
+  [ui-box~=sm-height-small-safe] {
+    height: calc(var(--device-size-small) - var(--safe-size));
+  }
+
+  [ui-box~=sm-height-small-plus] {
+    height: var(--device-size-small-plus);
+  }
+
+  [ui-box~=sm-height-smaller-minus] {
+    height: var(--device-size-smaller-minus);
+  }
+
+  [ui-box~=sm-height-smaller] {
+    height: var(--device-size-smaller);
+  }
+
+  [ui-box~=sm-height-smaller-safe] {
+    height: calc(var(--device-size-smaller) - var(--safe-size));
+  }
+
+  [ui-box~=sm-height-smaller-plus] {
+    height: var(--device-size-smaller-plus);
+  }
+
+  [ui-box~=sm-height-medium-minus] {
+    height: var(--device-size-medium-minus);
+  }
+
+  [ui-box~=sm-height-medium] {
+    height: var(--device-size-medium);
+  }
+
+  [ui-box~=sm-height-medium-safe] {
+    height: calc(var(--device-size-medium) - var(--safe-size));
+  }
+
+  [ui-box~=sm-height-medium-plus] {
+    height: var(--device-size-medium-plus);
+  }
+
+  [ui-box~=sm-height-large-minus] {
+    height: var(--device-size-large-minus);
+  }
+
+  [ui-box~=sm-height-large] {
+    height: var(--device-size-large);
+  }
+
+  [ui-box~=sm-height-large-safe] {
+    height: calc(var(--device-size-large) - var(--safe-size));
+  }
+
+  [ui-box~=sm-height-large-plus] {
+    height: var(--device-size-large-plus);
+  }
+
+  [ui-box~=sm-height-larger-minus] {
+    height: var(--device-size-larger-minus);
+  }
+
+  [ui-box~=sm-height-larger] {
+    height: var(--device-size-larger);
+  }
+
+  [ui-box~=sm-height-larger-safe] {
+    height: calc(var(--device-size-larger) - var(--safe-size));
+  }
+
+  [ui-box~=sm-height-larger-plus] {
+    height: var(--device-size-larger-plus);
+  }
+}
+@media (max-width: 960px) {
+  [ui-box~=md-width-small-minus] {
+    width: var(--device-size-small-minus);
+  }
+
+  [ui-box~=md-width-small] {
+    width: var(--device-size-small);
+  }
+
+  [ui-box~=md-width-small-safe] {
+    width: calc(var(--device-size-small) - var(--safe-size));
+  }
+
+  [ui-box~=md-width-small-plus] {
+    width: var(--device-size-small-plus);
+  }
+
+  [ui-box~=md-width-smaller-minus] {
+    width: var(--device-size-smaller-minus);
+  }
+
+  [ui-box~=md-width-smaller] {
+    width: var(--device-size-smaller);
+  }
+
+  [ui-box~=md-width-smaller-safe] {
+    width: calc(var(--device-size-smaller) - var(--safe-size));
+  }
+
+  [ui-box~=md-width-smaller-plus] {
+    width: var(--device-size-smaller-plus);
+  }
+
+  [ui-box~=md-width-medium-minus] {
+    width: var(--device-size-medium-minus);
+  }
+
+  [ui-box~=md-width-medium] {
+    width: var(--device-size-medium);
+  }
+
+  [ui-box~=md-width-medium-safe] {
+    width: calc(var(--device-size-medium) - var(--safe-size));
+  }
+
+  [ui-box~=md-width-medium-plus] {
+    width: var(--device-size-medium-plus);
+  }
+
+  [ui-box~=md-width-large-minus] {
+    width: var(--device-size-large-minus);
+  }
+
+  [ui-box~=md-width-large] {
+    width: var(--device-size-large);
+  }
+
+  [ui-box~=md-width-large-safe] {
+    width: calc(var(--device-size-large) - var(--safe-size));
+  }
+
+  [ui-box~=md-width-large-plus] {
+    width: var(--device-size-large-plus);
+  }
+
+  [ui-box~=md-width-larger-minus] {
+    width: var(--device-size-larger-minus);
+  }
+
+  [ui-box~=md-width-larger] {
+    width: var(--device-size-larger);
+  }
+
+  [ui-box~=md-width-larger-safe] {
+    width: calc(var(--device-size-larger) - var(--safe-size));
+  }
+
+  [ui-box~=md-width-larger-plus] {
+    width: var(--device-size-larger-plus);
+  }
+
+  [ui-box~=md-height-small-minus] {
+    height: var(--device-size-small-minus);
+  }
+
+  [ui-box~=md-height-small] {
+    height: var(--device-size-small);
+  }
+
+  [ui-box~=md-height-small-safe] {
+    height: calc(var(--device-size-small) - var(--safe-size));
+  }
+
+  [ui-box~=md-height-small-plus] {
+    height: var(--device-size-small-plus);
+  }
+
+  [ui-box~=md-height-smaller-minus] {
+    height: var(--device-size-smaller-minus);
+  }
+
+  [ui-box~=md-height-smaller] {
+    height: var(--device-size-smaller);
+  }
+
+  [ui-box~=md-height-smaller-safe] {
+    height: calc(var(--device-size-smaller) - var(--safe-size));
+  }
+
+  [ui-box~=md-height-smaller-plus] {
+    height: var(--device-size-smaller-plus);
+  }
+
+  [ui-box~=md-height-medium-minus] {
+    height: var(--device-size-medium-minus);
+  }
+
+  [ui-box~=md-height-medium] {
+    height: var(--device-size-medium);
+  }
+
+  [ui-box~=md-height-medium-safe] {
+    height: calc(var(--device-size-medium) - var(--safe-size));
+  }
+
+  [ui-box~=md-height-medium-plus] {
+    height: var(--device-size-medium-plus);
+  }
+
+  [ui-box~=md-height-large-minus] {
+    height: var(--device-size-large-minus);
+  }
+
+  [ui-box~=md-height-large] {
+    height: var(--device-size-large);
+  }
+
+  [ui-box~=md-height-large-safe] {
+    height: calc(var(--device-size-large) - var(--safe-size));
+  }
+
+  [ui-box~=md-height-large-plus] {
+    height: var(--device-size-large-plus);
+  }
+
+  [ui-box~=md-height-larger-minus] {
+    height: var(--device-size-larger-minus);
+  }
+
+  [ui-box~=md-height-larger] {
+    height: var(--device-size-larger);
+  }
+
+  [ui-box~=md-height-larger-safe] {
+    height: calc(var(--device-size-larger) - var(--safe-size));
+  }
+
+  [ui-box~=md-height-larger-plus] {
+    height: var(--device-size-larger-plus);
+  }
+}
+@media (max-width: 1280px) {
+  [ui-box~=xs-width-small-minus] {
+    width: var(--device-size-small-minus);
+  }
+
+  [ui-box~=xs-width-small] {
+    width: var(--device-size-small);
+  }
+
+  [ui-box~=xs-width-small-safe] {
+    width: calc(var(--device-size-small) - var(--safe-size));
+  }
+
+  [ui-box~=xs-width-small-plus] {
+    width: var(--device-size-small-plus);
+  }
+
+  [ui-box~=xs-width-smaller-minus] {
+    width: var(--device-size-smaller-minus);
+  }
+
+  [ui-box~=xs-width-smaller] {
+    width: var(--device-size-smaller);
+  }
+
+  [ui-box~=xs-width-smaller-safe] {
+    width: calc(var(--device-size-smaller) - var(--safe-size));
+  }
+
+  [ui-box~=xs-width-smaller-plus] {
+    width: var(--device-size-smaller-plus);
+  }
+
+  [ui-box~=xs-width-medium-minus] {
+    width: var(--device-size-medium-minus);
+  }
+
+  [ui-box~=xs-width-medium] {
+    width: var(--device-size-medium);
+  }
+
+  [ui-box~=xs-width-medium-safe] {
+    width: calc(var(--device-size-medium) - var(--safe-size));
+  }
+
+  [ui-box~=xs-width-medium-plus] {
+    width: var(--device-size-medium-plus);
+  }
+
+  [ui-box~=xs-width-large-minus] {
+    width: var(--device-size-large-minus);
+  }
+
+  [ui-box~=xs-width-large] {
+    width: var(--device-size-large);
+  }
+
+  [ui-box~=xs-width-large-safe] {
+    width: calc(var(--device-size-large) - var(--safe-size));
+  }
+
+  [ui-box~=xs-width-large-plus] {
+    width: var(--device-size-large-plus);
+  }
+
+  [ui-box~=xs-width-larger-minus] {
+    width: var(--device-size-larger-minus);
+  }
+
+  [ui-box~=xs-width-larger] {
+    width: var(--device-size-larger);
+  }
+
+  [ui-box~=xs-width-larger-safe] {
+    width: calc(var(--device-size-larger) - var(--safe-size));
+  }
+
+  [ui-box~=xs-width-larger-plus] {
+    width: var(--device-size-larger-plus);
+  }
+
+  [ui-box~=xs-height-small-minus] {
+    height: var(--device-size-small-minus);
+  }
+
+  [ui-box~=xs-height-small] {
+    height: var(--device-size-small);
+  }
+
+  [ui-box~=xs-height-small-safe] {
+    height: calc(var(--device-size-small) - var(--safe-size));
+  }
+
+  [ui-box~=xs-height-small-plus] {
+    height: var(--device-size-small-plus);
+  }
+
+  [ui-box~=xs-height-smaller-minus] {
+    height: var(--device-size-smaller-minus);
+  }
+
+  [ui-box~=xs-height-smaller] {
+    height: var(--device-size-smaller);
+  }
+
+  [ui-box~=xs-height-smaller-safe] {
+    height: calc(var(--device-size-smaller) - var(--safe-size));
+  }
+
+  [ui-box~=xs-height-smaller-plus] {
+    height: var(--device-size-smaller-plus);
+  }
+
+  [ui-box~=xs-height-medium-minus] {
+    height: var(--device-size-medium-minus);
+  }
+
+  [ui-box~=xs-height-medium] {
+    height: var(--device-size-medium);
+  }
+
+  [ui-box~=xs-height-medium-safe] {
+    height: calc(var(--device-size-medium) - var(--safe-size));
+  }
+
+  [ui-box~=xs-height-medium-plus] {
+    height: var(--device-size-medium-plus);
+  }
+
+  [ui-box~=xs-height-large-minus] {
+    height: var(--device-size-large-minus);
+  }
+
+  [ui-box~=xs-height-large] {
+    height: var(--device-size-large);
+  }
+
+  [ui-box~=xs-height-large-safe] {
+    height: calc(var(--device-size-large) - var(--safe-size));
+  }
+
+  [ui-box~=xs-height-large-plus] {
+    height: var(--device-size-large-plus);
+  }
+
+  [ui-box~=xs-height-larger-minus] {
+    height: var(--device-size-larger-minus);
+  }
+
+  [ui-box~=xs-height-larger] {
+    height: var(--device-size-larger);
+  }
+
+  [ui-box~=xs-height-larger-safe] {
+    height: calc(var(--device-size-larger) - var(--safe-size));
+  }
+
+  [ui-box~=xs-height-larger-plus] {
+    height: var(--device-size-larger-plus);
+  }
+}
+@media (max-width: 1920px) {
+  [ui-box~=xl-width-small-minus] {
+    width: var(--device-size-small-minus);
+  }
+
+  [ui-box~=xl-width-small] {
+    width: var(--device-size-small);
+  }
+
+  [ui-box~=xl-width-small-safe] {
+    width: calc(var(--device-size-small) - var(--safe-size));
+  }
+
+  [ui-box~=xl-width-small-plus] {
+    width: var(--device-size-small-plus);
+  }
+
+  [ui-box~=xl-width-smaller-minus] {
+    width: var(--device-size-smaller-minus);
+  }
+
+  [ui-box~=xl-width-smaller] {
+    width: var(--device-size-smaller);
+  }
+
+  [ui-box~=xl-width-smaller-safe] {
+    width: calc(var(--device-size-smaller) - var(--safe-size));
+  }
+
+  [ui-box~=xl-width-smaller-plus] {
+    width: var(--device-size-smaller-plus);
+  }
+
+  [ui-box~=xl-width-medium-minus] {
+    width: var(--device-size-medium-minus);
+  }
+
+  [ui-box~=xl-width-medium] {
+    width: var(--device-size-medium);
+  }
+
+  [ui-box~=xl-width-medium-safe] {
+    width: calc(var(--device-size-medium) - var(--safe-size));
+  }
+
+  [ui-box~=xl-width-medium-plus] {
+    width: var(--device-size-medium-plus);
+  }
+
+  [ui-box~=xl-width-large-minus] {
+    width: var(--device-size-large-minus);
+  }
+
+  [ui-box~=xl-width-large] {
+    width: var(--device-size-large);
+  }
+
+  [ui-box~=xl-width-large-safe] {
+    width: calc(var(--device-size-large) - var(--safe-size));
+  }
+
+  [ui-box~=xl-width-large-plus] {
+    width: var(--device-size-large-plus);
+  }
+
+  [ui-box~=xl-width-larger-minus] {
+    width: var(--device-size-larger-minus);
+  }
+
+  [ui-box~=xl-width-larger] {
+    width: var(--device-size-larger);
+  }
+
+  [ui-box~=xl-width-larger-safe] {
+    width: calc(var(--device-size-larger) - var(--safe-size));
+  }
+
+  [ui-box~=xl-width-larger-plus] {
+    width: var(--device-size-larger-plus);
+  }
+
+  [ui-box~=xl-height-small-minus] {
+    height: var(--device-size-small-minus);
+  }
+
+  [ui-box~=xl-height-small] {
+    height: var(--device-size-small);
+  }
+
+  [ui-box~=xl-height-small-safe] {
+    height: calc(var(--device-size-small) - var(--safe-size));
+  }
+
+  [ui-box~=xl-height-small-plus] {
+    height: var(--device-size-small-plus);
+  }
+
+  [ui-box~=xl-height-smaller-minus] {
+    height: var(--device-size-smaller-minus);
+  }
+
+  [ui-box~=xl-height-smaller] {
+    height: var(--device-size-smaller);
+  }
+
+  [ui-box~=xl-height-smaller-safe] {
+    height: calc(var(--device-size-smaller) - var(--safe-size));
+  }
+
+  [ui-box~=xl-height-smaller-plus] {
+    height: var(--device-size-smaller-plus);
+  }
+
+  [ui-box~=xl-height-medium-minus] {
+    height: var(--device-size-medium-minus);
+  }
+
+  [ui-box~=xl-height-medium] {
+    height: var(--device-size-medium);
+  }
+
+  [ui-box~=xl-height-medium-safe] {
+    height: calc(var(--device-size-medium) - var(--safe-size));
+  }
+
+  [ui-box~=xl-height-medium-plus] {
+    height: var(--device-size-medium-plus);
+  }
+
+  [ui-box~=xl-height-large-minus] {
+    height: var(--device-size-large-minus);
+  }
+
+  [ui-box~=xl-height-large] {
+    height: var(--device-size-large);
+  }
+
+  [ui-box~=xl-height-large-safe] {
+    height: calc(var(--device-size-large) - var(--safe-size));
+  }
+
+  [ui-box~=xl-height-large-plus] {
+    height: var(--device-size-large-plus);
+  }
+
+  [ui-box~=xl-height-larger-minus] {
+    height: var(--device-size-larger-minus);
+  }
+
+  [ui-box~=xl-height-larger] {
+    height: var(--device-size-larger);
+  }
+
+  [ui-box~=xl-height-larger-safe] {
+    height: calc(var(--device-size-larger) - var(--safe-size));
+  }
+
+  [ui-box~=xl-height-larger-plus] {
+    height: var(--device-size-larger-plus);
+  }
+}
+[ui-box~=square-0] {
+  width: calc(0 * 32px);
+  height: calc(0 * 32px);
+}
+
+[ui-box~=width-0] {
+  width: calc(0 * 32px);
+}
+
+[ui-box~=height-0] {
+  height: calc(0 * 32px);
+}
+
+[ui-box~="width-0%"] {
+  width: calc((0 / 16) * 100%);
+}
+
+[ui-box~=width-0x] {
+  width: calc((0 / 16) * 100vw);
+}
+
+[ui-box~="height-0%"] {
+  height: calc((0 / 16) * 100%);
+}
+
+[ui-box~=height-0x] {
+  height: calc((0 / 16) * 100vh);
+}
+
+[ui-box~=width-0-min] {
+  min-width: calc(0 * 32px);
+}
+
+[ui-box~=height-0-min] {
+  min-height: calc(0 * 32px);
+}
+
+[ui-box~=width-0x-min] {
+  min-width: calc((0 / 16) * 100vw);
+}
+
+[ui-box~=height-0x-min] {
+  min-height: calc((0 / 16) * 100vh);
+}
+
+[ui-box~=width-0-max] {
+  max-width: calc(0 * 32px);
+}
+
+[ui-box~=height-0-max] {
+  max-height: calc(0 * 32px);
+}
+
+[ui-box~=width-0x-max] {
+  max-width: calc((0 / 16) * 100vw);
+}
+
+[ui-box~=height-0x-max] {
+  max-height: calc((0 / 16) * 100vh);
+}
+
+@media (max-width: var(--device-size-smaller)) {
+  [ui-box~=sl-square-0] {
+    width: calc(0 * 32px);
+    height: calc(0 * 32px);
+  }
+
+  [ui-box~=sl-width-0] {
+    width: calc(0 * 32px);
+  }
+
+  [ui-box~=sl-height-0] {
+    height: calc(0 * 32px);
+  }
+
+  [ui-box~="sl-width-0%"] {
+    width: calc((0 / 16) * 100%);
+  }
+
+  [ui-box~=sl-width-0x] {
+    width: calc((0 / 16) * 100vw);
+  }
+
+  [ui-box~="sl-height-0%"] {
+    height: calc((0 / 16) * 100%);
+  }
+
+  [ui-box~=sl-height-0x] {
+    height: calc((0 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-0-min] {
+    min-width: calc(0 * 32px);
+  }
+
+  [ui-box~=sl-height-0-min] {
+    min-height: calc(0 * 32px);
+  }
+
+  [ui-box~=sl-width-0x-min] {
+    min-width: calc((0 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-0x-min] {
+    min-height: calc((0 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-0-max] {
+    max-width: calc(0 * 32px);
+  }
+
+  [ui-box~=sl-height-0-max] {
+    max-height: calc(0 * 32px);
+  }
+
+  [ui-box~=sl-width-0x-max] {
+    max-width: calc((0 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-0x-max] {
+    max-height: calc((0 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-small)) {
+  [ui-box~=sm-square-0] {
+    width: calc(0 * 32px);
+    height: calc(0 * 32px);
+  }
+
+  [ui-box~=sm-width-0] {
+    width: calc(0 * 32px);
+  }
+
+  [ui-box~=sm-height-0] {
+    height: calc(0 * 32px);
+  }
+
+  [ui-box~="sm-width-0%"] {
+    width: calc((0 / 16) * 100%);
+  }
+
+  [ui-box~=sm-width-0x] {
+    width: calc((0 / 16) * 100vw);
+  }
+
+  [ui-box~="sm-height-0%"] {
+    height: calc((0 / 16) * 100%);
+  }
+
+  [ui-box~=sm-height-0x] {
+    height: calc((0 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-0-min] {
+    min-width: calc(0 * 32px);
+  }
+
+  [ui-box~=sm-height-0-min] {
+    min-height: calc(0 * 32px);
+  }
+
+  [ui-box~=sm-width-0x-min] {
+    min-width: calc((0 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-0x-min] {
+    min-height: calc((0 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-0-max] {
+    max-width: calc(0 * 32px);
+  }
+
+  [ui-box~=sm-height-0-max] {
+    max-height: calc(0 * 32px);
+  }
+
+  [ui-box~=sm-width-0x-max] {
+    max-width: calc((0 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-0x-max] {
+    max-height: calc((0 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-medium)) {
+  [ui-box~=md-square-0] {
+    width: calc(0 * 32px);
+    height: calc(0 * 32px);
+  }
+
+  [ui-box~=md-width-0] {
+    width: calc(0 * 32px);
+  }
+
+  [ui-box~=md-height-0] {
+    height: calc(0 * 32px);
+  }
+
+  [ui-box~="md-width-0%"] {
+    width: calc((0 / 16) * 100%);
+  }
+
+  [ui-box~=md-width-0x] {
+    width: calc((0 / 16) * 100vw);
+  }
+
+  [ui-box~="md-height-0%"] {
+    height: calc((0 / 16) * 100%);
+  }
+
+  [ui-box~=md-height-0x] {
+    height: calc((0 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-0-min] {
+    min-width: calc(0 * 32px);
+  }
+
+  [ui-box~=md-height-0-min] {
+    min-height: calc(0 * 32px);
+  }
+
+  [ui-box~=md-width-0x-min] {
+    min-width: calc((0 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-0x-min] {
+    min-height: calc((0 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-0-max] {
+    max-width: calc(0 * 32px);
+  }
+
+  [ui-box~=md-height-0-max] {
+    max-height: calc(0 * 32px);
+  }
+
+  [ui-box~=md-width-0x-max] {
+    max-width: calc((0 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-0x-max] {
+    max-height: calc((0 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-large)) {
+  [ui-box~=xs-square-0] {
+    width: calc(0 * 32px);
+    height: calc(0 * 32px);
+  }
+
+  [ui-box~=xs-width-0] {
+    width: calc(0 * 32px);
+  }
+
+  [ui-box~=xs-height-0] {
+    height: calc(0 * 32px);
+  }
+
+  [ui-box~="xs-width-0%"] {
+    width: calc((0 / 16) * 100%);
+  }
+
+  [ui-box~=xs-width-0x] {
+    width: calc((0 / 16) * 100vw);
+  }
+
+  [ui-box~="xs-height-0%"] {
+    height: calc((0 / 16) * 100%);
+  }
+
+  [ui-box~=xs-height-0x] {
+    height: calc((0 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-0-min] {
+    min-width: calc(0 * 32px);
+  }
+
+  [ui-box~=xs-height-0-min] {
+    min-height: calc(0 * 32px);
+  }
+
+  [ui-box~=xs-width-0x-min] {
+    min-width: calc((0 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-0x-min] {
+    min-height: calc((0 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-0-max] {
+    max-width: calc(0 * 32px);
+  }
+
+  [ui-box~=xs-height-0-max] {
+    max-height: calc(0 * 32px);
+  }
+
+  [ui-box~=xs-width-0x-max] {
+    max-width: calc((0 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-0x-max] {
+    max-height: calc((0 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-larger)) {
+  [ui-box~=xl-square-0] {
+    width: calc(0 * 32px);
+    height: calc(0 * 32px);
+  }
+
+  [ui-box~=xl-width-0] {
+    width: calc(0 * 32px);
+  }
+
+  [ui-box~=xl-height-0] {
+    height: calc(0 * 32px);
+  }
+
+  [ui-box~="xl-width-0%"] {
+    width: calc((0 / 16) * 100%);
+  }
+
+  [ui-box~=xl-width-0x] {
+    width: calc((0 / 16) * 100vw);
+  }
+
+  [ui-box~="xl-height-0%"] {
+    height: calc((0 / 16) * 100%);
+  }
+
+  [ui-box~=xl-height-0x] {
+    height: calc((0 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-0-min] {
+    min-width: calc(0 * 32px);
+  }
+
+  [ui-box~=xl-height-0-min] {
+    min-height: calc(0 * 32px);
+  }
+
+  [ui-box~=xl-width-0x-min] {
+    min-width: calc((0 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-0x-min] {
+    min-height: calc((0 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-0-max] {
+    max-width: calc(0 * 32px);
+  }
+
+  [ui-box~=xl-height-0-max] {
+    max-height: calc(0 * 32px);
+  }
+
+  [ui-box~=xl-width-0x-max] {
+    max-width: calc((0 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-0x-max] {
+    max-height: calc((0 / 16) * 100vh);
+  }
+}
+[ui-box~=square-1] {
+  width: calc(1 * 32px);
+  height: calc(1 * 32px);
+}
+
+[ui-box~=width-1] {
+  width: calc(1 * 32px);
+}
+
+[ui-box~=height-1] {
+  height: calc(1 * 32px);
+}
+
+[ui-box~="width-1%"] {
+  width: calc((1 / 16) * 100%);
+}
+
+[ui-box~=width-1x] {
+  width: calc((1 / 16) * 100vw);
+}
+
+[ui-box~="height-1%"] {
+  height: calc((1 / 16) * 100%);
+}
+
+[ui-box~=height-1x] {
+  height: calc((1 / 16) * 100vh);
+}
+
+[ui-box~=width-1-min] {
+  min-width: calc(1 * 32px);
+}
+
+[ui-box~=height-1-min] {
+  min-height: calc(1 * 32px);
+}
+
+[ui-box~=width-1x-min] {
+  min-width: calc((1 / 16) * 100vw);
+}
+
+[ui-box~=height-1x-min] {
+  min-height: calc((1 / 16) * 100vh);
+}
+
+[ui-box~=width-1-max] {
+  max-width: calc(1 * 32px);
+}
+
+[ui-box~=height-1-max] {
+  max-height: calc(1 * 32px);
+}
+
+[ui-box~=width-1x-max] {
+  max-width: calc((1 / 16) * 100vw);
+}
+
+[ui-box~=height-1x-max] {
+  max-height: calc((1 / 16) * 100vh);
+}
+
+@media (max-width: var(--device-size-smaller)) {
+  [ui-box~=sl-square-1] {
+    width: calc(1 * 32px);
+    height: calc(1 * 32px);
+  }
+
+  [ui-box~=sl-width-1] {
+    width: calc(1 * 32px);
+  }
+
+  [ui-box~=sl-height-1] {
+    height: calc(1 * 32px);
+  }
+
+  [ui-box~="sl-width-1%"] {
+    width: calc((1 / 16) * 100%);
+  }
+
+  [ui-box~=sl-width-1x] {
+    width: calc((1 / 16) * 100vw);
+  }
+
+  [ui-box~="sl-height-1%"] {
+    height: calc((1 / 16) * 100%);
+  }
+
+  [ui-box~=sl-height-1x] {
+    height: calc((1 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-1-min] {
+    min-width: calc(1 * 32px);
+  }
+
+  [ui-box~=sl-height-1-min] {
+    min-height: calc(1 * 32px);
+  }
+
+  [ui-box~=sl-width-1x-min] {
+    min-width: calc((1 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-1x-min] {
+    min-height: calc((1 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-1-max] {
+    max-width: calc(1 * 32px);
+  }
+
+  [ui-box~=sl-height-1-max] {
+    max-height: calc(1 * 32px);
+  }
+
+  [ui-box~=sl-width-1x-max] {
+    max-width: calc((1 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-1x-max] {
+    max-height: calc((1 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-small)) {
+  [ui-box~=sm-square-1] {
+    width: calc(1 * 32px);
+    height: calc(1 * 32px);
+  }
+
+  [ui-box~=sm-width-1] {
+    width: calc(1 * 32px);
+  }
+
+  [ui-box~=sm-height-1] {
+    height: calc(1 * 32px);
+  }
+
+  [ui-box~="sm-width-1%"] {
+    width: calc((1 / 16) * 100%);
+  }
+
+  [ui-box~=sm-width-1x] {
+    width: calc((1 / 16) * 100vw);
+  }
+
+  [ui-box~="sm-height-1%"] {
+    height: calc((1 / 16) * 100%);
+  }
+
+  [ui-box~=sm-height-1x] {
+    height: calc((1 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-1-min] {
+    min-width: calc(1 * 32px);
+  }
+
+  [ui-box~=sm-height-1-min] {
+    min-height: calc(1 * 32px);
+  }
+
+  [ui-box~=sm-width-1x-min] {
+    min-width: calc((1 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-1x-min] {
+    min-height: calc((1 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-1-max] {
+    max-width: calc(1 * 32px);
+  }
+
+  [ui-box~=sm-height-1-max] {
+    max-height: calc(1 * 32px);
+  }
+
+  [ui-box~=sm-width-1x-max] {
+    max-width: calc((1 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-1x-max] {
+    max-height: calc((1 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-medium)) {
+  [ui-box~=md-square-1] {
+    width: calc(1 * 32px);
+    height: calc(1 * 32px);
+  }
+
+  [ui-box~=md-width-1] {
+    width: calc(1 * 32px);
+  }
+
+  [ui-box~=md-height-1] {
+    height: calc(1 * 32px);
+  }
+
+  [ui-box~="md-width-1%"] {
+    width: calc((1 / 16) * 100%);
+  }
+
+  [ui-box~=md-width-1x] {
+    width: calc((1 / 16) * 100vw);
+  }
+
+  [ui-box~="md-height-1%"] {
+    height: calc((1 / 16) * 100%);
+  }
+
+  [ui-box~=md-height-1x] {
+    height: calc((1 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-1-min] {
+    min-width: calc(1 * 32px);
+  }
+
+  [ui-box~=md-height-1-min] {
+    min-height: calc(1 * 32px);
+  }
+
+  [ui-box~=md-width-1x-min] {
+    min-width: calc((1 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-1x-min] {
+    min-height: calc((1 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-1-max] {
+    max-width: calc(1 * 32px);
+  }
+
+  [ui-box~=md-height-1-max] {
+    max-height: calc(1 * 32px);
+  }
+
+  [ui-box~=md-width-1x-max] {
+    max-width: calc((1 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-1x-max] {
+    max-height: calc((1 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-large)) {
+  [ui-box~=xs-square-1] {
+    width: calc(1 * 32px);
+    height: calc(1 * 32px);
+  }
+
+  [ui-box~=xs-width-1] {
+    width: calc(1 * 32px);
+  }
+
+  [ui-box~=xs-height-1] {
+    height: calc(1 * 32px);
+  }
+
+  [ui-box~="xs-width-1%"] {
+    width: calc((1 / 16) * 100%);
+  }
+
+  [ui-box~=xs-width-1x] {
+    width: calc((1 / 16) * 100vw);
+  }
+
+  [ui-box~="xs-height-1%"] {
+    height: calc((1 / 16) * 100%);
+  }
+
+  [ui-box~=xs-height-1x] {
+    height: calc((1 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-1-min] {
+    min-width: calc(1 * 32px);
+  }
+
+  [ui-box~=xs-height-1-min] {
+    min-height: calc(1 * 32px);
+  }
+
+  [ui-box~=xs-width-1x-min] {
+    min-width: calc((1 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-1x-min] {
+    min-height: calc((1 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-1-max] {
+    max-width: calc(1 * 32px);
+  }
+
+  [ui-box~=xs-height-1-max] {
+    max-height: calc(1 * 32px);
+  }
+
+  [ui-box~=xs-width-1x-max] {
+    max-width: calc((1 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-1x-max] {
+    max-height: calc((1 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-larger)) {
+  [ui-box~=xl-square-1] {
+    width: calc(1 * 32px);
+    height: calc(1 * 32px);
+  }
+
+  [ui-box~=xl-width-1] {
+    width: calc(1 * 32px);
+  }
+
+  [ui-box~=xl-height-1] {
+    height: calc(1 * 32px);
+  }
+
+  [ui-box~="xl-width-1%"] {
+    width: calc((1 / 16) * 100%);
+  }
+
+  [ui-box~=xl-width-1x] {
+    width: calc((1 / 16) * 100vw);
+  }
+
+  [ui-box~="xl-height-1%"] {
+    height: calc((1 / 16) * 100%);
+  }
+
+  [ui-box~=xl-height-1x] {
+    height: calc((1 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-1-min] {
+    min-width: calc(1 * 32px);
+  }
+
+  [ui-box~=xl-height-1-min] {
+    min-height: calc(1 * 32px);
+  }
+
+  [ui-box~=xl-width-1x-min] {
+    min-width: calc((1 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-1x-min] {
+    min-height: calc((1 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-1-max] {
+    max-width: calc(1 * 32px);
+  }
+
+  [ui-box~=xl-height-1-max] {
+    max-height: calc(1 * 32px);
+  }
+
+  [ui-box~=xl-width-1x-max] {
+    max-width: calc((1 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-1x-max] {
+    max-height: calc((1 / 16) * 100vh);
+  }
+}
+[ui-box~=square-2] {
+  width: calc(2 * 32px);
+  height: calc(2 * 32px);
+}
+
+[ui-box~=width-2] {
+  width: calc(2 * 32px);
+}
+
+[ui-box~=height-2] {
+  height: calc(2 * 32px);
+}
+
+[ui-box~="width-2%"] {
+  width: calc((2 / 16) * 100%);
+}
+
+[ui-box~=width-2x] {
+  width: calc((2 / 16) * 100vw);
+}
+
+[ui-box~="height-2%"] {
+  height: calc((2 / 16) * 100%);
+}
+
+[ui-box~=height-2x] {
+  height: calc((2 / 16) * 100vh);
+}
+
+[ui-box~=width-2-min] {
+  min-width: calc(2 * 32px);
+}
+
+[ui-box~=height-2-min] {
+  min-height: calc(2 * 32px);
+}
+
+[ui-box~=width-2x-min] {
+  min-width: calc((2 / 16) * 100vw);
+}
+
+[ui-box~=height-2x-min] {
+  min-height: calc((2 / 16) * 100vh);
+}
+
+[ui-box~=width-2-max] {
+  max-width: calc(2 * 32px);
+}
+
+[ui-box~=height-2-max] {
+  max-height: calc(2 * 32px);
+}
+
+[ui-box~=width-2x-max] {
+  max-width: calc((2 / 16) * 100vw);
+}
+
+[ui-box~=height-2x-max] {
+  max-height: calc((2 / 16) * 100vh);
+}
+
+@media (max-width: var(--device-size-smaller)) {
+  [ui-box~=sl-square-2] {
+    width: calc(2 * 32px);
+    height: calc(2 * 32px);
+  }
+
+  [ui-box~=sl-width-2] {
+    width: calc(2 * 32px);
+  }
+
+  [ui-box~=sl-height-2] {
+    height: calc(2 * 32px);
+  }
+
+  [ui-box~="sl-width-2%"] {
+    width: calc((2 / 16) * 100%);
+  }
+
+  [ui-box~=sl-width-2x] {
+    width: calc((2 / 16) * 100vw);
+  }
+
+  [ui-box~="sl-height-2%"] {
+    height: calc((2 / 16) * 100%);
+  }
+
+  [ui-box~=sl-height-2x] {
+    height: calc((2 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-2-min] {
+    min-width: calc(2 * 32px);
+  }
+
+  [ui-box~=sl-height-2-min] {
+    min-height: calc(2 * 32px);
+  }
+
+  [ui-box~=sl-width-2x-min] {
+    min-width: calc((2 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-2x-min] {
+    min-height: calc((2 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-2-max] {
+    max-width: calc(2 * 32px);
+  }
+
+  [ui-box~=sl-height-2-max] {
+    max-height: calc(2 * 32px);
+  }
+
+  [ui-box~=sl-width-2x-max] {
+    max-width: calc((2 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-2x-max] {
+    max-height: calc((2 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-small)) {
+  [ui-box~=sm-square-2] {
+    width: calc(2 * 32px);
+    height: calc(2 * 32px);
+  }
+
+  [ui-box~=sm-width-2] {
+    width: calc(2 * 32px);
+  }
+
+  [ui-box~=sm-height-2] {
+    height: calc(2 * 32px);
+  }
+
+  [ui-box~="sm-width-2%"] {
+    width: calc((2 / 16) * 100%);
+  }
+
+  [ui-box~=sm-width-2x] {
+    width: calc((2 / 16) * 100vw);
+  }
+
+  [ui-box~="sm-height-2%"] {
+    height: calc((2 / 16) * 100%);
+  }
+
+  [ui-box~=sm-height-2x] {
+    height: calc((2 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-2-min] {
+    min-width: calc(2 * 32px);
+  }
+
+  [ui-box~=sm-height-2-min] {
+    min-height: calc(2 * 32px);
+  }
+
+  [ui-box~=sm-width-2x-min] {
+    min-width: calc((2 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-2x-min] {
+    min-height: calc((2 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-2-max] {
+    max-width: calc(2 * 32px);
+  }
+
+  [ui-box~=sm-height-2-max] {
+    max-height: calc(2 * 32px);
+  }
+
+  [ui-box~=sm-width-2x-max] {
+    max-width: calc((2 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-2x-max] {
+    max-height: calc((2 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-medium)) {
+  [ui-box~=md-square-2] {
+    width: calc(2 * 32px);
+    height: calc(2 * 32px);
+  }
+
+  [ui-box~=md-width-2] {
+    width: calc(2 * 32px);
+  }
+
+  [ui-box~=md-height-2] {
+    height: calc(2 * 32px);
+  }
+
+  [ui-box~="md-width-2%"] {
+    width: calc((2 / 16) * 100%);
+  }
+
+  [ui-box~=md-width-2x] {
+    width: calc((2 / 16) * 100vw);
+  }
+
+  [ui-box~="md-height-2%"] {
+    height: calc((2 / 16) * 100%);
+  }
+
+  [ui-box~=md-height-2x] {
+    height: calc((2 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-2-min] {
+    min-width: calc(2 * 32px);
+  }
+
+  [ui-box~=md-height-2-min] {
+    min-height: calc(2 * 32px);
+  }
+
+  [ui-box~=md-width-2x-min] {
+    min-width: calc((2 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-2x-min] {
+    min-height: calc((2 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-2-max] {
+    max-width: calc(2 * 32px);
+  }
+
+  [ui-box~=md-height-2-max] {
+    max-height: calc(2 * 32px);
+  }
+
+  [ui-box~=md-width-2x-max] {
+    max-width: calc((2 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-2x-max] {
+    max-height: calc((2 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-large)) {
+  [ui-box~=xs-square-2] {
+    width: calc(2 * 32px);
+    height: calc(2 * 32px);
+  }
+
+  [ui-box~=xs-width-2] {
+    width: calc(2 * 32px);
+  }
+
+  [ui-box~=xs-height-2] {
+    height: calc(2 * 32px);
+  }
+
+  [ui-box~="xs-width-2%"] {
+    width: calc((2 / 16) * 100%);
+  }
+
+  [ui-box~=xs-width-2x] {
+    width: calc((2 / 16) * 100vw);
+  }
+
+  [ui-box~="xs-height-2%"] {
+    height: calc((2 / 16) * 100%);
+  }
+
+  [ui-box~=xs-height-2x] {
+    height: calc((2 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-2-min] {
+    min-width: calc(2 * 32px);
+  }
+
+  [ui-box~=xs-height-2-min] {
+    min-height: calc(2 * 32px);
+  }
+
+  [ui-box~=xs-width-2x-min] {
+    min-width: calc((2 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-2x-min] {
+    min-height: calc((2 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-2-max] {
+    max-width: calc(2 * 32px);
+  }
+
+  [ui-box~=xs-height-2-max] {
+    max-height: calc(2 * 32px);
+  }
+
+  [ui-box~=xs-width-2x-max] {
+    max-width: calc((2 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-2x-max] {
+    max-height: calc((2 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-larger)) {
+  [ui-box~=xl-square-2] {
+    width: calc(2 * 32px);
+    height: calc(2 * 32px);
+  }
+
+  [ui-box~=xl-width-2] {
+    width: calc(2 * 32px);
+  }
+
+  [ui-box~=xl-height-2] {
+    height: calc(2 * 32px);
+  }
+
+  [ui-box~="xl-width-2%"] {
+    width: calc((2 / 16) * 100%);
+  }
+
+  [ui-box~=xl-width-2x] {
+    width: calc((2 / 16) * 100vw);
+  }
+
+  [ui-box~="xl-height-2%"] {
+    height: calc((2 / 16) * 100%);
+  }
+
+  [ui-box~=xl-height-2x] {
+    height: calc((2 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-2-min] {
+    min-width: calc(2 * 32px);
+  }
+
+  [ui-box~=xl-height-2-min] {
+    min-height: calc(2 * 32px);
+  }
+
+  [ui-box~=xl-width-2x-min] {
+    min-width: calc((2 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-2x-min] {
+    min-height: calc((2 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-2-max] {
+    max-width: calc(2 * 32px);
+  }
+
+  [ui-box~=xl-height-2-max] {
+    max-height: calc(2 * 32px);
+  }
+
+  [ui-box~=xl-width-2x-max] {
+    max-width: calc((2 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-2x-max] {
+    max-height: calc((2 / 16) * 100vh);
+  }
+}
+[ui-box~=square-3] {
+  width: calc(3 * 32px);
+  height: calc(3 * 32px);
+}
+
+[ui-box~=width-3] {
+  width: calc(3 * 32px);
+}
+
+[ui-box~=height-3] {
+  height: calc(3 * 32px);
+}
+
+[ui-box~="width-3%"] {
+  width: calc((3 / 16) * 100%);
+}
+
+[ui-box~=width-3x] {
+  width: calc((3 / 16) * 100vw);
+}
+
+[ui-box~="height-3%"] {
+  height: calc((3 / 16) * 100%);
+}
+
+[ui-box~=height-3x] {
+  height: calc((3 / 16) * 100vh);
+}
+
+[ui-box~=width-3-min] {
+  min-width: calc(3 * 32px);
+}
+
+[ui-box~=height-3-min] {
+  min-height: calc(3 * 32px);
+}
+
+[ui-box~=width-3x-min] {
+  min-width: calc((3 / 16) * 100vw);
+}
+
+[ui-box~=height-3x-min] {
+  min-height: calc((3 / 16) * 100vh);
+}
+
+[ui-box~=width-3-max] {
+  max-width: calc(3 * 32px);
+}
+
+[ui-box~=height-3-max] {
+  max-height: calc(3 * 32px);
+}
+
+[ui-box~=width-3x-max] {
+  max-width: calc((3 / 16) * 100vw);
+}
+
+[ui-box~=height-3x-max] {
+  max-height: calc((3 / 16) * 100vh);
+}
+
+@media (max-width: var(--device-size-smaller)) {
+  [ui-box~=sl-square-3] {
+    width: calc(3 * 32px);
+    height: calc(3 * 32px);
+  }
+
+  [ui-box~=sl-width-3] {
+    width: calc(3 * 32px);
+  }
+
+  [ui-box~=sl-height-3] {
+    height: calc(3 * 32px);
+  }
+
+  [ui-box~="sl-width-3%"] {
+    width: calc((3 / 16) * 100%);
+  }
+
+  [ui-box~=sl-width-3x] {
+    width: calc((3 / 16) * 100vw);
+  }
+
+  [ui-box~="sl-height-3%"] {
+    height: calc((3 / 16) * 100%);
+  }
+
+  [ui-box~=sl-height-3x] {
+    height: calc((3 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-3-min] {
+    min-width: calc(3 * 32px);
+  }
+
+  [ui-box~=sl-height-3-min] {
+    min-height: calc(3 * 32px);
+  }
+
+  [ui-box~=sl-width-3x-min] {
+    min-width: calc((3 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-3x-min] {
+    min-height: calc((3 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-3-max] {
+    max-width: calc(3 * 32px);
+  }
+
+  [ui-box~=sl-height-3-max] {
+    max-height: calc(3 * 32px);
+  }
+
+  [ui-box~=sl-width-3x-max] {
+    max-width: calc((3 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-3x-max] {
+    max-height: calc((3 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-small)) {
+  [ui-box~=sm-square-3] {
+    width: calc(3 * 32px);
+    height: calc(3 * 32px);
+  }
+
+  [ui-box~=sm-width-3] {
+    width: calc(3 * 32px);
+  }
+
+  [ui-box~=sm-height-3] {
+    height: calc(3 * 32px);
+  }
+
+  [ui-box~="sm-width-3%"] {
+    width: calc((3 / 16) * 100%);
+  }
+
+  [ui-box~=sm-width-3x] {
+    width: calc((3 / 16) * 100vw);
+  }
+
+  [ui-box~="sm-height-3%"] {
+    height: calc((3 / 16) * 100%);
+  }
+
+  [ui-box~=sm-height-3x] {
+    height: calc((3 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-3-min] {
+    min-width: calc(3 * 32px);
+  }
+
+  [ui-box~=sm-height-3-min] {
+    min-height: calc(3 * 32px);
+  }
+
+  [ui-box~=sm-width-3x-min] {
+    min-width: calc((3 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-3x-min] {
+    min-height: calc((3 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-3-max] {
+    max-width: calc(3 * 32px);
+  }
+
+  [ui-box~=sm-height-3-max] {
+    max-height: calc(3 * 32px);
+  }
+
+  [ui-box~=sm-width-3x-max] {
+    max-width: calc((3 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-3x-max] {
+    max-height: calc((3 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-medium)) {
+  [ui-box~=md-square-3] {
+    width: calc(3 * 32px);
+    height: calc(3 * 32px);
+  }
+
+  [ui-box~=md-width-3] {
+    width: calc(3 * 32px);
+  }
+
+  [ui-box~=md-height-3] {
+    height: calc(3 * 32px);
+  }
+
+  [ui-box~="md-width-3%"] {
+    width: calc((3 / 16) * 100%);
+  }
+
+  [ui-box~=md-width-3x] {
+    width: calc((3 / 16) * 100vw);
+  }
+
+  [ui-box~="md-height-3%"] {
+    height: calc((3 / 16) * 100%);
+  }
+
+  [ui-box~=md-height-3x] {
+    height: calc((3 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-3-min] {
+    min-width: calc(3 * 32px);
+  }
+
+  [ui-box~=md-height-3-min] {
+    min-height: calc(3 * 32px);
+  }
+
+  [ui-box~=md-width-3x-min] {
+    min-width: calc((3 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-3x-min] {
+    min-height: calc((3 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-3-max] {
+    max-width: calc(3 * 32px);
+  }
+
+  [ui-box~=md-height-3-max] {
+    max-height: calc(3 * 32px);
+  }
+
+  [ui-box~=md-width-3x-max] {
+    max-width: calc((3 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-3x-max] {
+    max-height: calc((3 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-large)) {
+  [ui-box~=xs-square-3] {
+    width: calc(3 * 32px);
+    height: calc(3 * 32px);
+  }
+
+  [ui-box~=xs-width-3] {
+    width: calc(3 * 32px);
+  }
+
+  [ui-box~=xs-height-3] {
+    height: calc(3 * 32px);
+  }
+
+  [ui-box~="xs-width-3%"] {
+    width: calc((3 / 16) * 100%);
+  }
+
+  [ui-box~=xs-width-3x] {
+    width: calc((3 / 16) * 100vw);
+  }
+
+  [ui-box~="xs-height-3%"] {
+    height: calc((3 / 16) * 100%);
+  }
+
+  [ui-box~=xs-height-3x] {
+    height: calc((3 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-3-min] {
+    min-width: calc(3 * 32px);
+  }
+
+  [ui-box~=xs-height-3-min] {
+    min-height: calc(3 * 32px);
+  }
+
+  [ui-box~=xs-width-3x-min] {
+    min-width: calc((3 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-3x-min] {
+    min-height: calc((3 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-3-max] {
+    max-width: calc(3 * 32px);
+  }
+
+  [ui-box~=xs-height-3-max] {
+    max-height: calc(3 * 32px);
+  }
+
+  [ui-box~=xs-width-3x-max] {
+    max-width: calc((3 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-3x-max] {
+    max-height: calc((3 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-larger)) {
+  [ui-box~=xl-square-3] {
+    width: calc(3 * 32px);
+    height: calc(3 * 32px);
+  }
+
+  [ui-box~=xl-width-3] {
+    width: calc(3 * 32px);
+  }
+
+  [ui-box~=xl-height-3] {
+    height: calc(3 * 32px);
+  }
+
+  [ui-box~="xl-width-3%"] {
+    width: calc((3 / 16) * 100%);
+  }
+
+  [ui-box~=xl-width-3x] {
+    width: calc((3 / 16) * 100vw);
+  }
+
+  [ui-box~="xl-height-3%"] {
+    height: calc((3 / 16) * 100%);
+  }
+
+  [ui-box~=xl-height-3x] {
+    height: calc((3 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-3-min] {
+    min-width: calc(3 * 32px);
+  }
+
+  [ui-box~=xl-height-3-min] {
+    min-height: calc(3 * 32px);
+  }
+
+  [ui-box~=xl-width-3x-min] {
+    min-width: calc((3 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-3x-min] {
+    min-height: calc((3 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-3-max] {
+    max-width: calc(3 * 32px);
+  }
+
+  [ui-box~=xl-height-3-max] {
+    max-height: calc(3 * 32px);
+  }
+
+  [ui-box~=xl-width-3x-max] {
+    max-width: calc((3 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-3x-max] {
+    max-height: calc((3 / 16) * 100vh);
+  }
+}
+[ui-box~=square-4] {
+  width: calc(4 * 32px);
+  height: calc(4 * 32px);
+}
+
+[ui-box~=width-4] {
+  width: calc(4 * 32px);
+}
+
+[ui-box~=height-4] {
+  height: calc(4 * 32px);
+}
+
+[ui-box~="width-4%"] {
+  width: calc((4 / 16) * 100%);
+}
+
+[ui-box~=width-4x] {
+  width: calc((4 / 16) * 100vw);
+}
+
+[ui-box~="height-4%"] {
+  height: calc((4 / 16) * 100%);
+}
+
+[ui-box~=height-4x] {
+  height: calc((4 / 16) * 100vh);
+}
+
+[ui-box~=width-4-min] {
+  min-width: calc(4 * 32px);
+}
+
+[ui-box~=height-4-min] {
+  min-height: calc(4 * 32px);
+}
+
+[ui-box~=width-4x-min] {
+  min-width: calc((4 / 16) * 100vw);
+}
+
+[ui-box~=height-4x-min] {
+  min-height: calc((4 / 16) * 100vh);
+}
+
+[ui-box~=width-4-max] {
+  max-width: calc(4 * 32px);
+}
+
+[ui-box~=height-4-max] {
+  max-height: calc(4 * 32px);
+}
+
+[ui-box~=width-4x-max] {
+  max-width: calc((4 / 16) * 100vw);
+}
+
+[ui-box~=height-4x-max] {
+  max-height: calc((4 / 16) * 100vh);
+}
+
+@media (max-width: var(--device-size-smaller)) {
+  [ui-box~=sl-square-4] {
+    width: calc(4 * 32px);
+    height: calc(4 * 32px);
+  }
+
+  [ui-box~=sl-width-4] {
+    width: calc(4 * 32px);
+  }
+
+  [ui-box~=sl-height-4] {
+    height: calc(4 * 32px);
+  }
+
+  [ui-box~="sl-width-4%"] {
+    width: calc((4 / 16) * 100%);
+  }
+
+  [ui-box~=sl-width-4x] {
+    width: calc((4 / 16) * 100vw);
+  }
+
+  [ui-box~="sl-height-4%"] {
+    height: calc((4 / 16) * 100%);
+  }
+
+  [ui-box~=sl-height-4x] {
+    height: calc((4 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-4-min] {
+    min-width: calc(4 * 32px);
+  }
+
+  [ui-box~=sl-height-4-min] {
+    min-height: calc(4 * 32px);
+  }
+
+  [ui-box~=sl-width-4x-min] {
+    min-width: calc((4 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-4x-min] {
+    min-height: calc((4 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-4-max] {
+    max-width: calc(4 * 32px);
+  }
+
+  [ui-box~=sl-height-4-max] {
+    max-height: calc(4 * 32px);
+  }
+
+  [ui-box~=sl-width-4x-max] {
+    max-width: calc((4 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-4x-max] {
+    max-height: calc((4 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-small)) {
+  [ui-box~=sm-square-4] {
+    width: calc(4 * 32px);
+    height: calc(4 * 32px);
+  }
+
+  [ui-box~=sm-width-4] {
+    width: calc(4 * 32px);
+  }
+
+  [ui-box~=sm-height-4] {
+    height: calc(4 * 32px);
+  }
+
+  [ui-box~="sm-width-4%"] {
+    width: calc((4 / 16) * 100%);
+  }
+
+  [ui-box~=sm-width-4x] {
+    width: calc((4 / 16) * 100vw);
+  }
+
+  [ui-box~="sm-height-4%"] {
+    height: calc((4 / 16) * 100%);
+  }
+
+  [ui-box~=sm-height-4x] {
+    height: calc((4 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-4-min] {
+    min-width: calc(4 * 32px);
+  }
+
+  [ui-box~=sm-height-4-min] {
+    min-height: calc(4 * 32px);
+  }
+
+  [ui-box~=sm-width-4x-min] {
+    min-width: calc((4 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-4x-min] {
+    min-height: calc((4 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-4-max] {
+    max-width: calc(4 * 32px);
+  }
+
+  [ui-box~=sm-height-4-max] {
+    max-height: calc(4 * 32px);
+  }
+
+  [ui-box~=sm-width-4x-max] {
+    max-width: calc((4 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-4x-max] {
+    max-height: calc((4 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-medium)) {
+  [ui-box~=md-square-4] {
+    width: calc(4 * 32px);
+    height: calc(4 * 32px);
+  }
+
+  [ui-box~=md-width-4] {
+    width: calc(4 * 32px);
+  }
+
+  [ui-box~=md-height-4] {
+    height: calc(4 * 32px);
+  }
+
+  [ui-box~="md-width-4%"] {
+    width: calc((4 / 16) * 100%);
+  }
+
+  [ui-box~=md-width-4x] {
+    width: calc((4 / 16) * 100vw);
+  }
+
+  [ui-box~="md-height-4%"] {
+    height: calc((4 / 16) * 100%);
+  }
+
+  [ui-box~=md-height-4x] {
+    height: calc((4 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-4-min] {
+    min-width: calc(4 * 32px);
+  }
+
+  [ui-box~=md-height-4-min] {
+    min-height: calc(4 * 32px);
+  }
+
+  [ui-box~=md-width-4x-min] {
+    min-width: calc((4 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-4x-min] {
+    min-height: calc((4 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-4-max] {
+    max-width: calc(4 * 32px);
+  }
+
+  [ui-box~=md-height-4-max] {
+    max-height: calc(4 * 32px);
+  }
+
+  [ui-box~=md-width-4x-max] {
+    max-width: calc((4 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-4x-max] {
+    max-height: calc((4 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-large)) {
+  [ui-box~=xs-square-4] {
+    width: calc(4 * 32px);
+    height: calc(4 * 32px);
+  }
+
+  [ui-box~=xs-width-4] {
+    width: calc(4 * 32px);
+  }
+
+  [ui-box~=xs-height-4] {
+    height: calc(4 * 32px);
+  }
+
+  [ui-box~="xs-width-4%"] {
+    width: calc((4 / 16) * 100%);
+  }
+
+  [ui-box~=xs-width-4x] {
+    width: calc((4 / 16) * 100vw);
+  }
+
+  [ui-box~="xs-height-4%"] {
+    height: calc((4 / 16) * 100%);
+  }
+
+  [ui-box~=xs-height-4x] {
+    height: calc((4 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-4-min] {
+    min-width: calc(4 * 32px);
+  }
+
+  [ui-box~=xs-height-4-min] {
+    min-height: calc(4 * 32px);
+  }
+
+  [ui-box~=xs-width-4x-min] {
+    min-width: calc((4 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-4x-min] {
+    min-height: calc((4 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-4-max] {
+    max-width: calc(4 * 32px);
+  }
+
+  [ui-box~=xs-height-4-max] {
+    max-height: calc(4 * 32px);
+  }
+
+  [ui-box~=xs-width-4x-max] {
+    max-width: calc((4 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-4x-max] {
+    max-height: calc((4 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-larger)) {
+  [ui-box~=xl-square-4] {
+    width: calc(4 * 32px);
+    height: calc(4 * 32px);
+  }
+
+  [ui-box~=xl-width-4] {
+    width: calc(4 * 32px);
+  }
+
+  [ui-box~=xl-height-4] {
+    height: calc(4 * 32px);
+  }
+
+  [ui-box~="xl-width-4%"] {
+    width: calc((4 / 16) * 100%);
+  }
+
+  [ui-box~=xl-width-4x] {
+    width: calc((4 / 16) * 100vw);
+  }
+
+  [ui-box~="xl-height-4%"] {
+    height: calc((4 / 16) * 100%);
+  }
+
+  [ui-box~=xl-height-4x] {
+    height: calc((4 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-4-min] {
+    min-width: calc(4 * 32px);
+  }
+
+  [ui-box~=xl-height-4-min] {
+    min-height: calc(4 * 32px);
+  }
+
+  [ui-box~=xl-width-4x-min] {
+    min-width: calc((4 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-4x-min] {
+    min-height: calc((4 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-4-max] {
+    max-width: calc(4 * 32px);
+  }
+
+  [ui-box~=xl-height-4-max] {
+    max-height: calc(4 * 32px);
+  }
+
+  [ui-box~=xl-width-4x-max] {
+    max-width: calc((4 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-4x-max] {
+    max-height: calc((4 / 16) * 100vh);
+  }
+}
+[ui-box~=square-5] {
+  width: calc(5 * 32px);
+  height: calc(5 * 32px);
+}
+
+[ui-box~=width-5] {
+  width: calc(5 * 32px);
+}
+
+[ui-box~=height-5] {
+  height: calc(5 * 32px);
+}
+
+[ui-box~="width-5%"] {
+  width: calc((5 / 16) * 100%);
+}
+
+[ui-box~=width-5x] {
+  width: calc((5 / 16) * 100vw);
+}
+
+[ui-box~="height-5%"] {
+  height: calc((5 / 16) * 100%);
+}
+
+[ui-box~=height-5x] {
+  height: calc((5 / 16) * 100vh);
+}
+
+[ui-box~=width-5-min] {
+  min-width: calc(5 * 32px);
+}
+
+[ui-box~=height-5-min] {
+  min-height: calc(5 * 32px);
+}
+
+[ui-box~=width-5x-min] {
+  min-width: calc((5 / 16) * 100vw);
+}
+
+[ui-box~=height-5x-min] {
+  min-height: calc((5 / 16) * 100vh);
+}
+
+[ui-box~=width-5-max] {
+  max-width: calc(5 * 32px);
+}
+
+[ui-box~=height-5-max] {
+  max-height: calc(5 * 32px);
+}
+
+[ui-box~=width-5x-max] {
+  max-width: calc((5 / 16) * 100vw);
+}
+
+[ui-box~=height-5x-max] {
+  max-height: calc((5 / 16) * 100vh);
+}
+
+@media (max-width: var(--device-size-smaller)) {
+  [ui-box~=sl-square-5] {
+    width: calc(5 * 32px);
+    height: calc(5 * 32px);
+  }
+
+  [ui-box~=sl-width-5] {
+    width: calc(5 * 32px);
+  }
+
+  [ui-box~=sl-height-5] {
+    height: calc(5 * 32px);
+  }
+
+  [ui-box~="sl-width-5%"] {
+    width: calc((5 / 16) * 100%);
+  }
+
+  [ui-box~=sl-width-5x] {
+    width: calc((5 / 16) * 100vw);
+  }
+
+  [ui-box~="sl-height-5%"] {
+    height: calc((5 / 16) * 100%);
+  }
+
+  [ui-box~=sl-height-5x] {
+    height: calc((5 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-5-min] {
+    min-width: calc(5 * 32px);
+  }
+
+  [ui-box~=sl-height-5-min] {
+    min-height: calc(5 * 32px);
+  }
+
+  [ui-box~=sl-width-5x-min] {
+    min-width: calc((5 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-5x-min] {
+    min-height: calc((5 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-5-max] {
+    max-width: calc(5 * 32px);
+  }
+
+  [ui-box~=sl-height-5-max] {
+    max-height: calc(5 * 32px);
+  }
+
+  [ui-box~=sl-width-5x-max] {
+    max-width: calc((5 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-5x-max] {
+    max-height: calc((5 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-small)) {
+  [ui-box~=sm-square-5] {
+    width: calc(5 * 32px);
+    height: calc(5 * 32px);
+  }
+
+  [ui-box~=sm-width-5] {
+    width: calc(5 * 32px);
+  }
+
+  [ui-box~=sm-height-5] {
+    height: calc(5 * 32px);
+  }
+
+  [ui-box~="sm-width-5%"] {
+    width: calc((5 / 16) * 100%);
+  }
+
+  [ui-box~=sm-width-5x] {
+    width: calc((5 / 16) * 100vw);
+  }
+
+  [ui-box~="sm-height-5%"] {
+    height: calc((5 / 16) * 100%);
+  }
+
+  [ui-box~=sm-height-5x] {
+    height: calc((5 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-5-min] {
+    min-width: calc(5 * 32px);
+  }
+
+  [ui-box~=sm-height-5-min] {
+    min-height: calc(5 * 32px);
+  }
+
+  [ui-box~=sm-width-5x-min] {
+    min-width: calc((5 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-5x-min] {
+    min-height: calc((5 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-5-max] {
+    max-width: calc(5 * 32px);
+  }
+
+  [ui-box~=sm-height-5-max] {
+    max-height: calc(5 * 32px);
+  }
+
+  [ui-box~=sm-width-5x-max] {
+    max-width: calc((5 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-5x-max] {
+    max-height: calc((5 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-medium)) {
+  [ui-box~=md-square-5] {
+    width: calc(5 * 32px);
+    height: calc(5 * 32px);
+  }
+
+  [ui-box~=md-width-5] {
+    width: calc(5 * 32px);
+  }
+
+  [ui-box~=md-height-5] {
+    height: calc(5 * 32px);
+  }
+
+  [ui-box~="md-width-5%"] {
+    width: calc((5 / 16) * 100%);
+  }
+
+  [ui-box~=md-width-5x] {
+    width: calc((5 / 16) * 100vw);
+  }
+
+  [ui-box~="md-height-5%"] {
+    height: calc((5 / 16) * 100%);
+  }
+
+  [ui-box~=md-height-5x] {
+    height: calc((5 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-5-min] {
+    min-width: calc(5 * 32px);
+  }
+
+  [ui-box~=md-height-5-min] {
+    min-height: calc(5 * 32px);
+  }
+
+  [ui-box~=md-width-5x-min] {
+    min-width: calc((5 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-5x-min] {
+    min-height: calc((5 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-5-max] {
+    max-width: calc(5 * 32px);
+  }
+
+  [ui-box~=md-height-5-max] {
+    max-height: calc(5 * 32px);
+  }
+
+  [ui-box~=md-width-5x-max] {
+    max-width: calc((5 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-5x-max] {
+    max-height: calc((5 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-large)) {
+  [ui-box~=xs-square-5] {
+    width: calc(5 * 32px);
+    height: calc(5 * 32px);
+  }
+
+  [ui-box~=xs-width-5] {
+    width: calc(5 * 32px);
+  }
+
+  [ui-box~=xs-height-5] {
+    height: calc(5 * 32px);
+  }
+
+  [ui-box~="xs-width-5%"] {
+    width: calc((5 / 16) * 100%);
+  }
+
+  [ui-box~=xs-width-5x] {
+    width: calc((5 / 16) * 100vw);
+  }
+
+  [ui-box~="xs-height-5%"] {
+    height: calc((5 / 16) * 100%);
+  }
+
+  [ui-box~=xs-height-5x] {
+    height: calc((5 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-5-min] {
+    min-width: calc(5 * 32px);
+  }
+
+  [ui-box~=xs-height-5-min] {
+    min-height: calc(5 * 32px);
+  }
+
+  [ui-box~=xs-width-5x-min] {
+    min-width: calc((5 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-5x-min] {
+    min-height: calc((5 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-5-max] {
+    max-width: calc(5 * 32px);
+  }
+
+  [ui-box~=xs-height-5-max] {
+    max-height: calc(5 * 32px);
+  }
+
+  [ui-box~=xs-width-5x-max] {
+    max-width: calc((5 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-5x-max] {
+    max-height: calc((5 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-larger)) {
+  [ui-box~=xl-square-5] {
+    width: calc(5 * 32px);
+    height: calc(5 * 32px);
+  }
+
+  [ui-box~=xl-width-5] {
+    width: calc(5 * 32px);
+  }
+
+  [ui-box~=xl-height-5] {
+    height: calc(5 * 32px);
+  }
+
+  [ui-box~="xl-width-5%"] {
+    width: calc((5 / 16) * 100%);
+  }
+
+  [ui-box~=xl-width-5x] {
+    width: calc((5 / 16) * 100vw);
+  }
+
+  [ui-box~="xl-height-5%"] {
+    height: calc((5 / 16) * 100%);
+  }
+
+  [ui-box~=xl-height-5x] {
+    height: calc((5 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-5-min] {
+    min-width: calc(5 * 32px);
+  }
+
+  [ui-box~=xl-height-5-min] {
+    min-height: calc(5 * 32px);
+  }
+
+  [ui-box~=xl-width-5x-min] {
+    min-width: calc((5 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-5x-min] {
+    min-height: calc((5 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-5-max] {
+    max-width: calc(5 * 32px);
+  }
+
+  [ui-box~=xl-height-5-max] {
+    max-height: calc(5 * 32px);
+  }
+
+  [ui-box~=xl-width-5x-max] {
+    max-width: calc((5 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-5x-max] {
+    max-height: calc((5 / 16) * 100vh);
+  }
+}
+[ui-box~=square-6] {
+  width: calc(6 * 32px);
+  height: calc(6 * 32px);
+}
+
+[ui-box~=width-6] {
+  width: calc(6 * 32px);
+}
+
+[ui-box~=height-6] {
+  height: calc(6 * 32px);
+}
+
+[ui-box~="width-6%"] {
+  width: calc((6 / 16) * 100%);
+}
+
+[ui-box~=width-6x] {
+  width: calc((6 / 16) * 100vw);
+}
+
+[ui-box~="height-6%"] {
+  height: calc((6 / 16) * 100%);
+}
+
+[ui-box~=height-6x] {
+  height: calc((6 / 16) * 100vh);
+}
+
+[ui-box~=width-6-min] {
+  min-width: calc(6 * 32px);
+}
+
+[ui-box~=height-6-min] {
+  min-height: calc(6 * 32px);
+}
+
+[ui-box~=width-6x-min] {
+  min-width: calc((6 / 16) * 100vw);
+}
+
+[ui-box~=height-6x-min] {
+  min-height: calc((6 / 16) * 100vh);
+}
+
+[ui-box~=width-6-max] {
+  max-width: calc(6 * 32px);
+}
+
+[ui-box~=height-6-max] {
+  max-height: calc(6 * 32px);
+}
+
+[ui-box~=width-6x-max] {
+  max-width: calc((6 / 16) * 100vw);
+}
+
+[ui-box~=height-6x-max] {
+  max-height: calc((6 / 16) * 100vh);
+}
+
+@media (max-width: var(--device-size-smaller)) {
+  [ui-box~=sl-square-6] {
+    width: calc(6 * 32px);
+    height: calc(6 * 32px);
+  }
+
+  [ui-box~=sl-width-6] {
+    width: calc(6 * 32px);
+  }
+
+  [ui-box~=sl-height-6] {
+    height: calc(6 * 32px);
+  }
+
+  [ui-box~="sl-width-6%"] {
+    width: calc((6 / 16) * 100%);
+  }
+
+  [ui-box~=sl-width-6x] {
+    width: calc((6 / 16) * 100vw);
+  }
+
+  [ui-box~="sl-height-6%"] {
+    height: calc((6 / 16) * 100%);
+  }
+
+  [ui-box~=sl-height-6x] {
+    height: calc((6 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-6-min] {
+    min-width: calc(6 * 32px);
+  }
+
+  [ui-box~=sl-height-6-min] {
+    min-height: calc(6 * 32px);
+  }
+
+  [ui-box~=sl-width-6x-min] {
+    min-width: calc((6 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-6x-min] {
+    min-height: calc((6 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-6-max] {
+    max-width: calc(6 * 32px);
+  }
+
+  [ui-box~=sl-height-6-max] {
+    max-height: calc(6 * 32px);
+  }
+
+  [ui-box~=sl-width-6x-max] {
+    max-width: calc((6 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-6x-max] {
+    max-height: calc((6 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-small)) {
+  [ui-box~=sm-square-6] {
+    width: calc(6 * 32px);
+    height: calc(6 * 32px);
+  }
+
+  [ui-box~=sm-width-6] {
+    width: calc(6 * 32px);
+  }
+
+  [ui-box~=sm-height-6] {
+    height: calc(6 * 32px);
+  }
+
+  [ui-box~="sm-width-6%"] {
+    width: calc((6 / 16) * 100%);
+  }
+
+  [ui-box~=sm-width-6x] {
+    width: calc((6 / 16) * 100vw);
+  }
+
+  [ui-box~="sm-height-6%"] {
+    height: calc((6 / 16) * 100%);
+  }
+
+  [ui-box~=sm-height-6x] {
+    height: calc((6 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-6-min] {
+    min-width: calc(6 * 32px);
+  }
+
+  [ui-box~=sm-height-6-min] {
+    min-height: calc(6 * 32px);
+  }
+
+  [ui-box~=sm-width-6x-min] {
+    min-width: calc((6 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-6x-min] {
+    min-height: calc((6 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-6-max] {
+    max-width: calc(6 * 32px);
+  }
+
+  [ui-box~=sm-height-6-max] {
+    max-height: calc(6 * 32px);
+  }
+
+  [ui-box~=sm-width-6x-max] {
+    max-width: calc((6 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-6x-max] {
+    max-height: calc((6 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-medium)) {
+  [ui-box~=md-square-6] {
+    width: calc(6 * 32px);
+    height: calc(6 * 32px);
+  }
+
+  [ui-box~=md-width-6] {
+    width: calc(6 * 32px);
+  }
+
+  [ui-box~=md-height-6] {
+    height: calc(6 * 32px);
+  }
+
+  [ui-box~="md-width-6%"] {
+    width: calc((6 / 16) * 100%);
+  }
+
+  [ui-box~=md-width-6x] {
+    width: calc((6 / 16) * 100vw);
+  }
+
+  [ui-box~="md-height-6%"] {
+    height: calc((6 / 16) * 100%);
+  }
+
+  [ui-box~=md-height-6x] {
+    height: calc((6 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-6-min] {
+    min-width: calc(6 * 32px);
+  }
+
+  [ui-box~=md-height-6-min] {
+    min-height: calc(6 * 32px);
+  }
+
+  [ui-box~=md-width-6x-min] {
+    min-width: calc((6 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-6x-min] {
+    min-height: calc((6 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-6-max] {
+    max-width: calc(6 * 32px);
+  }
+
+  [ui-box~=md-height-6-max] {
+    max-height: calc(6 * 32px);
+  }
+
+  [ui-box~=md-width-6x-max] {
+    max-width: calc((6 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-6x-max] {
+    max-height: calc((6 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-large)) {
+  [ui-box~=xs-square-6] {
+    width: calc(6 * 32px);
+    height: calc(6 * 32px);
+  }
+
+  [ui-box~=xs-width-6] {
+    width: calc(6 * 32px);
+  }
+
+  [ui-box~=xs-height-6] {
+    height: calc(6 * 32px);
+  }
+
+  [ui-box~="xs-width-6%"] {
+    width: calc((6 / 16) * 100%);
+  }
+
+  [ui-box~=xs-width-6x] {
+    width: calc((6 / 16) * 100vw);
+  }
+
+  [ui-box~="xs-height-6%"] {
+    height: calc((6 / 16) * 100%);
+  }
+
+  [ui-box~=xs-height-6x] {
+    height: calc((6 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-6-min] {
+    min-width: calc(6 * 32px);
+  }
+
+  [ui-box~=xs-height-6-min] {
+    min-height: calc(6 * 32px);
+  }
+
+  [ui-box~=xs-width-6x-min] {
+    min-width: calc((6 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-6x-min] {
+    min-height: calc((6 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-6-max] {
+    max-width: calc(6 * 32px);
+  }
+
+  [ui-box~=xs-height-6-max] {
+    max-height: calc(6 * 32px);
+  }
+
+  [ui-box~=xs-width-6x-max] {
+    max-width: calc((6 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-6x-max] {
+    max-height: calc((6 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-larger)) {
+  [ui-box~=xl-square-6] {
+    width: calc(6 * 32px);
+    height: calc(6 * 32px);
+  }
+
+  [ui-box~=xl-width-6] {
+    width: calc(6 * 32px);
+  }
+
+  [ui-box~=xl-height-6] {
+    height: calc(6 * 32px);
+  }
+
+  [ui-box~="xl-width-6%"] {
+    width: calc((6 / 16) * 100%);
+  }
+
+  [ui-box~=xl-width-6x] {
+    width: calc((6 / 16) * 100vw);
+  }
+
+  [ui-box~="xl-height-6%"] {
+    height: calc((6 / 16) * 100%);
+  }
+
+  [ui-box~=xl-height-6x] {
+    height: calc((6 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-6-min] {
+    min-width: calc(6 * 32px);
+  }
+
+  [ui-box~=xl-height-6-min] {
+    min-height: calc(6 * 32px);
+  }
+
+  [ui-box~=xl-width-6x-min] {
+    min-width: calc((6 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-6x-min] {
+    min-height: calc((6 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-6-max] {
+    max-width: calc(6 * 32px);
+  }
+
+  [ui-box~=xl-height-6-max] {
+    max-height: calc(6 * 32px);
+  }
+
+  [ui-box~=xl-width-6x-max] {
+    max-width: calc((6 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-6x-max] {
+    max-height: calc((6 / 16) * 100vh);
+  }
+}
+[ui-box~=square-7] {
+  width: calc(7 * 32px);
+  height: calc(7 * 32px);
+}
+
+[ui-box~=width-7] {
+  width: calc(7 * 32px);
+}
+
+[ui-box~=height-7] {
+  height: calc(7 * 32px);
+}
+
+[ui-box~="width-7%"] {
+  width: calc((7 / 16) * 100%);
+}
+
+[ui-box~=width-7x] {
+  width: calc((7 / 16) * 100vw);
+}
+
+[ui-box~="height-7%"] {
+  height: calc((7 / 16) * 100%);
+}
+
+[ui-box~=height-7x] {
+  height: calc((7 / 16) * 100vh);
+}
+
+[ui-box~=width-7-min] {
+  min-width: calc(7 * 32px);
+}
+
+[ui-box~=height-7-min] {
+  min-height: calc(7 * 32px);
+}
+
+[ui-box~=width-7x-min] {
+  min-width: calc((7 / 16) * 100vw);
+}
+
+[ui-box~=height-7x-min] {
+  min-height: calc((7 / 16) * 100vh);
+}
+
+[ui-box~=width-7-max] {
+  max-width: calc(7 * 32px);
+}
+
+[ui-box~=height-7-max] {
+  max-height: calc(7 * 32px);
+}
+
+[ui-box~=width-7x-max] {
+  max-width: calc((7 / 16) * 100vw);
+}
+
+[ui-box~=height-7x-max] {
+  max-height: calc((7 / 16) * 100vh);
+}
+
+@media (max-width: var(--device-size-smaller)) {
+  [ui-box~=sl-square-7] {
+    width: calc(7 * 32px);
+    height: calc(7 * 32px);
+  }
+
+  [ui-box~=sl-width-7] {
+    width: calc(7 * 32px);
+  }
+
+  [ui-box~=sl-height-7] {
+    height: calc(7 * 32px);
+  }
+
+  [ui-box~="sl-width-7%"] {
+    width: calc((7 / 16) * 100%);
+  }
+
+  [ui-box~=sl-width-7x] {
+    width: calc((7 / 16) * 100vw);
+  }
+
+  [ui-box~="sl-height-7%"] {
+    height: calc((7 / 16) * 100%);
+  }
+
+  [ui-box~=sl-height-7x] {
+    height: calc((7 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-7-min] {
+    min-width: calc(7 * 32px);
+  }
+
+  [ui-box~=sl-height-7-min] {
+    min-height: calc(7 * 32px);
+  }
+
+  [ui-box~=sl-width-7x-min] {
+    min-width: calc((7 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-7x-min] {
+    min-height: calc((7 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-7-max] {
+    max-width: calc(7 * 32px);
+  }
+
+  [ui-box~=sl-height-7-max] {
+    max-height: calc(7 * 32px);
+  }
+
+  [ui-box~=sl-width-7x-max] {
+    max-width: calc((7 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-7x-max] {
+    max-height: calc((7 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-small)) {
+  [ui-box~=sm-square-7] {
+    width: calc(7 * 32px);
+    height: calc(7 * 32px);
+  }
+
+  [ui-box~=sm-width-7] {
+    width: calc(7 * 32px);
+  }
+
+  [ui-box~=sm-height-7] {
+    height: calc(7 * 32px);
+  }
+
+  [ui-box~="sm-width-7%"] {
+    width: calc((7 / 16) * 100%);
+  }
+
+  [ui-box~=sm-width-7x] {
+    width: calc((7 / 16) * 100vw);
+  }
+
+  [ui-box~="sm-height-7%"] {
+    height: calc((7 / 16) * 100%);
+  }
+
+  [ui-box~=sm-height-7x] {
+    height: calc((7 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-7-min] {
+    min-width: calc(7 * 32px);
+  }
+
+  [ui-box~=sm-height-7-min] {
+    min-height: calc(7 * 32px);
+  }
+
+  [ui-box~=sm-width-7x-min] {
+    min-width: calc((7 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-7x-min] {
+    min-height: calc((7 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-7-max] {
+    max-width: calc(7 * 32px);
+  }
+
+  [ui-box~=sm-height-7-max] {
+    max-height: calc(7 * 32px);
+  }
+
+  [ui-box~=sm-width-7x-max] {
+    max-width: calc((7 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-7x-max] {
+    max-height: calc((7 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-medium)) {
+  [ui-box~=md-square-7] {
+    width: calc(7 * 32px);
+    height: calc(7 * 32px);
+  }
+
+  [ui-box~=md-width-7] {
+    width: calc(7 * 32px);
+  }
+
+  [ui-box~=md-height-7] {
+    height: calc(7 * 32px);
+  }
+
+  [ui-box~="md-width-7%"] {
+    width: calc((7 / 16) * 100%);
+  }
+
+  [ui-box~=md-width-7x] {
+    width: calc((7 / 16) * 100vw);
+  }
+
+  [ui-box~="md-height-7%"] {
+    height: calc((7 / 16) * 100%);
+  }
+
+  [ui-box~=md-height-7x] {
+    height: calc((7 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-7-min] {
+    min-width: calc(7 * 32px);
+  }
+
+  [ui-box~=md-height-7-min] {
+    min-height: calc(7 * 32px);
+  }
+
+  [ui-box~=md-width-7x-min] {
+    min-width: calc((7 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-7x-min] {
+    min-height: calc((7 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-7-max] {
+    max-width: calc(7 * 32px);
+  }
+
+  [ui-box~=md-height-7-max] {
+    max-height: calc(7 * 32px);
+  }
+
+  [ui-box~=md-width-7x-max] {
+    max-width: calc((7 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-7x-max] {
+    max-height: calc((7 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-large)) {
+  [ui-box~=xs-square-7] {
+    width: calc(7 * 32px);
+    height: calc(7 * 32px);
+  }
+
+  [ui-box~=xs-width-7] {
+    width: calc(7 * 32px);
+  }
+
+  [ui-box~=xs-height-7] {
+    height: calc(7 * 32px);
+  }
+
+  [ui-box~="xs-width-7%"] {
+    width: calc((7 / 16) * 100%);
+  }
+
+  [ui-box~=xs-width-7x] {
+    width: calc((7 / 16) * 100vw);
+  }
+
+  [ui-box~="xs-height-7%"] {
+    height: calc((7 / 16) * 100%);
+  }
+
+  [ui-box~=xs-height-7x] {
+    height: calc((7 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-7-min] {
+    min-width: calc(7 * 32px);
+  }
+
+  [ui-box~=xs-height-7-min] {
+    min-height: calc(7 * 32px);
+  }
+
+  [ui-box~=xs-width-7x-min] {
+    min-width: calc((7 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-7x-min] {
+    min-height: calc((7 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-7-max] {
+    max-width: calc(7 * 32px);
+  }
+
+  [ui-box~=xs-height-7-max] {
+    max-height: calc(7 * 32px);
+  }
+
+  [ui-box~=xs-width-7x-max] {
+    max-width: calc((7 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-7x-max] {
+    max-height: calc((7 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-larger)) {
+  [ui-box~=xl-square-7] {
+    width: calc(7 * 32px);
+    height: calc(7 * 32px);
+  }
+
+  [ui-box~=xl-width-7] {
+    width: calc(7 * 32px);
+  }
+
+  [ui-box~=xl-height-7] {
+    height: calc(7 * 32px);
+  }
+
+  [ui-box~="xl-width-7%"] {
+    width: calc((7 / 16) * 100%);
+  }
+
+  [ui-box~=xl-width-7x] {
+    width: calc((7 / 16) * 100vw);
+  }
+
+  [ui-box~="xl-height-7%"] {
+    height: calc((7 / 16) * 100%);
+  }
+
+  [ui-box~=xl-height-7x] {
+    height: calc((7 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-7-min] {
+    min-width: calc(7 * 32px);
+  }
+
+  [ui-box~=xl-height-7-min] {
+    min-height: calc(7 * 32px);
+  }
+
+  [ui-box~=xl-width-7x-min] {
+    min-width: calc((7 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-7x-min] {
+    min-height: calc((7 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-7-max] {
+    max-width: calc(7 * 32px);
+  }
+
+  [ui-box~=xl-height-7-max] {
+    max-height: calc(7 * 32px);
+  }
+
+  [ui-box~=xl-width-7x-max] {
+    max-width: calc((7 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-7x-max] {
+    max-height: calc((7 / 16) * 100vh);
+  }
+}
+[ui-box~=square-8] {
+  width: calc(8 * 32px);
+  height: calc(8 * 32px);
+}
+
+[ui-box~=width-8] {
+  width: calc(8 * 32px);
+}
+
+[ui-box~=height-8] {
+  height: calc(8 * 32px);
+}
+
+[ui-box~="width-8%"] {
+  width: calc((8 / 16) * 100%);
+}
+
+[ui-box~=width-8x] {
+  width: calc((8 / 16) * 100vw);
+}
+
+[ui-box~="height-8%"] {
+  height: calc((8 / 16) * 100%);
+}
+
+[ui-box~=height-8x] {
+  height: calc((8 / 16) * 100vh);
+}
+
+[ui-box~=width-8-min] {
+  min-width: calc(8 * 32px);
+}
+
+[ui-box~=height-8-min] {
+  min-height: calc(8 * 32px);
+}
+
+[ui-box~=width-8x-min] {
+  min-width: calc((8 / 16) * 100vw);
+}
+
+[ui-box~=height-8x-min] {
+  min-height: calc((8 / 16) * 100vh);
+}
+
+[ui-box~=width-8-max] {
+  max-width: calc(8 * 32px);
+}
+
+[ui-box~=height-8-max] {
+  max-height: calc(8 * 32px);
+}
+
+[ui-box~=width-8x-max] {
+  max-width: calc((8 / 16) * 100vw);
+}
+
+[ui-box~=height-8x-max] {
+  max-height: calc((8 / 16) * 100vh);
+}
+
+@media (max-width: var(--device-size-smaller)) {
+  [ui-box~=sl-square-8] {
+    width: calc(8 * 32px);
+    height: calc(8 * 32px);
+  }
+
+  [ui-box~=sl-width-8] {
+    width: calc(8 * 32px);
+  }
+
+  [ui-box~=sl-height-8] {
+    height: calc(8 * 32px);
+  }
+
+  [ui-box~="sl-width-8%"] {
+    width: calc((8 / 16) * 100%);
+  }
+
+  [ui-box~=sl-width-8x] {
+    width: calc((8 / 16) * 100vw);
+  }
+
+  [ui-box~="sl-height-8%"] {
+    height: calc((8 / 16) * 100%);
+  }
+
+  [ui-box~=sl-height-8x] {
+    height: calc((8 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-8-min] {
+    min-width: calc(8 * 32px);
+  }
+
+  [ui-box~=sl-height-8-min] {
+    min-height: calc(8 * 32px);
+  }
+
+  [ui-box~=sl-width-8x-min] {
+    min-width: calc((8 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-8x-min] {
+    min-height: calc((8 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-8-max] {
+    max-width: calc(8 * 32px);
+  }
+
+  [ui-box~=sl-height-8-max] {
+    max-height: calc(8 * 32px);
+  }
+
+  [ui-box~=sl-width-8x-max] {
+    max-width: calc((8 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-8x-max] {
+    max-height: calc((8 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-small)) {
+  [ui-box~=sm-square-8] {
+    width: calc(8 * 32px);
+    height: calc(8 * 32px);
+  }
+
+  [ui-box~=sm-width-8] {
+    width: calc(8 * 32px);
+  }
+
+  [ui-box~=sm-height-8] {
+    height: calc(8 * 32px);
+  }
+
+  [ui-box~="sm-width-8%"] {
+    width: calc((8 / 16) * 100%);
+  }
+
+  [ui-box~=sm-width-8x] {
+    width: calc((8 / 16) * 100vw);
+  }
+
+  [ui-box~="sm-height-8%"] {
+    height: calc((8 / 16) * 100%);
+  }
+
+  [ui-box~=sm-height-8x] {
+    height: calc((8 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-8-min] {
+    min-width: calc(8 * 32px);
+  }
+
+  [ui-box~=sm-height-8-min] {
+    min-height: calc(8 * 32px);
+  }
+
+  [ui-box~=sm-width-8x-min] {
+    min-width: calc((8 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-8x-min] {
+    min-height: calc((8 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-8-max] {
+    max-width: calc(8 * 32px);
+  }
+
+  [ui-box~=sm-height-8-max] {
+    max-height: calc(8 * 32px);
+  }
+
+  [ui-box~=sm-width-8x-max] {
+    max-width: calc((8 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-8x-max] {
+    max-height: calc((8 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-medium)) {
+  [ui-box~=md-square-8] {
+    width: calc(8 * 32px);
+    height: calc(8 * 32px);
+  }
+
+  [ui-box~=md-width-8] {
+    width: calc(8 * 32px);
+  }
+
+  [ui-box~=md-height-8] {
+    height: calc(8 * 32px);
+  }
+
+  [ui-box~="md-width-8%"] {
+    width: calc((8 / 16) * 100%);
+  }
+
+  [ui-box~=md-width-8x] {
+    width: calc((8 / 16) * 100vw);
+  }
+
+  [ui-box~="md-height-8%"] {
+    height: calc((8 / 16) * 100%);
+  }
+
+  [ui-box~=md-height-8x] {
+    height: calc((8 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-8-min] {
+    min-width: calc(8 * 32px);
+  }
+
+  [ui-box~=md-height-8-min] {
+    min-height: calc(8 * 32px);
+  }
+
+  [ui-box~=md-width-8x-min] {
+    min-width: calc((8 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-8x-min] {
+    min-height: calc((8 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-8-max] {
+    max-width: calc(8 * 32px);
+  }
+
+  [ui-box~=md-height-8-max] {
+    max-height: calc(8 * 32px);
+  }
+
+  [ui-box~=md-width-8x-max] {
+    max-width: calc((8 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-8x-max] {
+    max-height: calc((8 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-large)) {
+  [ui-box~=xs-square-8] {
+    width: calc(8 * 32px);
+    height: calc(8 * 32px);
+  }
+
+  [ui-box~=xs-width-8] {
+    width: calc(8 * 32px);
+  }
+
+  [ui-box~=xs-height-8] {
+    height: calc(8 * 32px);
+  }
+
+  [ui-box~="xs-width-8%"] {
+    width: calc((8 / 16) * 100%);
+  }
+
+  [ui-box~=xs-width-8x] {
+    width: calc((8 / 16) * 100vw);
+  }
+
+  [ui-box~="xs-height-8%"] {
+    height: calc((8 / 16) * 100%);
+  }
+
+  [ui-box~=xs-height-8x] {
+    height: calc((8 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-8-min] {
+    min-width: calc(8 * 32px);
+  }
+
+  [ui-box~=xs-height-8-min] {
+    min-height: calc(8 * 32px);
+  }
+
+  [ui-box~=xs-width-8x-min] {
+    min-width: calc((8 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-8x-min] {
+    min-height: calc((8 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-8-max] {
+    max-width: calc(8 * 32px);
+  }
+
+  [ui-box~=xs-height-8-max] {
+    max-height: calc(8 * 32px);
+  }
+
+  [ui-box~=xs-width-8x-max] {
+    max-width: calc((8 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-8x-max] {
+    max-height: calc((8 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-larger)) {
+  [ui-box~=xl-square-8] {
+    width: calc(8 * 32px);
+    height: calc(8 * 32px);
+  }
+
+  [ui-box~=xl-width-8] {
+    width: calc(8 * 32px);
+  }
+
+  [ui-box~=xl-height-8] {
+    height: calc(8 * 32px);
+  }
+
+  [ui-box~="xl-width-8%"] {
+    width: calc((8 / 16) * 100%);
+  }
+
+  [ui-box~=xl-width-8x] {
+    width: calc((8 / 16) * 100vw);
+  }
+
+  [ui-box~="xl-height-8%"] {
+    height: calc((8 / 16) * 100%);
+  }
+
+  [ui-box~=xl-height-8x] {
+    height: calc((8 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-8-min] {
+    min-width: calc(8 * 32px);
+  }
+
+  [ui-box~=xl-height-8-min] {
+    min-height: calc(8 * 32px);
+  }
+
+  [ui-box~=xl-width-8x-min] {
+    min-width: calc((8 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-8x-min] {
+    min-height: calc((8 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-8-max] {
+    max-width: calc(8 * 32px);
+  }
+
+  [ui-box~=xl-height-8-max] {
+    max-height: calc(8 * 32px);
+  }
+
+  [ui-box~=xl-width-8x-max] {
+    max-width: calc((8 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-8x-max] {
+    max-height: calc((8 / 16) * 100vh);
+  }
+}
+[ui-box~=square-9] {
+  width: calc(9 * 32px);
+  height: calc(9 * 32px);
+}
+
+[ui-box~=width-9] {
+  width: calc(9 * 32px);
+}
+
+[ui-box~=height-9] {
+  height: calc(9 * 32px);
+}
+
+[ui-box~="width-9%"] {
+  width: calc((9 / 16) * 100%);
+}
+
+[ui-box~=width-9x] {
+  width: calc((9 / 16) * 100vw);
+}
+
+[ui-box~="height-9%"] {
+  height: calc((9 / 16) * 100%);
+}
+
+[ui-box~=height-9x] {
+  height: calc((9 / 16) * 100vh);
+}
+
+[ui-box~=width-9-min] {
+  min-width: calc(9 * 32px);
+}
+
+[ui-box~=height-9-min] {
+  min-height: calc(9 * 32px);
+}
+
+[ui-box~=width-9x-min] {
+  min-width: calc((9 / 16) * 100vw);
+}
+
+[ui-box~=height-9x-min] {
+  min-height: calc((9 / 16) * 100vh);
+}
+
+[ui-box~=width-9-max] {
+  max-width: calc(9 * 32px);
+}
+
+[ui-box~=height-9-max] {
+  max-height: calc(9 * 32px);
+}
+
+[ui-box~=width-9x-max] {
+  max-width: calc((9 / 16) * 100vw);
+}
+
+[ui-box~=height-9x-max] {
+  max-height: calc((9 / 16) * 100vh);
+}
+
+@media (max-width: var(--device-size-smaller)) {
+  [ui-box~=sl-square-9] {
+    width: calc(9 * 32px);
+    height: calc(9 * 32px);
+  }
+
+  [ui-box~=sl-width-9] {
+    width: calc(9 * 32px);
+  }
+
+  [ui-box~=sl-height-9] {
+    height: calc(9 * 32px);
+  }
+
+  [ui-box~="sl-width-9%"] {
+    width: calc((9 / 16) * 100%);
+  }
+
+  [ui-box~=sl-width-9x] {
+    width: calc((9 / 16) * 100vw);
+  }
+
+  [ui-box~="sl-height-9%"] {
+    height: calc((9 / 16) * 100%);
+  }
+
+  [ui-box~=sl-height-9x] {
+    height: calc((9 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-9-min] {
+    min-width: calc(9 * 32px);
+  }
+
+  [ui-box~=sl-height-9-min] {
+    min-height: calc(9 * 32px);
+  }
+
+  [ui-box~=sl-width-9x-min] {
+    min-width: calc((9 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-9x-min] {
+    min-height: calc((9 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-9-max] {
+    max-width: calc(9 * 32px);
+  }
+
+  [ui-box~=sl-height-9-max] {
+    max-height: calc(9 * 32px);
+  }
+
+  [ui-box~=sl-width-9x-max] {
+    max-width: calc((9 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-9x-max] {
+    max-height: calc((9 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-small)) {
+  [ui-box~=sm-square-9] {
+    width: calc(9 * 32px);
+    height: calc(9 * 32px);
+  }
+
+  [ui-box~=sm-width-9] {
+    width: calc(9 * 32px);
+  }
+
+  [ui-box~=sm-height-9] {
+    height: calc(9 * 32px);
+  }
+
+  [ui-box~="sm-width-9%"] {
+    width: calc((9 / 16) * 100%);
+  }
+
+  [ui-box~=sm-width-9x] {
+    width: calc((9 / 16) * 100vw);
+  }
+
+  [ui-box~="sm-height-9%"] {
+    height: calc((9 / 16) * 100%);
+  }
+
+  [ui-box~=sm-height-9x] {
+    height: calc((9 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-9-min] {
+    min-width: calc(9 * 32px);
+  }
+
+  [ui-box~=sm-height-9-min] {
+    min-height: calc(9 * 32px);
+  }
+
+  [ui-box~=sm-width-9x-min] {
+    min-width: calc((9 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-9x-min] {
+    min-height: calc((9 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-9-max] {
+    max-width: calc(9 * 32px);
+  }
+
+  [ui-box~=sm-height-9-max] {
+    max-height: calc(9 * 32px);
+  }
+
+  [ui-box~=sm-width-9x-max] {
+    max-width: calc((9 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-9x-max] {
+    max-height: calc((9 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-medium)) {
+  [ui-box~=md-square-9] {
+    width: calc(9 * 32px);
+    height: calc(9 * 32px);
+  }
+
+  [ui-box~=md-width-9] {
+    width: calc(9 * 32px);
+  }
+
+  [ui-box~=md-height-9] {
+    height: calc(9 * 32px);
+  }
+
+  [ui-box~="md-width-9%"] {
+    width: calc((9 / 16) * 100%);
+  }
+
+  [ui-box~=md-width-9x] {
+    width: calc((9 / 16) * 100vw);
+  }
+
+  [ui-box~="md-height-9%"] {
+    height: calc((9 / 16) * 100%);
+  }
+
+  [ui-box~=md-height-9x] {
+    height: calc((9 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-9-min] {
+    min-width: calc(9 * 32px);
+  }
+
+  [ui-box~=md-height-9-min] {
+    min-height: calc(9 * 32px);
+  }
+
+  [ui-box~=md-width-9x-min] {
+    min-width: calc((9 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-9x-min] {
+    min-height: calc((9 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-9-max] {
+    max-width: calc(9 * 32px);
+  }
+
+  [ui-box~=md-height-9-max] {
+    max-height: calc(9 * 32px);
+  }
+
+  [ui-box~=md-width-9x-max] {
+    max-width: calc((9 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-9x-max] {
+    max-height: calc((9 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-large)) {
+  [ui-box~=xs-square-9] {
+    width: calc(9 * 32px);
+    height: calc(9 * 32px);
+  }
+
+  [ui-box~=xs-width-9] {
+    width: calc(9 * 32px);
+  }
+
+  [ui-box~=xs-height-9] {
+    height: calc(9 * 32px);
+  }
+
+  [ui-box~="xs-width-9%"] {
+    width: calc((9 / 16) * 100%);
+  }
+
+  [ui-box~=xs-width-9x] {
+    width: calc((9 / 16) * 100vw);
+  }
+
+  [ui-box~="xs-height-9%"] {
+    height: calc((9 / 16) * 100%);
+  }
+
+  [ui-box~=xs-height-9x] {
+    height: calc((9 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-9-min] {
+    min-width: calc(9 * 32px);
+  }
+
+  [ui-box~=xs-height-9-min] {
+    min-height: calc(9 * 32px);
+  }
+
+  [ui-box~=xs-width-9x-min] {
+    min-width: calc((9 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-9x-min] {
+    min-height: calc((9 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-9-max] {
+    max-width: calc(9 * 32px);
+  }
+
+  [ui-box~=xs-height-9-max] {
+    max-height: calc(9 * 32px);
+  }
+
+  [ui-box~=xs-width-9x-max] {
+    max-width: calc((9 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-9x-max] {
+    max-height: calc((9 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-larger)) {
+  [ui-box~=xl-square-9] {
+    width: calc(9 * 32px);
+    height: calc(9 * 32px);
+  }
+
+  [ui-box~=xl-width-9] {
+    width: calc(9 * 32px);
+  }
+
+  [ui-box~=xl-height-9] {
+    height: calc(9 * 32px);
+  }
+
+  [ui-box~="xl-width-9%"] {
+    width: calc((9 / 16) * 100%);
+  }
+
+  [ui-box~=xl-width-9x] {
+    width: calc((9 / 16) * 100vw);
+  }
+
+  [ui-box~="xl-height-9%"] {
+    height: calc((9 / 16) * 100%);
+  }
+
+  [ui-box~=xl-height-9x] {
+    height: calc((9 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-9-min] {
+    min-width: calc(9 * 32px);
+  }
+
+  [ui-box~=xl-height-9-min] {
+    min-height: calc(9 * 32px);
+  }
+
+  [ui-box~=xl-width-9x-min] {
+    min-width: calc((9 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-9x-min] {
+    min-height: calc((9 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-9-max] {
+    max-width: calc(9 * 32px);
+  }
+
+  [ui-box~=xl-height-9-max] {
+    max-height: calc(9 * 32px);
+  }
+
+  [ui-box~=xl-width-9x-max] {
+    max-width: calc((9 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-9x-max] {
+    max-height: calc((9 / 16) * 100vh);
+  }
+}
+[ui-box~=square-10] {
+  width: calc(10 * 32px);
+  height: calc(10 * 32px);
+}
+
+[ui-box~=width-10] {
+  width: calc(10 * 32px);
+}
+
+[ui-box~=height-10] {
+  height: calc(10 * 32px);
+}
+
+[ui-box~="width-10%"] {
+  width: calc((10 / 16) * 100%);
+}
+
+[ui-box~=width-10x] {
+  width: calc((10 / 16) * 100vw);
+}
+
+[ui-box~="height-10%"] {
+  height: calc((10 / 16) * 100%);
+}
+
+[ui-box~=height-10x] {
+  height: calc((10 / 16) * 100vh);
+}
+
+[ui-box~=width-10-min] {
+  min-width: calc(10 * 32px);
+}
+
+[ui-box~=height-10-min] {
+  min-height: calc(10 * 32px);
+}
+
+[ui-box~=width-10x-min] {
+  min-width: calc((10 / 16) * 100vw);
+}
+
+[ui-box~=height-10x-min] {
+  min-height: calc((10 / 16) * 100vh);
+}
+
+[ui-box~=width-10-max] {
+  max-width: calc(10 * 32px);
+}
+
+[ui-box~=height-10-max] {
+  max-height: calc(10 * 32px);
+}
+
+[ui-box~=width-10x-max] {
+  max-width: calc((10 / 16) * 100vw);
+}
+
+[ui-box~=height-10x-max] {
+  max-height: calc((10 / 16) * 100vh);
+}
+
+@media (max-width: var(--device-size-smaller)) {
+  [ui-box~=sl-square-10] {
+    width: calc(10 * 32px);
+    height: calc(10 * 32px);
+  }
+
+  [ui-box~=sl-width-10] {
+    width: calc(10 * 32px);
+  }
+
+  [ui-box~=sl-height-10] {
+    height: calc(10 * 32px);
+  }
+
+  [ui-box~="sl-width-10%"] {
+    width: calc((10 / 16) * 100%);
+  }
+
+  [ui-box~=sl-width-10x] {
+    width: calc((10 / 16) * 100vw);
+  }
+
+  [ui-box~="sl-height-10%"] {
+    height: calc((10 / 16) * 100%);
+  }
+
+  [ui-box~=sl-height-10x] {
+    height: calc((10 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-10-min] {
+    min-width: calc(10 * 32px);
+  }
+
+  [ui-box~=sl-height-10-min] {
+    min-height: calc(10 * 32px);
+  }
+
+  [ui-box~=sl-width-10x-min] {
+    min-width: calc((10 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-10x-min] {
+    min-height: calc((10 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-10-max] {
+    max-width: calc(10 * 32px);
+  }
+
+  [ui-box~=sl-height-10-max] {
+    max-height: calc(10 * 32px);
+  }
+
+  [ui-box~=sl-width-10x-max] {
+    max-width: calc((10 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-10x-max] {
+    max-height: calc((10 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-small)) {
+  [ui-box~=sm-square-10] {
+    width: calc(10 * 32px);
+    height: calc(10 * 32px);
+  }
+
+  [ui-box~=sm-width-10] {
+    width: calc(10 * 32px);
+  }
+
+  [ui-box~=sm-height-10] {
+    height: calc(10 * 32px);
+  }
+
+  [ui-box~="sm-width-10%"] {
+    width: calc((10 / 16) * 100%);
+  }
+
+  [ui-box~=sm-width-10x] {
+    width: calc((10 / 16) * 100vw);
+  }
+
+  [ui-box~="sm-height-10%"] {
+    height: calc((10 / 16) * 100%);
+  }
+
+  [ui-box~=sm-height-10x] {
+    height: calc((10 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-10-min] {
+    min-width: calc(10 * 32px);
+  }
+
+  [ui-box~=sm-height-10-min] {
+    min-height: calc(10 * 32px);
+  }
+
+  [ui-box~=sm-width-10x-min] {
+    min-width: calc((10 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-10x-min] {
+    min-height: calc((10 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-10-max] {
+    max-width: calc(10 * 32px);
+  }
+
+  [ui-box~=sm-height-10-max] {
+    max-height: calc(10 * 32px);
+  }
+
+  [ui-box~=sm-width-10x-max] {
+    max-width: calc((10 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-10x-max] {
+    max-height: calc((10 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-medium)) {
+  [ui-box~=md-square-10] {
+    width: calc(10 * 32px);
+    height: calc(10 * 32px);
+  }
+
+  [ui-box~=md-width-10] {
+    width: calc(10 * 32px);
+  }
+
+  [ui-box~=md-height-10] {
+    height: calc(10 * 32px);
+  }
+
+  [ui-box~="md-width-10%"] {
+    width: calc((10 / 16) * 100%);
+  }
+
+  [ui-box~=md-width-10x] {
+    width: calc((10 / 16) * 100vw);
+  }
+
+  [ui-box~="md-height-10%"] {
+    height: calc((10 / 16) * 100%);
+  }
+
+  [ui-box~=md-height-10x] {
+    height: calc((10 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-10-min] {
+    min-width: calc(10 * 32px);
+  }
+
+  [ui-box~=md-height-10-min] {
+    min-height: calc(10 * 32px);
+  }
+
+  [ui-box~=md-width-10x-min] {
+    min-width: calc((10 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-10x-min] {
+    min-height: calc((10 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-10-max] {
+    max-width: calc(10 * 32px);
+  }
+
+  [ui-box~=md-height-10-max] {
+    max-height: calc(10 * 32px);
+  }
+
+  [ui-box~=md-width-10x-max] {
+    max-width: calc((10 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-10x-max] {
+    max-height: calc((10 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-large)) {
+  [ui-box~=xs-square-10] {
+    width: calc(10 * 32px);
+    height: calc(10 * 32px);
+  }
+
+  [ui-box~=xs-width-10] {
+    width: calc(10 * 32px);
+  }
+
+  [ui-box~=xs-height-10] {
+    height: calc(10 * 32px);
+  }
+
+  [ui-box~="xs-width-10%"] {
+    width: calc((10 / 16) * 100%);
+  }
+
+  [ui-box~=xs-width-10x] {
+    width: calc((10 / 16) * 100vw);
+  }
+
+  [ui-box~="xs-height-10%"] {
+    height: calc((10 / 16) * 100%);
+  }
+
+  [ui-box~=xs-height-10x] {
+    height: calc((10 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-10-min] {
+    min-width: calc(10 * 32px);
+  }
+
+  [ui-box~=xs-height-10-min] {
+    min-height: calc(10 * 32px);
+  }
+
+  [ui-box~=xs-width-10x-min] {
+    min-width: calc((10 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-10x-min] {
+    min-height: calc((10 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-10-max] {
+    max-width: calc(10 * 32px);
+  }
+
+  [ui-box~=xs-height-10-max] {
+    max-height: calc(10 * 32px);
+  }
+
+  [ui-box~=xs-width-10x-max] {
+    max-width: calc((10 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-10x-max] {
+    max-height: calc((10 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-larger)) {
+  [ui-box~=xl-square-10] {
+    width: calc(10 * 32px);
+    height: calc(10 * 32px);
+  }
+
+  [ui-box~=xl-width-10] {
+    width: calc(10 * 32px);
+  }
+
+  [ui-box~=xl-height-10] {
+    height: calc(10 * 32px);
+  }
+
+  [ui-box~="xl-width-10%"] {
+    width: calc((10 / 16) * 100%);
+  }
+
+  [ui-box~=xl-width-10x] {
+    width: calc((10 / 16) * 100vw);
+  }
+
+  [ui-box~="xl-height-10%"] {
+    height: calc((10 / 16) * 100%);
+  }
+
+  [ui-box~=xl-height-10x] {
+    height: calc((10 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-10-min] {
+    min-width: calc(10 * 32px);
+  }
+
+  [ui-box~=xl-height-10-min] {
+    min-height: calc(10 * 32px);
+  }
+
+  [ui-box~=xl-width-10x-min] {
+    min-width: calc((10 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-10x-min] {
+    min-height: calc((10 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-10-max] {
+    max-width: calc(10 * 32px);
+  }
+
+  [ui-box~=xl-height-10-max] {
+    max-height: calc(10 * 32px);
+  }
+
+  [ui-box~=xl-width-10x-max] {
+    max-width: calc((10 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-10x-max] {
+    max-height: calc((10 / 16) * 100vh);
+  }
+}
+[ui-box~=square-11] {
+  width: calc(11 * 32px);
+  height: calc(11 * 32px);
+}
+
+[ui-box~=width-11] {
+  width: calc(11 * 32px);
+}
+
+[ui-box~=height-11] {
+  height: calc(11 * 32px);
+}
+
+[ui-box~="width-11%"] {
+  width: calc((11 / 16) * 100%);
+}
+
+[ui-box~=width-11x] {
+  width: calc((11 / 16) * 100vw);
+}
+
+[ui-box~="height-11%"] {
+  height: calc((11 / 16) * 100%);
+}
+
+[ui-box~=height-11x] {
+  height: calc((11 / 16) * 100vh);
+}
+
+[ui-box~=width-11-min] {
+  min-width: calc(11 * 32px);
+}
+
+[ui-box~=height-11-min] {
+  min-height: calc(11 * 32px);
+}
+
+[ui-box~=width-11x-min] {
+  min-width: calc((11 / 16) * 100vw);
+}
+
+[ui-box~=height-11x-min] {
+  min-height: calc((11 / 16) * 100vh);
+}
+
+[ui-box~=width-11-max] {
+  max-width: calc(11 * 32px);
+}
+
+[ui-box~=height-11-max] {
+  max-height: calc(11 * 32px);
+}
+
+[ui-box~=width-11x-max] {
+  max-width: calc((11 / 16) * 100vw);
+}
+
+[ui-box~=height-11x-max] {
+  max-height: calc((11 / 16) * 100vh);
+}
+
+@media (max-width: var(--device-size-smaller)) {
+  [ui-box~=sl-square-11] {
+    width: calc(11 * 32px);
+    height: calc(11 * 32px);
+  }
+
+  [ui-box~=sl-width-11] {
+    width: calc(11 * 32px);
+  }
+
+  [ui-box~=sl-height-11] {
+    height: calc(11 * 32px);
+  }
+
+  [ui-box~="sl-width-11%"] {
+    width: calc((11 / 16) * 100%);
+  }
+
+  [ui-box~=sl-width-11x] {
+    width: calc((11 / 16) * 100vw);
+  }
+
+  [ui-box~="sl-height-11%"] {
+    height: calc((11 / 16) * 100%);
+  }
+
+  [ui-box~=sl-height-11x] {
+    height: calc((11 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-11-min] {
+    min-width: calc(11 * 32px);
+  }
+
+  [ui-box~=sl-height-11-min] {
+    min-height: calc(11 * 32px);
+  }
+
+  [ui-box~=sl-width-11x-min] {
+    min-width: calc((11 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-11x-min] {
+    min-height: calc((11 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-11-max] {
+    max-width: calc(11 * 32px);
+  }
+
+  [ui-box~=sl-height-11-max] {
+    max-height: calc(11 * 32px);
+  }
+
+  [ui-box~=sl-width-11x-max] {
+    max-width: calc((11 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-11x-max] {
+    max-height: calc((11 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-small)) {
+  [ui-box~=sm-square-11] {
+    width: calc(11 * 32px);
+    height: calc(11 * 32px);
+  }
+
+  [ui-box~=sm-width-11] {
+    width: calc(11 * 32px);
+  }
+
+  [ui-box~=sm-height-11] {
+    height: calc(11 * 32px);
+  }
+
+  [ui-box~="sm-width-11%"] {
+    width: calc((11 / 16) * 100%);
+  }
+
+  [ui-box~=sm-width-11x] {
+    width: calc((11 / 16) * 100vw);
+  }
+
+  [ui-box~="sm-height-11%"] {
+    height: calc((11 / 16) * 100%);
+  }
+
+  [ui-box~=sm-height-11x] {
+    height: calc((11 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-11-min] {
+    min-width: calc(11 * 32px);
+  }
+
+  [ui-box~=sm-height-11-min] {
+    min-height: calc(11 * 32px);
+  }
+
+  [ui-box~=sm-width-11x-min] {
+    min-width: calc((11 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-11x-min] {
+    min-height: calc((11 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-11-max] {
+    max-width: calc(11 * 32px);
+  }
+
+  [ui-box~=sm-height-11-max] {
+    max-height: calc(11 * 32px);
+  }
+
+  [ui-box~=sm-width-11x-max] {
+    max-width: calc((11 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-11x-max] {
+    max-height: calc((11 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-medium)) {
+  [ui-box~=md-square-11] {
+    width: calc(11 * 32px);
+    height: calc(11 * 32px);
+  }
+
+  [ui-box~=md-width-11] {
+    width: calc(11 * 32px);
+  }
+
+  [ui-box~=md-height-11] {
+    height: calc(11 * 32px);
+  }
+
+  [ui-box~="md-width-11%"] {
+    width: calc((11 / 16) * 100%);
+  }
+
+  [ui-box~=md-width-11x] {
+    width: calc((11 / 16) * 100vw);
+  }
+
+  [ui-box~="md-height-11%"] {
+    height: calc((11 / 16) * 100%);
+  }
+
+  [ui-box~=md-height-11x] {
+    height: calc((11 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-11-min] {
+    min-width: calc(11 * 32px);
+  }
+
+  [ui-box~=md-height-11-min] {
+    min-height: calc(11 * 32px);
+  }
+
+  [ui-box~=md-width-11x-min] {
+    min-width: calc((11 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-11x-min] {
+    min-height: calc((11 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-11-max] {
+    max-width: calc(11 * 32px);
+  }
+
+  [ui-box~=md-height-11-max] {
+    max-height: calc(11 * 32px);
+  }
+
+  [ui-box~=md-width-11x-max] {
+    max-width: calc((11 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-11x-max] {
+    max-height: calc((11 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-large)) {
+  [ui-box~=xs-square-11] {
+    width: calc(11 * 32px);
+    height: calc(11 * 32px);
+  }
+
+  [ui-box~=xs-width-11] {
+    width: calc(11 * 32px);
+  }
+
+  [ui-box~=xs-height-11] {
+    height: calc(11 * 32px);
+  }
+
+  [ui-box~="xs-width-11%"] {
+    width: calc((11 / 16) * 100%);
+  }
+
+  [ui-box~=xs-width-11x] {
+    width: calc((11 / 16) * 100vw);
+  }
+
+  [ui-box~="xs-height-11%"] {
+    height: calc((11 / 16) * 100%);
+  }
+
+  [ui-box~=xs-height-11x] {
+    height: calc((11 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-11-min] {
+    min-width: calc(11 * 32px);
+  }
+
+  [ui-box~=xs-height-11-min] {
+    min-height: calc(11 * 32px);
+  }
+
+  [ui-box~=xs-width-11x-min] {
+    min-width: calc((11 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-11x-min] {
+    min-height: calc((11 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-11-max] {
+    max-width: calc(11 * 32px);
+  }
+
+  [ui-box~=xs-height-11-max] {
+    max-height: calc(11 * 32px);
+  }
+
+  [ui-box~=xs-width-11x-max] {
+    max-width: calc((11 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-11x-max] {
+    max-height: calc((11 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-larger)) {
+  [ui-box~=xl-square-11] {
+    width: calc(11 * 32px);
+    height: calc(11 * 32px);
+  }
+
+  [ui-box~=xl-width-11] {
+    width: calc(11 * 32px);
+  }
+
+  [ui-box~=xl-height-11] {
+    height: calc(11 * 32px);
+  }
+
+  [ui-box~="xl-width-11%"] {
+    width: calc((11 / 16) * 100%);
+  }
+
+  [ui-box~=xl-width-11x] {
+    width: calc((11 / 16) * 100vw);
+  }
+
+  [ui-box~="xl-height-11%"] {
+    height: calc((11 / 16) * 100%);
+  }
+
+  [ui-box~=xl-height-11x] {
+    height: calc((11 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-11-min] {
+    min-width: calc(11 * 32px);
+  }
+
+  [ui-box~=xl-height-11-min] {
+    min-height: calc(11 * 32px);
+  }
+
+  [ui-box~=xl-width-11x-min] {
+    min-width: calc((11 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-11x-min] {
+    min-height: calc((11 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-11-max] {
+    max-width: calc(11 * 32px);
+  }
+
+  [ui-box~=xl-height-11-max] {
+    max-height: calc(11 * 32px);
+  }
+
+  [ui-box~=xl-width-11x-max] {
+    max-width: calc((11 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-11x-max] {
+    max-height: calc((11 / 16) * 100vh);
+  }
+}
+[ui-box~=square-12] {
+  width: calc(12 * 32px);
+  height: calc(12 * 32px);
+}
+
+[ui-box~=width-12] {
+  width: calc(12 * 32px);
+}
+
+[ui-box~=height-12] {
+  height: calc(12 * 32px);
+}
+
+[ui-box~="width-12%"] {
+  width: calc((12 / 16) * 100%);
+}
+
+[ui-box~=width-12x] {
+  width: calc((12 / 16) * 100vw);
+}
+
+[ui-box~="height-12%"] {
+  height: calc((12 / 16) * 100%);
+}
+
+[ui-box~=height-12x] {
+  height: calc((12 / 16) * 100vh);
+}
+
+[ui-box~=width-12-min] {
+  min-width: calc(12 * 32px);
+}
+
+[ui-box~=height-12-min] {
+  min-height: calc(12 * 32px);
+}
+
+[ui-box~=width-12x-min] {
+  min-width: calc((12 / 16) * 100vw);
+}
+
+[ui-box~=height-12x-min] {
+  min-height: calc((12 / 16) * 100vh);
+}
+
+[ui-box~=width-12-max] {
+  max-width: calc(12 * 32px);
+}
+
+[ui-box~=height-12-max] {
+  max-height: calc(12 * 32px);
+}
+
+[ui-box~=width-12x-max] {
+  max-width: calc((12 / 16) * 100vw);
+}
+
+[ui-box~=height-12x-max] {
+  max-height: calc((12 / 16) * 100vh);
+}
+
+@media (max-width: var(--device-size-smaller)) {
+  [ui-box~=sl-square-12] {
+    width: calc(12 * 32px);
+    height: calc(12 * 32px);
+  }
+
+  [ui-box~=sl-width-12] {
+    width: calc(12 * 32px);
+  }
+
+  [ui-box~=sl-height-12] {
+    height: calc(12 * 32px);
+  }
+
+  [ui-box~="sl-width-12%"] {
+    width: calc((12 / 16) * 100%);
+  }
+
+  [ui-box~=sl-width-12x] {
+    width: calc((12 / 16) * 100vw);
+  }
+
+  [ui-box~="sl-height-12%"] {
+    height: calc((12 / 16) * 100%);
+  }
+
+  [ui-box~=sl-height-12x] {
+    height: calc((12 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-12-min] {
+    min-width: calc(12 * 32px);
+  }
+
+  [ui-box~=sl-height-12-min] {
+    min-height: calc(12 * 32px);
+  }
+
+  [ui-box~=sl-width-12x-min] {
+    min-width: calc((12 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-12x-min] {
+    min-height: calc((12 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-12-max] {
+    max-width: calc(12 * 32px);
+  }
+
+  [ui-box~=sl-height-12-max] {
+    max-height: calc(12 * 32px);
+  }
+
+  [ui-box~=sl-width-12x-max] {
+    max-width: calc((12 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-12x-max] {
+    max-height: calc((12 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-small)) {
+  [ui-box~=sm-square-12] {
+    width: calc(12 * 32px);
+    height: calc(12 * 32px);
+  }
+
+  [ui-box~=sm-width-12] {
+    width: calc(12 * 32px);
+  }
+
+  [ui-box~=sm-height-12] {
+    height: calc(12 * 32px);
+  }
+
+  [ui-box~="sm-width-12%"] {
+    width: calc((12 / 16) * 100%);
+  }
+
+  [ui-box~=sm-width-12x] {
+    width: calc((12 / 16) * 100vw);
+  }
+
+  [ui-box~="sm-height-12%"] {
+    height: calc((12 / 16) * 100%);
+  }
+
+  [ui-box~=sm-height-12x] {
+    height: calc((12 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-12-min] {
+    min-width: calc(12 * 32px);
+  }
+
+  [ui-box~=sm-height-12-min] {
+    min-height: calc(12 * 32px);
+  }
+
+  [ui-box~=sm-width-12x-min] {
+    min-width: calc((12 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-12x-min] {
+    min-height: calc((12 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-12-max] {
+    max-width: calc(12 * 32px);
+  }
+
+  [ui-box~=sm-height-12-max] {
+    max-height: calc(12 * 32px);
+  }
+
+  [ui-box~=sm-width-12x-max] {
+    max-width: calc((12 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-12x-max] {
+    max-height: calc((12 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-medium)) {
+  [ui-box~=md-square-12] {
+    width: calc(12 * 32px);
+    height: calc(12 * 32px);
+  }
+
+  [ui-box~=md-width-12] {
+    width: calc(12 * 32px);
+  }
+
+  [ui-box~=md-height-12] {
+    height: calc(12 * 32px);
+  }
+
+  [ui-box~="md-width-12%"] {
+    width: calc((12 / 16) * 100%);
+  }
+
+  [ui-box~=md-width-12x] {
+    width: calc((12 / 16) * 100vw);
+  }
+
+  [ui-box~="md-height-12%"] {
+    height: calc((12 / 16) * 100%);
+  }
+
+  [ui-box~=md-height-12x] {
+    height: calc((12 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-12-min] {
+    min-width: calc(12 * 32px);
+  }
+
+  [ui-box~=md-height-12-min] {
+    min-height: calc(12 * 32px);
+  }
+
+  [ui-box~=md-width-12x-min] {
+    min-width: calc((12 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-12x-min] {
+    min-height: calc((12 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-12-max] {
+    max-width: calc(12 * 32px);
+  }
+
+  [ui-box~=md-height-12-max] {
+    max-height: calc(12 * 32px);
+  }
+
+  [ui-box~=md-width-12x-max] {
+    max-width: calc((12 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-12x-max] {
+    max-height: calc((12 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-large)) {
+  [ui-box~=xs-square-12] {
+    width: calc(12 * 32px);
+    height: calc(12 * 32px);
+  }
+
+  [ui-box~=xs-width-12] {
+    width: calc(12 * 32px);
+  }
+
+  [ui-box~=xs-height-12] {
+    height: calc(12 * 32px);
+  }
+
+  [ui-box~="xs-width-12%"] {
+    width: calc((12 / 16) * 100%);
+  }
+
+  [ui-box~=xs-width-12x] {
+    width: calc((12 / 16) * 100vw);
+  }
+
+  [ui-box~="xs-height-12%"] {
+    height: calc((12 / 16) * 100%);
+  }
+
+  [ui-box~=xs-height-12x] {
+    height: calc((12 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-12-min] {
+    min-width: calc(12 * 32px);
+  }
+
+  [ui-box~=xs-height-12-min] {
+    min-height: calc(12 * 32px);
+  }
+
+  [ui-box~=xs-width-12x-min] {
+    min-width: calc((12 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-12x-min] {
+    min-height: calc((12 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-12-max] {
+    max-width: calc(12 * 32px);
+  }
+
+  [ui-box~=xs-height-12-max] {
+    max-height: calc(12 * 32px);
+  }
+
+  [ui-box~=xs-width-12x-max] {
+    max-width: calc((12 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-12x-max] {
+    max-height: calc((12 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-larger)) {
+  [ui-box~=xl-square-12] {
+    width: calc(12 * 32px);
+    height: calc(12 * 32px);
+  }
+
+  [ui-box~=xl-width-12] {
+    width: calc(12 * 32px);
+  }
+
+  [ui-box~=xl-height-12] {
+    height: calc(12 * 32px);
+  }
+
+  [ui-box~="xl-width-12%"] {
+    width: calc((12 / 16) * 100%);
+  }
+
+  [ui-box~=xl-width-12x] {
+    width: calc((12 / 16) * 100vw);
+  }
+
+  [ui-box~="xl-height-12%"] {
+    height: calc((12 / 16) * 100%);
+  }
+
+  [ui-box~=xl-height-12x] {
+    height: calc((12 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-12-min] {
+    min-width: calc(12 * 32px);
+  }
+
+  [ui-box~=xl-height-12-min] {
+    min-height: calc(12 * 32px);
+  }
+
+  [ui-box~=xl-width-12x-min] {
+    min-width: calc((12 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-12x-min] {
+    min-height: calc((12 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-12-max] {
+    max-width: calc(12 * 32px);
+  }
+
+  [ui-box~=xl-height-12-max] {
+    max-height: calc(12 * 32px);
+  }
+
+  [ui-box~=xl-width-12x-max] {
+    max-width: calc((12 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-12x-max] {
+    max-height: calc((12 / 16) * 100vh);
+  }
+}
+[ui-box~=square-13] {
+  width: calc(13 * 32px);
+  height: calc(13 * 32px);
+}
+
+[ui-box~=width-13] {
+  width: calc(13 * 32px);
+}
+
+[ui-box~=height-13] {
+  height: calc(13 * 32px);
+}
+
+[ui-box~="width-13%"] {
+  width: calc((13 / 16) * 100%);
+}
+
+[ui-box~=width-13x] {
+  width: calc((13 / 16) * 100vw);
+}
+
+[ui-box~="height-13%"] {
+  height: calc((13 / 16) * 100%);
+}
+
+[ui-box~=height-13x] {
+  height: calc((13 / 16) * 100vh);
+}
+
+[ui-box~=width-13-min] {
+  min-width: calc(13 * 32px);
+}
+
+[ui-box~=height-13-min] {
+  min-height: calc(13 * 32px);
+}
+
+[ui-box~=width-13x-min] {
+  min-width: calc((13 / 16) * 100vw);
+}
+
+[ui-box~=height-13x-min] {
+  min-height: calc((13 / 16) * 100vh);
+}
+
+[ui-box~=width-13-max] {
+  max-width: calc(13 * 32px);
+}
+
+[ui-box~=height-13-max] {
+  max-height: calc(13 * 32px);
+}
+
+[ui-box~=width-13x-max] {
+  max-width: calc((13 / 16) * 100vw);
+}
+
+[ui-box~=height-13x-max] {
+  max-height: calc((13 / 16) * 100vh);
+}
+
+@media (max-width: var(--device-size-smaller)) {
+  [ui-box~=sl-square-13] {
+    width: calc(13 * 32px);
+    height: calc(13 * 32px);
+  }
+
+  [ui-box~=sl-width-13] {
+    width: calc(13 * 32px);
+  }
+
+  [ui-box~=sl-height-13] {
+    height: calc(13 * 32px);
+  }
+
+  [ui-box~="sl-width-13%"] {
+    width: calc((13 / 16) * 100%);
+  }
+
+  [ui-box~=sl-width-13x] {
+    width: calc((13 / 16) * 100vw);
+  }
+
+  [ui-box~="sl-height-13%"] {
+    height: calc((13 / 16) * 100%);
+  }
+
+  [ui-box~=sl-height-13x] {
+    height: calc((13 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-13-min] {
+    min-width: calc(13 * 32px);
+  }
+
+  [ui-box~=sl-height-13-min] {
+    min-height: calc(13 * 32px);
+  }
+
+  [ui-box~=sl-width-13x-min] {
+    min-width: calc((13 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-13x-min] {
+    min-height: calc((13 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-13-max] {
+    max-width: calc(13 * 32px);
+  }
+
+  [ui-box~=sl-height-13-max] {
+    max-height: calc(13 * 32px);
+  }
+
+  [ui-box~=sl-width-13x-max] {
+    max-width: calc((13 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-13x-max] {
+    max-height: calc((13 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-small)) {
+  [ui-box~=sm-square-13] {
+    width: calc(13 * 32px);
+    height: calc(13 * 32px);
+  }
+
+  [ui-box~=sm-width-13] {
+    width: calc(13 * 32px);
+  }
+
+  [ui-box~=sm-height-13] {
+    height: calc(13 * 32px);
+  }
+
+  [ui-box~="sm-width-13%"] {
+    width: calc((13 / 16) * 100%);
+  }
+
+  [ui-box~=sm-width-13x] {
+    width: calc((13 / 16) * 100vw);
+  }
+
+  [ui-box~="sm-height-13%"] {
+    height: calc((13 / 16) * 100%);
+  }
+
+  [ui-box~=sm-height-13x] {
+    height: calc((13 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-13-min] {
+    min-width: calc(13 * 32px);
+  }
+
+  [ui-box~=sm-height-13-min] {
+    min-height: calc(13 * 32px);
+  }
+
+  [ui-box~=sm-width-13x-min] {
+    min-width: calc((13 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-13x-min] {
+    min-height: calc((13 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-13-max] {
+    max-width: calc(13 * 32px);
+  }
+
+  [ui-box~=sm-height-13-max] {
+    max-height: calc(13 * 32px);
+  }
+
+  [ui-box~=sm-width-13x-max] {
+    max-width: calc((13 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-13x-max] {
+    max-height: calc((13 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-medium)) {
+  [ui-box~=md-square-13] {
+    width: calc(13 * 32px);
+    height: calc(13 * 32px);
+  }
+
+  [ui-box~=md-width-13] {
+    width: calc(13 * 32px);
+  }
+
+  [ui-box~=md-height-13] {
+    height: calc(13 * 32px);
+  }
+
+  [ui-box~="md-width-13%"] {
+    width: calc((13 / 16) * 100%);
+  }
+
+  [ui-box~=md-width-13x] {
+    width: calc((13 / 16) * 100vw);
+  }
+
+  [ui-box~="md-height-13%"] {
+    height: calc((13 / 16) * 100%);
+  }
+
+  [ui-box~=md-height-13x] {
+    height: calc((13 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-13-min] {
+    min-width: calc(13 * 32px);
+  }
+
+  [ui-box~=md-height-13-min] {
+    min-height: calc(13 * 32px);
+  }
+
+  [ui-box~=md-width-13x-min] {
+    min-width: calc((13 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-13x-min] {
+    min-height: calc((13 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-13-max] {
+    max-width: calc(13 * 32px);
+  }
+
+  [ui-box~=md-height-13-max] {
+    max-height: calc(13 * 32px);
+  }
+
+  [ui-box~=md-width-13x-max] {
+    max-width: calc((13 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-13x-max] {
+    max-height: calc((13 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-large)) {
+  [ui-box~=xs-square-13] {
+    width: calc(13 * 32px);
+    height: calc(13 * 32px);
+  }
+
+  [ui-box~=xs-width-13] {
+    width: calc(13 * 32px);
+  }
+
+  [ui-box~=xs-height-13] {
+    height: calc(13 * 32px);
+  }
+
+  [ui-box~="xs-width-13%"] {
+    width: calc((13 / 16) * 100%);
+  }
+
+  [ui-box~=xs-width-13x] {
+    width: calc((13 / 16) * 100vw);
+  }
+
+  [ui-box~="xs-height-13%"] {
+    height: calc((13 / 16) * 100%);
+  }
+
+  [ui-box~=xs-height-13x] {
+    height: calc((13 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-13-min] {
+    min-width: calc(13 * 32px);
+  }
+
+  [ui-box~=xs-height-13-min] {
+    min-height: calc(13 * 32px);
+  }
+
+  [ui-box~=xs-width-13x-min] {
+    min-width: calc((13 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-13x-min] {
+    min-height: calc((13 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-13-max] {
+    max-width: calc(13 * 32px);
+  }
+
+  [ui-box~=xs-height-13-max] {
+    max-height: calc(13 * 32px);
+  }
+
+  [ui-box~=xs-width-13x-max] {
+    max-width: calc((13 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-13x-max] {
+    max-height: calc((13 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-larger)) {
+  [ui-box~=xl-square-13] {
+    width: calc(13 * 32px);
+    height: calc(13 * 32px);
+  }
+
+  [ui-box~=xl-width-13] {
+    width: calc(13 * 32px);
+  }
+
+  [ui-box~=xl-height-13] {
+    height: calc(13 * 32px);
+  }
+
+  [ui-box~="xl-width-13%"] {
+    width: calc((13 / 16) * 100%);
+  }
+
+  [ui-box~=xl-width-13x] {
+    width: calc((13 / 16) * 100vw);
+  }
+
+  [ui-box~="xl-height-13%"] {
+    height: calc((13 / 16) * 100%);
+  }
+
+  [ui-box~=xl-height-13x] {
+    height: calc((13 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-13-min] {
+    min-width: calc(13 * 32px);
+  }
+
+  [ui-box~=xl-height-13-min] {
+    min-height: calc(13 * 32px);
+  }
+
+  [ui-box~=xl-width-13x-min] {
+    min-width: calc((13 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-13x-min] {
+    min-height: calc((13 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-13-max] {
+    max-width: calc(13 * 32px);
+  }
+
+  [ui-box~=xl-height-13-max] {
+    max-height: calc(13 * 32px);
+  }
+
+  [ui-box~=xl-width-13x-max] {
+    max-width: calc((13 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-13x-max] {
+    max-height: calc((13 / 16) * 100vh);
+  }
+}
+[ui-box~=square-14] {
+  width: calc(14 * 32px);
+  height: calc(14 * 32px);
+}
+
+[ui-box~=width-14] {
+  width: calc(14 * 32px);
+}
+
+[ui-box~=height-14] {
+  height: calc(14 * 32px);
+}
+
+[ui-box~="width-14%"] {
+  width: calc((14 / 16) * 100%);
+}
+
+[ui-box~=width-14x] {
+  width: calc((14 / 16) * 100vw);
+}
+
+[ui-box~="height-14%"] {
+  height: calc((14 / 16) * 100%);
+}
+
+[ui-box~=height-14x] {
+  height: calc((14 / 16) * 100vh);
+}
+
+[ui-box~=width-14-min] {
+  min-width: calc(14 * 32px);
+}
+
+[ui-box~=height-14-min] {
+  min-height: calc(14 * 32px);
+}
+
+[ui-box~=width-14x-min] {
+  min-width: calc((14 / 16) * 100vw);
+}
+
+[ui-box~=height-14x-min] {
+  min-height: calc((14 / 16) * 100vh);
+}
+
+[ui-box~=width-14-max] {
+  max-width: calc(14 * 32px);
+}
+
+[ui-box~=height-14-max] {
+  max-height: calc(14 * 32px);
+}
+
+[ui-box~=width-14x-max] {
+  max-width: calc((14 / 16) * 100vw);
+}
+
+[ui-box~=height-14x-max] {
+  max-height: calc((14 / 16) * 100vh);
+}
+
+@media (max-width: var(--device-size-smaller)) {
+  [ui-box~=sl-square-14] {
+    width: calc(14 * 32px);
+    height: calc(14 * 32px);
+  }
+
+  [ui-box~=sl-width-14] {
+    width: calc(14 * 32px);
+  }
+
+  [ui-box~=sl-height-14] {
+    height: calc(14 * 32px);
+  }
+
+  [ui-box~="sl-width-14%"] {
+    width: calc((14 / 16) * 100%);
+  }
+
+  [ui-box~=sl-width-14x] {
+    width: calc((14 / 16) * 100vw);
+  }
+
+  [ui-box~="sl-height-14%"] {
+    height: calc((14 / 16) * 100%);
+  }
+
+  [ui-box~=sl-height-14x] {
+    height: calc((14 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-14-min] {
+    min-width: calc(14 * 32px);
+  }
+
+  [ui-box~=sl-height-14-min] {
+    min-height: calc(14 * 32px);
+  }
+
+  [ui-box~=sl-width-14x-min] {
+    min-width: calc((14 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-14x-min] {
+    min-height: calc((14 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-14-max] {
+    max-width: calc(14 * 32px);
+  }
+
+  [ui-box~=sl-height-14-max] {
+    max-height: calc(14 * 32px);
+  }
+
+  [ui-box~=sl-width-14x-max] {
+    max-width: calc((14 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-14x-max] {
+    max-height: calc((14 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-small)) {
+  [ui-box~=sm-square-14] {
+    width: calc(14 * 32px);
+    height: calc(14 * 32px);
+  }
+
+  [ui-box~=sm-width-14] {
+    width: calc(14 * 32px);
+  }
+
+  [ui-box~=sm-height-14] {
+    height: calc(14 * 32px);
+  }
+
+  [ui-box~="sm-width-14%"] {
+    width: calc((14 / 16) * 100%);
+  }
+
+  [ui-box~=sm-width-14x] {
+    width: calc((14 / 16) * 100vw);
+  }
+
+  [ui-box~="sm-height-14%"] {
+    height: calc((14 / 16) * 100%);
+  }
+
+  [ui-box~=sm-height-14x] {
+    height: calc((14 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-14-min] {
+    min-width: calc(14 * 32px);
+  }
+
+  [ui-box~=sm-height-14-min] {
+    min-height: calc(14 * 32px);
+  }
+
+  [ui-box~=sm-width-14x-min] {
+    min-width: calc((14 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-14x-min] {
+    min-height: calc((14 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-14-max] {
+    max-width: calc(14 * 32px);
+  }
+
+  [ui-box~=sm-height-14-max] {
+    max-height: calc(14 * 32px);
+  }
+
+  [ui-box~=sm-width-14x-max] {
+    max-width: calc((14 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-14x-max] {
+    max-height: calc((14 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-medium)) {
+  [ui-box~=md-square-14] {
+    width: calc(14 * 32px);
+    height: calc(14 * 32px);
+  }
+
+  [ui-box~=md-width-14] {
+    width: calc(14 * 32px);
+  }
+
+  [ui-box~=md-height-14] {
+    height: calc(14 * 32px);
+  }
+
+  [ui-box~="md-width-14%"] {
+    width: calc((14 / 16) * 100%);
+  }
+
+  [ui-box~=md-width-14x] {
+    width: calc((14 / 16) * 100vw);
+  }
+
+  [ui-box~="md-height-14%"] {
+    height: calc((14 / 16) * 100%);
+  }
+
+  [ui-box~=md-height-14x] {
+    height: calc((14 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-14-min] {
+    min-width: calc(14 * 32px);
+  }
+
+  [ui-box~=md-height-14-min] {
+    min-height: calc(14 * 32px);
+  }
+
+  [ui-box~=md-width-14x-min] {
+    min-width: calc((14 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-14x-min] {
+    min-height: calc((14 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-14-max] {
+    max-width: calc(14 * 32px);
+  }
+
+  [ui-box~=md-height-14-max] {
+    max-height: calc(14 * 32px);
+  }
+
+  [ui-box~=md-width-14x-max] {
+    max-width: calc((14 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-14x-max] {
+    max-height: calc((14 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-large)) {
+  [ui-box~=xs-square-14] {
+    width: calc(14 * 32px);
+    height: calc(14 * 32px);
+  }
+
+  [ui-box~=xs-width-14] {
+    width: calc(14 * 32px);
+  }
+
+  [ui-box~=xs-height-14] {
+    height: calc(14 * 32px);
+  }
+
+  [ui-box~="xs-width-14%"] {
+    width: calc((14 / 16) * 100%);
+  }
+
+  [ui-box~=xs-width-14x] {
+    width: calc((14 / 16) * 100vw);
+  }
+
+  [ui-box~="xs-height-14%"] {
+    height: calc((14 / 16) * 100%);
+  }
+
+  [ui-box~=xs-height-14x] {
+    height: calc((14 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-14-min] {
+    min-width: calc(14 * 32px);
+  }
+
+  [ui-box~=xs-height-14-min] {
+    min-height: calc(14 * 32px);
+  }
+
+  [ui-box~=xs-width-14x-min] {
+    min-width: calc((14 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-14x-min] {
+    min-height: calc((14 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-14-max] {
+    max-width: calc(14 * 32px);
+  }
+
+  [ui-box~=xs-height-14-max] {
+    max-height: calc(14 * 32px);
+  }
+
+  [ui-box~=xs-width-14x-max] {
+    max-width: calc((14 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-14x-max] {
+    max-height: calc((14 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-larger)) {
+  [ui-box~=xl-square-14] {
+    width: calc(14 * 32px);
+    height: calc(14 * 32px);
+  }
+
+  [ui-box~=xl-width-14] {
+    width: calc(14 * 32px);
+  }
+
+  [ui-box~=xl-height-14] {
+    height: calc(14 * 32px);
+  }
+
+  [ui-box~="xl-width-14%"] {
+    width: calc((14 / 16) * 100%);
+  }
+
+  [ui-box~=xl-width-14x] {
+    width: calc((14 / 16) * 100vw);
+  }
+
+  [ui-box~="xl-height-14%"] {
+    height: calc((14 / 16) * 100%);
+  }
+
+  [ui-box~=xl-height-14x] {
+    height: calc((14 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-14-min] {
+    min-width: calc(14 * 32px);
+  }
+
+  [ui-box~=xl-height-14-min] {
+    min-height: calc(14 * 32px);
+  }
+
+  [ui-box~=xl-width-14x-min] {
+    min-width: calc((14 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-14x-min] {
+    min-height: calc((14 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-14-max] {
+    max-width: calc(14 * 32px);
+  }
+
+  [ui-box~=xl-height-14-max] {
+    max-height: calc(14 * 32px);
+  }
+
+  [ui-box~=xl-width-14x-max] {
+    max-width: calc((14 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-14x-max] {
+    max-height: calc((14 / 16) * 100vh);
+  }
+}
+[ui-box~=square-15] {
+  width: calc(15 * 32px);
+  height: calc(15 * 32px);
+}
+
+[ui-box~=width-15] {
+  width: calc(15 * 32px);
+}
+
+[ui-box~=height-15] {
+  height: calc(15 * 32px);
+}
+
+[ui-box~="width-15%"] {
+  width: calc((15 / 16) * 100%);
+}
+
+[ui-box~=width-15x] {
+  width: calc((15 / 16) * 100vw);
+}
+
+[ui-box~="height-15%"] {
+  height: calc((15 / 16) * 100%);
+}
+
+[ui-box~=height-15x] {
+  height: calc((15 / 16) * 100vh);
+}
+
+[ui-box~=width-15-min] {
+  min-width: calc(15 * 32px);
+}
+
+[ui-box~=height-15-min] {
+  min-height: calc(15 * 32px);
+}
+
+[ui-box~=width-15x-min] {
+  min-width: calc((15 / 16) * 100vw);
+}
+
+[ui-box~=height-15x-min] {
+  min-height: calc((15 / 16) * 100vh);
+}
+
+[ui-box~=width-15-max] {
+  max-width: calc(15 * 32px);
+}
+
+[ui-box~=height-15-max] {
+  max-height: calc(15 * 32px);
+}
+
+[ui-box~=width-15x-max] {
+  max-width: calc((15 / 16) * 100vw);
+}
+
+[ui-box~=height-15x-max] {
+  max-height: calc((15 / 16) * 100vh);
+}
+
+@media (max-width: var(--device-size-smaller)) {
+  [ui-box~=sl-square-15] {
+    width: calc(15 * 32px);
+    height: calc(15 * 32px);
+  }
+
+  [ui-box~=sl-width-15] {
+    width: calc(15 * 32px);
+  }
+
+  [ui-box~=sl-height-15] {
+    height: calc(15 * 32px);
+  }
+
+  [ui-box~="sl-width-15%"] {
+    width: calc((15 / 16) * 100%);
+  }
+
+  [ui-box~=sl-width-15x] {
+    width: calc((15 / 16) * 100vw);
+  }
+
+  [ui-box~="sl-height-15%"] {
+    height: calc((15 / 16) * 100%);
+  }
+
+  [ui-box~=sl-height-15x] {
+    height: calc((15 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-15-min] {
+    min-width: calc(15 * 32px);
+  }
+
+  [ui-box~=sl-height-15-min] {
+    min-height: calc(15 * 32px);
+  }
+
+  [ui-box~=sl-width-15x-min] {
+    min-width: calc((15 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-15x-min] {
+    min-height: calc((15 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-15-max] {
+    max-width: calc(15 * 32px);
+  }
+
+  [ui-box~=sl-height-15-max] {
+    max-height: calc(15 * 32px);
+  }
+
+  [ui-box~=sl-width-15x-max] {
+    max-width: calc((15 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-15x-max] {
+    max-height: calc((15 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-small)) {
+  [ui-box~=sm-square-15] {
+    width: calc(15 * 32px);
+    height: calc(15 * 32px);
+  }
+
+  [ui-box~=sm-width-15] {
+    width: calc(15 * 32px);
+  }
+
+  [ui-box~=sm-height-15] {
+    height: calc(15 * 32px);
+  }
+
+  [ui-box~="sm-width-15%"] {
+    width: calc((15 / 16) * 100%);
+  }
+
+  [ui-box~=sm-width-15x] {
+    width: calc((15 / 16) * 100vw);
+  }
+
+  [ui-box~="sm-height-15%"] {
+    height: calc((15 / 16) * 100%);
+  }
+
+  [ui-box~=sm-height-15x] {
+    height: calc((15 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-15-min] {
+    min-width: calc(15 * 32px);
+  }
+
+  [ui-box~=sm-height-15-min] {
+    min-height: calc(15 * 32px);
+  }
+
+  [ui-box~=sm-width-15x-min] {
+    min-width: calc((15 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-15x-min] {
+    min-height: calc((15 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-15-max] {
+    max-width: calc(15 * 32px);
+  }
+
+  [ui-box~=sm-height-15-max] {
+    max-height: calc(15 * 32px);
+  }
+
+  [ui-box~=sm-width-15x-max] {
+    max-width: calc((15 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-15x-max] {
+    max-height: calc((15 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-medium)) {
+  [ui-box~=md-square-15] {
+    width: calc(15 * 32px);
+    height: calc(15 * 32px);
+  }
+
+  [ui-box~=md-width-15] {
+    width: calc(15 * 32px);
+  }
+
+  [ui-box~=md-height-15] {
+    height: calc(15 * 32px);
+  }
+
+  [ui-box~="md-width-15%"] {
+    width: calc((15 / 16) * 100%);
+  }
+
+  [ui-box~=md-width-15x] {
+    width: calc((15 / 16) * 100vw);
+  }
+
+  [ui-box~="md-height-15%"] {
+    height: calc((15 / 16) * 100%);
+  }
+
+  [ui-box~=md-height-15x] {
+    height: calc((15 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-15-min] {
+    min-width: calc(15 * 32px);
+  }
+
+  [ui-box~=md-height-15-min] {
+    min-height: calc(15 * 32px);
+  }
+
+  [ui-box~=md-width-15x-min] {
+    min-width: calc((15 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-15x-min] {
+    min-height: calc((15 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-15-max] {
+    max-width: calc(15 * 32px);
+  }
+
+  [ui-box~=md-height-15-max] {
+    max-height: calc(15 * 32px);
+  }
+
+  [ui-box~=md-width-15x-max] {
+    max-width: calc((15 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-15x-max] {
+    max-height: calc((15 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-large)) {
+  [ui-box~=xs-square-15] {
+    width: calc(15 * 32px);
+    height: calc(15 * 32px);
+  }
+
+  [ui-box~=xs-width-15] {
+    width: calc(15 * 32px);
+  }
+
+  [ui-box~=xs-height-15] {
+    height: calc(15 * 32px);
+  }
+
+  [ui-box~="xs-width-15%"] {
+    width: calc((15 / 16) * 100%);
+  }
+
+  [ui-box~=xs-width-15x] {
+    width: calc((15 / 16) * 100vw);
+  }
+
+  [ui-box~="xs-height-15%"] {
+    height: calc((15 / 16) * 100%);
+  }
+
+  [ui-box~=xs-height-15x] {
+    height: calc((15 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-15-min] {
+    min-width: calc(15 * 32px);
+  }
+
+  [ui-box~=xs-height-15-min] {
+    min-height: calc(15 * 32px);
+  }
+
+  [ui-box~=xs-width-15x-min] {
+    min-width: calc((15 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-15x-min] {
+    min-height: calc((15 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-15-max] {
+    max-width: calc(15 * 32px);
+  }
+
+  [ui-box~=xs-height-15-max] {
+    max-height: calc(15 * 32px);
+  }
+
+  [ui-box~=xs-width-15x-max] {
+    max-width: calc((15 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-15x-max] {
+    max-height: calc((15 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-larger)) {
+  [ui-box~=xl-square-15] {
+    width: calc(15 * 32px);
+    height: calc(15 * 32px);
+  }
+
+  [ui-box~=xl-width-15] {
+    width: calc(15 * 32px);
+  }
+
+  [ui-box~=xl-height-15] {
+    height: calc(15 * 32px);
+  }
+
+  [ui-box~="xl-width-15%"] {
+    width: calc((15 / 16) * 100%);
+  }
+
+  [ui-box~=xl-width-15x] {
+    width: calc((15 / 16) * 100vw);
+  }
+
+  [ui-box~="xl-height-15%"] {
+    height: calc((15 / 16) * 100%);
+  }
+
+  [ui-box~=xl-height-15x] {
+    height: calc((15 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-15-min] {
+    min-width: calc(15 * 32px);
+  }
+
+  [ui-box~=xl-height-15-min] {
+    min-height: calc(15 * 32px);
+  }
+
+  [ui-box~=xl-width-15x-min] {
+    min-width: calc((15 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-15x-min] {
+    min-height: calc((15 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-15-max] {
+    max-width: calc(15 * 32px);
+  }
+
+  [ui-box~=xl-height-15-max] {
+    max-height: calc(15 * 32px);
+  }
+
+  [ui-box~=xl-width-15x-max] {
+    max-width: calc((15 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-15x-max] {
+    max-height: calc((15 / 16) * 100vh);
+  }
+}
+[ui-box~=square-16] {
+  width: calc(16 * 32px);
+  height: calc(16 * 32px);
+}
+
+[ui-box~=width-16] {
+  width: calc(16 * 32px);
+}
+
+[ui-box~=height-16] {
+  height: calc(16 * 32px);
+}
+
+[ui-box~="width-16%"] {
+  width: calc((16 / 16) * 100%);
+}
+
+[ui-box~=width-16x] {
+  width: calc((16 / 16) * 100vw);
+}
+
+[ui-box~="height-16%"] {
+  height: calc((16 / 16) * 100%);
+}
+
+[ui-box~=height-16x] {
+  height: calc((16 / 16) * 100vh);
+}
+
+[ui-box~=width-16-min] {
+  min-width: calc(16 * 32px);
+}
+
+[ui-box~=height-16-min] {
+  min-height: calc(16 * 32px);
+}
+
+[ui-box~=width-16x-min] {
+  min-width: calc((16 / 16) * 100vw);
+}
+
+[ui-box~=height-16x-min] {
+  min-height: calc((16 / 16) * 100vh);
+}
+
+[ui-box~=width-16-max] {
+  max-width: calc(16 * 32px);
+}
+
+[ui-box~=height-16-max] {
+  max-height: calc(16 * 32px);
+}
+
+[ui-box~=width-16x-max] {
+  max-width: calc((16 / 16) * 100vw);
+}
+
+[ui-box~=height-16x-max] {
+  max-height: calc((16 / 16) * 100vh);
+}
+
+@media (max-width: var(--device-size-smaller)) {
+  [ui-box~=sl-square-16] {
+    width: calc(16 * 32px);
+    height: calc(16 * 32px);
+  }
+
+  [ui-box~=sl-width-16] {
+    width: calc(16 * 32px);
+  }
+
+  [ui-box~=sl-height-16] {
+    height: calc(16 * 32px);
+  }
+
+  [ui-box~="sl-width-16%"] {
+    width: calc((16 / 16) * 100%);
+  }
+
+  [ui-box~=sl-width-16x] {
+    width: calc((16 / 16) * 100vw);
+  }
+
+  [ui-box~="sl-height-16%"] {
+    height: calc((16 / 16) * 100%);
+  }
+
+  [ui-box~=sl-height-16x] {
+    height: calc((16 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-16-min] {
+    min-width: calc(16 * 32px);
+  }
+
+  [ui-box~=sl-height-16-min] {
+    min-height: calc(16 * 32px);
+  }
+
+  [ui-box~=sl-width-16x-min] {
+    min-width: calc((16 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-16x-min] {
+    min-height: calc((16 / 16) * 100vh);
+  }
+
+  [ui-box~=sl-width-16-max] {
+    max-width: calc(16 * 32px);
+  }
+
+  [ui-box~=sl-height-16-max] {
+    max-height: calc(16 * 32px);
+  }
+
+  [ui-box~=sl-width-16x-max] {
+    max-width: calc((16 / 16) * 100vw);
+  }
+
+  [ui-box~=sl-height-16x-max] {
+    max-height: calc((16 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-small)) {
+  [ui-box~=sm-square-16] {
+    width: calc(16 * 32px);
+    height: calc(16 * 32px);
+  }
+
+  [ui-box~=sm-width-16] {
+    width: calc(16 * 32px);
+  }
+
+  [ui-box~=sm-height-16] {
+    height: calc(16 * 32px);
+  }
+
+  [ui-box~="sm-width-16%"] {
+    width: calc((16 / 16) * 100%);
+  }
+
+  [ui-box~=sm-width-16x] {
+    width: calc((16 / 16) * 100vw);
+  }
+
+  [ui-box~="sm-height-16%"] {
+    height: calc((16 / 16) * 100%);
+  }
+
+  [ui-box~=sm-height-16x] {
+    height: calc((16 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-16-min] {
+    min-width: calc(16 * 32px);
+  }
+
+  [ui-box~=sm-height-16-min] {
+    min-height: calc(16 * 32px);
+  }
+
+  [ui-box~=sm-width-16x-min] {
+    min-width: calc((16 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-16x-min] {
+    min-height: calc((16 / 16) * 100vh);
+  }
+
+  [ui-box~=sm-width-16-max] {
+    max-width: calc(16 * 32px);
+  }
+
+  [ui-box~=sm-height-16-max] {
+    max-height: calc(16 * 32px);
+  }
+
+  [ui-box~=sm-width-16x-max] {
+    max-width: calc((16 / 16) * 100vw);
+  }
+
+  [ui-box~=sm-height-16x-max] {
+    max-height: calc((16 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-medium)) {
+  [ui-box~=md-square-16] {
+    width: calc(16 * 32px);
+    height: calc(16 * 32px);
+  }
+
+  [ui-box~=md-width-16] {
+    width: calc(16 * 32px);
+  }
+
+  [ui-box~=md-height-16] {
+    height: calc(16 * 32px);
+  }
+
+  [ui-box~="md-width-16%"] {
+    width: calc((16 / 16) * 100%);
+  }
+
+  [ui-box~=md-width-16x] {
+    width: calc((16 / 16) * 100vw);
+  }
+
+  [ui-box~="md-height-16%"] {
+    height: calc((16 / 16) * 100%);
+  }
+
+  [ui-box~=md-height-16x] {
+    height: calc((16 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-16-min] {
+    min-width: calc(16 * 32px);
+  }
+
+  [ui-box~=md-height-16-min] {
+    min-height: calc(16 * 32px);
+  }
+
+  [ui-box~=md-width-16x-min] {
+    min-width: calc((16 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-16x-min] {
+    min-height: calc((16 / 16) * 100vh);
+  }
+
+  [ui-box~=md-width-16-max] {
+    max-width: calc(16 * 32px);
+  }
+
+  [ui-box~=md-height-16-max] {
+    max-height: calc(16 * 32px);
+  }
+
+  [ui-box~=md-width-16x-max] {
+    max-width: calc((16 / 16) * 100vw);
+  }
+
+  [ui-box~=md-height-16x-max] {
+    max-height: calc((16 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-large)) {
+  [ui-box~=xs-square-16] {
+    width: calc(16 * 32px);
+    height: calc(16 * 32px);
+  }
+
+  [ui-box~=xs-width-16] {
+    width: calc(16 * 32px);
+  }
+
+  [ui-box~=xs-height-16] {
+    height: calc(16 * 32px);
+  }
+
+  [ui-box~="xs-width-16%"] {
+    width: calc((16 / 16) * 100%);
+  }
+
+  [ui-box~=xs-width-16x] {
+    width: calc((16 / 16) * 100vw);
+  }
+
+  [ui-box~="xs-height-16%"] {
+    height: calc((16 / 16) * 100%);
+  }
+
+  [ui-box~=xs-height-16x] {
+    height: calc((16 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-16-min] {
+    min-width: calc(16 * 32px);
+  }
+
+  [ui-box~=xs-height-16-min] {
+    min-height: calc(16 * 32px);
+  }
+
+  [ui-box~=xs-width-16x-min] {
+    min-width: calc((16 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-16x-min] {
+    min-height: calc((16 / 16) * 100vh);
+  }
+
+  [ui-box~=xs-width-16-max] {
+    max-width: calc(16 * 32px);
+  }
+
+  [ui-box~=xs-height-16-max] {
+    max-height: calc(16 * 32px);
+  }
+
+  [ui-box~=xs-width-16x-max] {
+    max-width: calc((16 / 16) * 100vw);
+  }
+
+  [ui-box~=xs-height-16x-max] {
+    max-height: calc((16 / 16) * 100vh);
+  }
+}
+@media (max-width: var(--device-size-larger)) {
+  [ui-box~=xl-square-16] {
+    width: calc(16 * 32px);
+    height: calc(16 * 32px);
+  }
+
+  [ui-box~=xl-width-16] {
+    width: calc(16 * 32px);
+  }
+
+  [ui-box~=xl-height-16] {
+    height: calc(16 * 32px);
+  }
+
+  [ui-box~="xl-width-16%"] {
+    width: calc((16 / 16) * 100%);
+  }
+
+  [ui-box~=xl-width-16x] {
+    width: calc((16 / 16) * 100vw);
+  }
+
+  [ui-box~="xl-height-16%"] {
+    height: calc((16 / 16) * 100%);
+  }
+
+  [ui-box~=xl-height-16x] {
+    height: calc((16 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-16-min] {
+    min-width: calc(16 * 32px);
+  }
+
+  [ui-box~=xl-height-16-min] {
+    min-height: calc(16 * 32px);
+  }
+
+  [ui-box~=xl-width-16x-min] {
+    min-width: calc((16 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-16x-min] {
+    min-height: calc((16 / 16) * 100vh);
+  }
+
+  [ui-box~=xl-width-16-max] {
+    max-width: calc(16 * 32px);
+  }
+
+  [ui-box~=xl-height-16-max] {
+    max-height: calc(16 * 32px);
+  }
+
+  [ui-box~=xl-width-16x-max] {
+    max-width: calc((16 / 16) * 100vw);
+  }
+
+  [ui-box~=xl-height-16x-max] {
+    max-height: calc((16 / 16) * 100vh);
+  }
+}
+
+/*# sourceMappingURL=size.css.map */

@@ -1,0 +1,158 @@
+
+
+
+<!-- Publicité : Photo - Begin -->
+
+<div 
+ui-hide="sm" 
+ui-padding="top:5x"
+ui-box="clean">
+
+    <div 
+    ui-padding="h:2x top:5x bottom:3x"
+    ui-text="small">Publicité</div>
+
+    <div 
+    ui-box="thumb aspect-square">
+
+        <!-- <img src="/assets/images/app-icon-square.png" alt=""> -->
+        
+    </div>
+    
+</div>
+
+<!-- Publicité : Photo - End -->
+
+
+
+
+
+<!-- Fixé - Begin -->
+
+<div ui-box="clean sticky pos:safetop pos:left">
+
+
+
+
+    <!-- Suggestions - Begin -->
+
+    <div 
+    ui-padding="h:2x top:5x bottom:3x"
+    ui-text="small">Suggestions</div>
+
+    <div 
+    ui-rounded
+    ui-margin="bottom:3x"
+    ui-box="layer fill">
+
+
+        <div 
+
+        ui-box="container clean group">
+
+
+            {% (this.state.top||[]).map(item=>{ %}
+        
+            <div
+                ui-mouse="pointer"
+                ui-flex="row align-center-v"
+                ui-box="content"
+                tabindex="0" onclick="location.href='{%= item.route %}'"  >
+
+                <div ui-box="thumb clean height-1x ">
+
+                    <img ui-box="clean fill aspect-square" src="/assets/images/app-icon-square.png" alt="">
+        
+                </div>
+                
+                <div ui-padding="h:3x">
+
+                    <div ui-text="medium">{%= item.label %}</div>
+
+                    <div ui-text="small">{%= item.description %}</div>
+
+                </div>
+
+            </div>
+            
+            {% }) %}
+
+
+        </div>
+        
+    </div>
+
+    <!-- Suggestions - End -->
+
+
+
+
+
+    <!-- En vedette - Begin -->
+    <!-- 
+    <div 
+    ui-padding="h:2x top:5x bottom:3x"
+    ui-text="small">En Vedette</div>
+
+    <div 
+    ui-box="thumb aspect-square">
+
+        <img src="/assets/images/app-icon-square.png" alt="">
+        
+    </div>
+     -->
+    <!-- En vedette - End -->
+
+
+
+
+    <!-- Menu Footer - Begin -->
+
+    <div 
+    ui-hide="sm"
+    ui-rounded
+    ui-margin="v:10x"
+    ui-box="clean fill">
+
+
+        <div 
+        sm-ui-flex="row align-center-h"
+        ui-flex="column"
+        ui-toolbox="">
+
+
+            {% (this.state.footerMenu||[]).map(item=>{ %}
+        
+            <div 
+            ui-mouse="pointer" 
+            toolbox-item="" 
+            tabindex="0" onclick="location.href='{%= item.route %}'" >
+                <span
+                ui-text="small" 
+                toolbox-icon="">
+                    <i class="fa-solid fa-{%= item.icon %}"></i>
+                </span>
+
+                <span
+                ui-text="small" 
+                ui-hide="sm" toolbox-label="">{%= item.label %}</span>
+
+            </div>
+            
+            {% }) %}
+
+
+        </div>
+        
+    </div>
+
+    <!-- Menu Footer - End -->
+
+    
+
+    
+
+</div>
+
+<!-- Fixé - End -->
+

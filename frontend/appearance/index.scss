@@ -1,0 +1,61 @@
+
+
+
+@import url("./normalize.css");
+
+@import url("./root.css");
+
+@import url("./kit/button.css");
+
+@import url("./fx.css");
+
+@import url("./kit/flex.css");
+
+@import url("./kit/grid.css");
+
+@import url("./kit/box.css");
+
+@import url("./kit/text.css");
+
+@import url("./kit/header.css");
+
+@import url("./kit/size.css");
+
+@import url("./kit/tag.css");
+
+@import url("./kit/tool.css");
+
+
+@import url("./kit/textinput.css");
+
+@import url("./kit/loading.css");
+
+@import url("./kit/modal.css");
+
+@import url("./kit/hidden.css");
+
+@import url("./kit/wireframe.css");
+
+@import url("./kit/toolbox.css");
+
+@import url("./kit/stages.css");
+
+
+@import url("./tenzo/maps.css");
+
+
+
+
+*, :root, body{
+
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+.slider-overlayed{
+    position: relative;
+    top: -100px;
+    z-index: 10;
+}

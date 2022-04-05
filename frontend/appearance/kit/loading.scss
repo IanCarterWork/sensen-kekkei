@@ -1,0 +1,1186 @@
+
+@import "../framework";
+
+
+
+kit-loading{
+
+    width: 100vw;
+    
+    height: 100vh;
+    
+    position: fixed;
+    
+    top: 0;
+    
+    left: 0;
+    
+    background-color: var(--color-layer-rgb-big);
+    
+    z-index: 900;
+    
+    opacity: 0;
+    
+    // padding: .5rem;
+
+
+
+    &[plugin-backcolor="@one"]{ 
+        background-color: var(--color-one-rgb-big); 
+        color: var(--color-white);
+    }
+
+    &[plugin-backcolor="@two"]{ 
+        background-color: var(--color-two-rgb-big); 
+        color: var(--color-white);
+    }
+
+    &[plugin-backcolor="@three"]{ 
+        background-color: var(--color-three-rgb-big); 
+        color: var(--color-white);
+    }
+
+    &[plugin-backcolor="@four"]{ 
+        background-color: var(--color-four-rgb-big); 
+        color: var(--color-white);
+    }
+
+    &[plugin-backcolor="@five"]{ 
+        background-color: var(--color-five-rgb-big); 
+        color: var(--color-white);
+    }
+
+    &[plugin-backcolor="@dark"]{ 
+        background-color: var(--color-dark-rgb-big); 
+        color: var(--color-light);
+    }
+
+    &[plugin-backcolor="@light"]{ 
+        background-color: var(--color-light-rgb-big); 
+        color: var(--color-dark);
+    }
+
+    &[plugin-backcolor="@black"]{ 
+        background-color: var(--color-black-rgb-big); 
+        color: var(--color-white);
+    }
+
+    &[plugin-backcolor="@white"]{ 
+        background-color: var(--color-white-rgb-big); 
+        color: var(--color-black);
+    }
+
+    &[plugin-backcolor="@error"]{ 
+        background-color: var(--color-error-rgb-big); 
+        color: var(--color-error-text);
+    }
+
+    &[plugin-backcolor="@warning"]{ 
+        background-color: var(--color-warning-text-rgb-big); 
+        color: var(--color-warning);
+    }
+
+    &[plugin-backcolor="@success"]{ 
+        background-color: var(--color-success-text-rgb-big); 
+        color: var(--color-success);
+    }
+    
+    
+
+
+    &, [plugin-child="@container"], [plugin-child="@content"]{
+
+        display: flex;
+    
+        justify-content: center;
+    
+        align-items: center;
+    
+        flex-direction: column;
+
+    }
+    
+
+
+
+
+    &, &[plugin-status="0"]{
+    
+        opacity: 0;
+    
+    }
+    
+
+
+
+    
+    &[plugin-status="1"]{
+    
+        opacity: 1;
+    
+    }
+    
+
+
+
+
+    // Conteneur
+    [plugin-child="@container"]{
+        
+        max-width: calc(480px - 2rem);
+
+        max-height: calc(768px - 2rem);
+
+        width: calc(100% - 2rem);
+
+        height: calc(100% - 2rem);
+
+    }
+
+
+
+    &[plugin-type="@fill"] [plugin-child="@container"]{
+
+        background-color: var(--color-layer);
+
+        border-radius: var(--radius-large);
+
+        box-shadow: 0 0 2rem rgba(0,0,0,.05);
+
+        overflow: hidden;
+
+    }
+
+
+
+    [plugin-child="@label"]{
+    
+        display: flex;
+    
+        flex-direction: row;
+    
+        justify-content: center;
+    
+        align-items: flex-end;
+    
+        padding: var(--encaps-5x);
+
+        font-size: 1.1rem;
+
+        color: inherit;
+    
+    }
+    
+    
+
+
+    [plugin-child="@content"]{
+    
+        flex: 1 1 auto;
+
+        width: 100%;
+
+    }
+
+    &[plugin-type="@fill"] [plugin-child="@content"]{
+    
+        background-color: rgba(0,0,0,.05);
+    
+    }
+    
+    
+    
+    
+    // Style : Bars
+    &[plugin-style="@bars"] {
+    
+
+
+        [plugin-child="@icon"]{
+
+            position: relative;
+
+            width: calc(100vw - 2rem);
+
+            height: 4px;
+
+            max-width: calc(256px - 2rem);
+
+            background-color: var(--color-one);
+
+            border-radius: var(--radius-larger);
+
+            overflow: hidden;
+
+        }
+
+        [plugin-child="@icon"]::before,
+        [plugin-child="@icon"]::after
+        {
+
+            animation: KitLoading-TranslateBack 3s var(--fx-timing-function) infinite;
+
+        }
+
+
+
+        [plugin-child="@icon"]::before,
+        [plugin-child="@icon"]::after{
+
+            content: "";
+
+            display: block;
+
+            position: absolute;
+
+            top: 0; left: 0;
+
+            width: 100%;
+
+            height: 100%;
+
+        }
+
+
+
+        [plugin-child="@icon"]::before {
+
+            background-color: var(--color-two);
+
+            animation-delay: 0s;
+
+        }
+
+
+        [plugin-child="@icon"]::after {
+
+            background-color: var(--color-three);
+
+            animation-delay: 360ms;
+
+        }
+
+
+
+    
+    }
+    
+    
+    
+    
+    // Style : Ellipsis
+    &[plugin-style="@ellipsis"] {
+    
+
+        [plugin-child="@icon"]{
+
+            position: relative;
+            
+        }
+
+
+        [plugin-child="@icon"]::before,
+        [plugin-child="@icon"]::after,
+        [plugin-child="@icon"]
+
+        {
+
+            content: "";
+
+            display: block;
+
+            background-color: var(--color-text);
+
+            border-radius: 100%;
+
+            width: 10px;
+
+            height: 10px;
+        
+            
+        }
+
+        [plugin-child="@icon"]::before,
+        [plugin-child="@icon"]::after
+        {
+         
+            position: absolute;
+         
+            top: 0;
+
+        }
+
+
+
+        // Color Variante
+        
+        [plugin-child="@icon"]::before{
+        
+            --loading-color-smaller: var(--color-text-rgb-smaller);
+
+            --loading-color-bigger: var(--color-text-rgb-bigger);
+        
+            left: -1rem;
+
+            animation: KitLoading-Ellipsis-1 2s var(--fx-timing-function) infinite;
+
+        }
+
+        [plugin-child="@icon"]:first-child{
+
+            --loading-color-smaller: var(--color-text-rgb-smaller);
+
+            --loading-color-bigger: var(--color-text-rgb-bigger);
+        
+            animation: KitLoading-Ellipsis-2 2s var(--fx-timing-function) infinite;
+    
+        }
+
+        [plugin-child="@icon"]::after{
+        
+            --loading-color-smaller: var(--color-text-rgb-smaller);
+
+            --loading-color-bigger: var(--color-text-rgb-bigger);
+        
+            left: 1rem;
+        
+            animation: KitLoading-Ellipsis-3 2s var(--fx-timing-function) infinite;
+    
+        }
+
+
+
+        // COlor : One
+        
+        &[plugin-color="@one"] [plugin-child="@icon"]::before{
+        
+            --loading-color-smaller: var(--color-one-rgb-smaller);
+
+            --loading-color-bigger: var(--color-one-rgb-bigger);
+
+            background-color: var(--color-one-rgb-smaller);
+
+        }
+
+        &[plugin-color="@one"] [plugin-child="@icon"]:first-child{
+
+            --loading-color-smaller: var(--color-one-rgb-smaller);
+
+            --loading-color-bigger: var(--color-one-rgb-bigger);
+
+            background-color: var(--color-one-rgb-smaller);
+    
+        }
+
+        &[plugin-color="@one"] [plugin-child="@icon"]::after{
+        
+            --loading-color-smaller: var(--color-one-rgb-smaller);
+
+            --loading-color-bigger: var(--color-one-rgb-bigger);
+
+            background-color: var(--color-one-rgb-smaller);
+    
+        }
+
+
+
+        // COlor : Two
+
+        &[plugin-color="@two"] [plugin-child="@icon"]::before{
+        
+            --loading-color-smaller: var(--color-two-rgb-smaller);
+
+            --loading-color-bigger: var(--color-two-rgb-bigger);
+
+            background-color: var(--color-two-rgb-smaller);
+
+        }
+
+        &[plugin-color="@two"] [plugin-child="@icon"]:first-child{
+
+            --loading-color-smaller: var(--color-two-rgb-smaller);
+
+            --loading-color-bigger: var(--color-two-rgb-bigger);
+
+            background-color: var(--color-two-rgb-smaller);
+    
+        }
+
+        &[plugin-color="@two"] [plugin-child="@icon"]::after{
+        
+            --loading-color-smaller: var(--color-two-rgb-smaller);
+
+            --loading-color-bigger: var(--color-two-rgb-bigger);
+
+            background-color: var(--color-two-rgb-smaller);
+    
+        }
+
+
+
+        // COlor : Three
+
+        &[plugin-color="@three"] [plugin-child="@icon"]::before{
+        
+            --loading-color-smaller: var(--color-three-rgb-smaller);
+
+            --loading-color-bigger: var(--color-three-rgb-bigger);
+
+            background-color: var(--color-three-rgb-smaller);
+
+        }
+
+        &[plugin-color="@three"] [plugin-child="@icon"]:first-child{
+
+            --loading-color-smaller: var(--color-three-rgb-smaller);
+
+            --loading-color-bigger: var(--color-three-rgb-bigger);
+
+            background-color: var(--color-three-rgb-smaller);
+    
+        }
+
+        &[plugin-color="@three"] [plugin-child="@icon"]::after{
+        
+            --loading-color-smaller: var(--color-three-rgb-smaller);
+
+            --loading-color-bigger: var(--color-three-rgb-bigger);
+
+            background-color: var(--color-three-rgb-smaller);
+    
+        }
+
+
+
+        // COlor : four
+
+        &[plugin-color="@four"] [plugin-child="@icon"]::before{
+        
+            --loading-color-smaller: var(--color-four-rgb-smaller);
+
+            --loading-color-bigger: var(--color-four-rgb-bigger);
+
+            background-color: var(--color-four-rgb-smaller);
+
+        }
+
+        &[plugin-color="@four"] [plugin-child="@icon"]:first-child{
+
+            --loading-color-smaller: var(--color-four-rgb-smaller);
+
+            --loading-color-bigger: var(--color-four-rgb-bigger);
+
+            background-color: var(--color-four-rgb-smaller);
+    
+        }
+
+        &[plugin-color="@four"] [plugin-child="@icon"]::after{
+        
+            --loading-color-smaller: var(--color-four-rgb-smaller);
+
+            --loading-color-bigger: var(--color-four-rgb-bigger);
+
+            background-color: var(--color-four-rgb-smaller);
+    
+        }
+
+
+
+        // COlor : five
+
+        &[plugin-color="@five"] [plugin-child="@icon"]::before{
+        
+            --loading-color-smaller: var(--color-five-rgb-smaller);
+
+            --loading-color-bigger: var(--color-five-rgb-bigger);
+
+            background-color: var(--color-five-rgb-smaller);
+
+        }
+
+        &[plugin-color="@five"] [plugin-child="@icon"]:first-child{
+
+            --loading-color-smaller: var(--color-five-rgb-smaller);
+
+            --loading-color-bigger: var(--color-five-rgb-bigger);
+
+            background-color: var(--color-five-rgb-smaller);
+    
+        }
+
+        &[plugin-color="@five"] [plugin-child="@icon"]::after{
+        
+            --loading-color-smaller: var(--color-five-rgb-smaller);
+
+            --loading-color-bigger: var(--color-five-rgb-bigger);
+
+            background-color: var(--color-five-rgb-smaller);
+    
+        }
+
+
+
+        // COlor : light
+
+        &[plugin-color="@light"] [plugin-child="@icon"]::before{
+        
+            --loading-color-smaller: var(--color-light-rgb-smaller);
+
+            --loading-color-bigger: var(--color-light-rgb-bigger);
+
+            background-color: var(--color-light-rgb-smaller);
+
+        }
+
+        &[plugin-color="@light"] [plugin-child="@icon"]:first-child{
+
+            --loading-color-smaller: var(--color-light-rgb-smaller);
+
+            --loading-color-bigger: var(--color-light-rgb-bigger);
+
+            background-color: var(--color-light-rgb-smaller);
+    
+        }
+
+        &[plugin-color="@light"] [plugin-child="@icon"]::after{
+        
+            --loading-color-smaller: var(--color-light-rgb-smaller);
+
+            --loading-color-bigger: var(--color-light-rgb-bigger);
+
+            background-color: var(--color-light-rgb-smaller);
+    
+        }
+
+
+
+        // COlor : dark
+
+        &[plugin-color="@dark"] [plugin-child="@icon"]::before{
+        
+            --loading-color-smaller: var(--color-dark-rgb-smaller);
+
+            --loading-color-bigger: var(--color-dark-rgb-bigger);
+
+            background-color: var(--color-dark-rgb-smaller);
+
+        }
+
+        &[plugin-color="@dark"] [plugin-child="@icon"]:first-child{
+
+            --loading-color-smaller: var(--color-dark-rgb-smaller);
+
+            --loading-color-bigger: var(--color-dark-rgb-bigger);
+
+            background-color: var(--color-dark-rgb-smaller);
+    
+        }
+
+        &[plugin-color="@dark"] [plugin-child="@icon"]::after{
+        
+            --loading-color-smaller: var(--color-dark-rgb-smaller);
+
+            --loading-color-bigger: var(--color-dark-rgb-bigger);
+
+            background-color: var(--color-dark-rgb-smaller);
+    
+        }
+
+
+
+        // COlor : light
+
+        &[plugin-color="@light"] [plugin-child="@icon"]::before{
+        
+            --loading-color-smaller: var(--color-light-rgb-smaller);
+
+            --loading-color-bigger: var(--color-light-rgb-bigger);
+
+            background-color: var(--color-light-rgb-smaller);
+
+        }
+
+        &[plugin-color="@light"] [plugin-child="@icon"]:first-child{
+
+            --loading-color-smaller: var(--color-light-rgb-smaller);
+
+            --loading-color-bigger: var(--color-light-rgb-bigger);
+
+            background-color: var(--color-light-rgb-smaller);
+    
+        }
+
+        &[plugin-color="@light"] [plugin-child="@icon"]::after{
+        
+            --loading-color-smaller: var(--color-light-rgb-smaller);
+
+            --loading-color-bigger: var(--color-light-rgb-bigger);
+
+            background-color: var(--color-light-rgb-smaller);
+    
+        }
+
+
+
+        // COlor : black
+
+        &[plugin-color="@black"] [plugin-child="@icon"]::before{
+        
+            --loading-color-smaller: var(--color-black-rgb-smaller);
+
+            --loading-color-bigger: var(--color-black-rgb-bigger);
+
+            background-color: var(--color-black-rgb-smaller);
+
+        }
+
+        &[plugin-color="@black"] [plugin-child="@icon"]:first-child{
+
+            --loading-color-smaller: var(--color-black-rgb-smaller);
+
+            --loading-color-bigger: var(--color-black-rgb-bigger);
+
+            background-color: var(--color-black-rgb-smaller);
+    
+        }
+
+        &[plugin-color="@black"] [plugin-child="@icon"]::after{
+        
+            --loading-color-smaller: var(--color-black-rgb-smaller);
+
+            --loading-color-bigger: var(--color-black-rgb-bigger);
+
+            background-color: var(--color-black-rgb-smaller);
+    
+        }
+
+
+
+        // COlor : white
+
+        &[plugin-color="@white"] [plugin-child="@icon"]::before{
+        
+            --loading-color-smaller: var(--color-white-rgb-smaller);
+
+            --loading-color-bigger: var(--color-white-rgb-bigger);
+
+            background-color: var(--color-white-rgb-smaller);
+
+        }
+
+        &[plugin-color="@white"] [plugin-child="@icon"]:first-child{
+
+            --loading-color-smaller: var(--color-white-rgb-smaller);
+
+            --loading-color-bigger: var(--color-white-rgb-bigger);
+
+            background-color: var(--color-white-rgb-smaller);
+    
+        }
+
+        &[plugin-color="@white"] [plugin-child="@icon"]::after{
+        
+            --loading-color-smaller: var(--color-white-rgb-smaller);
+
+            --loading-color-bigger: var(--color-white-rgb-bigger);
+
+            background-color: var(--color-white-rgb-smaller);
+    
+        }
+
+
+
+        // COlor : error
+
+        &[plugin-color="@error"] [plugin-child="@icon"]::before{
+        
+            --loading-color-smaller: var(--color-error-text-rgb-smaller);
+
+            --loading-color-bigger: var(--color-error-text-rgb-bigger);
+
+            background-color: var(--color-error-text-rgb-smaller);
+
+        }
+
+        &[plugin-color="@error"] [plugin-child="@icon"]:first-child{
+
+            --loading-color-smaller: var(--color-error-text-rgb-smaller);
+
+            --loading-color-bigger: var(--color-error-text-rgb-bigger);
+
+            background-color: var(--color-error-text-rgb-smaller);
+    
+        }
+
+        &[plugin-color="@error"] [plugin-child="@icon"]::after{
+        
+            --loading-color-smaller: var(--color-error-text-rgb-smaller);
+
+            --loading-color-bigger: var(--color-error-text-rgb-bigger);
+
+            background-color: var(--color-error-text-rgb-smaller);
+    
+        }
+
+
+
+        // COlor : warning
+
+        &[plugin-color="@warning"] [plugin-child="@icon"]::before{
+        
+            --loading-color-smaller: var(--color-warning-text-rgb-smaller);
+
+            --loading-color-bigger: var(--color-warning-text-rgb-bigger);
+
+            background-color: var(--color-warning-text-rgb-smaller);
+
+        }
+
+        &[plugin-color="@warning"] [plugin-child="@icon"]:first-child{
+
+            --loading-color-smaller: var(--color-warning-text-rgb-smaller);
+
+            --loading-color-bigger: var(--color-warning-text-rgb-bigger);
+
+            background-color: var(--color-warning-text-rgb-smaller);
+    
+        }
+
+        &[plugin-color="@warning"] [plugin-child="@icon"]::after{
+        
+            --loading-color-smaller: var(--color-warning-text-rgb-smaller);
+
+            --loading-color-bigger: var(--color-warning-text-rgb-bigger);
+
+            background-color: var(--color-warning-text-rgb-smaller);
+    
+        }
+
+
+
+        // COlor : success
+
+        &[plugin-color="@success"] [plugin-child="@icon"]::before{
+        
+            --loading-color-smaller: var(--color-success-text-rgb-smaller);
+
+            --loading-color-bigger: var(--color-success-text-rgb-bigger);
+
+            background-color: var(--color-success-text-rgb-smaller);
+
+        }
+
+        &[plugin-color="@success"] [plugin-child="@icon"]:first-child{
+
+            --loading-color-smaller: var(--color-success-text-rgb-smaller);
+
+            --loading-color-bigger: var(--color-success-text-rgb-bigger);
+
+            background-color: var(--color-success-text-rgb-smaller);
+    
+        }
+
+        &[plugin-color="@success"] [plugin-child="@icon"]::after{
+        
+            --loading-color-smaller: var(--color-success-text-rgb-smaller);
+
+            --loading-color-bigger: var(--color-success-text-rgb-bigger);
+
+            background-color: var(--color-success-text-rgb-smaller);
+    
+        }
+
+
+
+        // COlor : layer
+
+        &[plugin-color="@layer"] [plugin-child="@icon"]::before{
+        
+            --loading-color-smaller: var(--color-layer-rgb-smaller);
+
+            --loading-color-bigger: var(--color-layer-rgb-bigger);
+
+            background-color: var(--color-layer-rgb-smaller);
+
+        }
+
+        &[plugin-color="@layer"] [plugin-child="@icon"]:first-child{
+
+            --loading-color-smaller: var(--color-layer-rgb-smaller);
+
+            --loading-color-bigger: var(--color-layer-rgb-bigger);
+
+            background-color: var(--color-layer-rgb-smaller);
+    
+        }
+
+        &[plugin-color="@layer"] [plugin-child="@icon"]::after{
+        
+            --loading-color-smaller: var(--color-layer-rgb-smaller);
+
+            --loading-color-bigger: var(--color-layer-rgb-bigger);
+
+            background-color: var(--color-layer-rgb-smaller);
+    
+        }
+
+
+
+
+    }
+    
+    
+    
+    
+    // Style : Circle
+    &[plugin-style="@circle"] {
+    
+
+        [plugin-child="@icon"]{
+    
+            display: block;
+    
+            width: 48px;
+    
+            height: 48px;
+    
+        }
+        
+
+        // Size
+        &[plugin-size="@smaller"] [plugin-child="@icon"]{
+    
+            width: 16px;
+    
+            height: 16px;
+    
+        }
+    
+
+        &[plugin-size="@small"] [plugin-child="@icon"]{
+        
+            width: 32px;
+        
+            height: 32px;
+        
+        }
+    
+
+
+        &[plugin-size="@big"] [plugin-child="@icon"]{
+            width: 80px;
+            height: 80px;
+        }
+    
+
+
+        &[plugin-size="@bigger"] [plugin-child="@icon"]{
+        
+            width: 128px;
+        
+            height: 128px;
+        
+        }
+        
+
+    
+        [plugin-child="@icon"]::before{
+        
+            content: "";
+        
+            display: block;
+        
+            width: 100%;
+        
+            height: 100%;
+        
+            border-radius: 100%;
+        
+            background-color: transparent;
+        
+            animation: KitLoading-Rotate 2000ms var(--fx-timing-function) infinite;
+
+
+            border: 5px solid var(--color-text);
+            
+            border-top-color: var(--color-text-rgb-small);
+
+        }
+    
+
+        // Color
+        &[plugin-color="@one"] [plugin-child="@icon"]::before{
+     
+            border-color: var(--color-one);
+     
+            border-top-color: var(--color-one-rgb-small);
+     
+        }
+
+
+        
+        &[plugin-color="@two"] [plugin-child="@icon"]::before{
+        
+            border-color: var(--color-two);
+        
+            border-top-color: var(--color-two-rgb-small);
+        
+        }
+
+
+        
+        &[plugin-color="@three"] [plugin-child="@icon"]::before{
+        
+            border-color: var(--color-three);
+        
+            border-top-color: var(--color-three-rgb-small);
+        
+        }
+
+
+        
+        &[plugin-color="@four"] [plugin-child="@icon"]::before{
+        
+            border-color: var(--color-four);
+        
+            border-top-color: var(--color-four-rgb-small);
+        
+        }
+
+
+        
+        &[plugin-color="@five"] [plugin-child="@icon"]::before{
+        
+            border-color: var(--color-five);
+        
+            border-top-color: var(--color-five-rgb-small);
+        
+        }
+
+
+        
+        &[plugin-color="@dark"] [plugin-child="@icon"]::before{
+        
+            border-color: var(--color-dark);
+        
+            border-top-color: var(--color-dark-rgb-small);
+        
+        }
+
+
+        
+        &[plugin-color="@light"] [plugin-child="@icon"]::before{
+        
+            border-color: var(--color-light);
+        
+            border-top-color: var(--color-light-rgb-small);
+        
+        }
+
+
+        
+        &[plugin-color="@black"] [plugin-child="@icon"]::before{
+        
+            border-color: var(--color-black);
+        
+            border-top-color: var(--color-black-rgb-small);
+        
+        }
+
+
+        
+        &[plugin-color="@white"] [plugin-child="@icon"]::before{
+        
+            border-color: var(--color-white);
+        
+            border-top-color: var(--color-white-rgb-small);
+        
+        }
+
+
+        
+        &[plugin-color="@error"] [plugin-child="@icon"]::before{
+        
+            border-color: var(--color-error-text);
+        
+            border-top-color: var(--color-error-text-rgb-small);
+        
+        }
+
+
+        
+        &[plugin-color="@warning"] [plugin-child="@icon"]::before{
+        
+            border-color: var(--color-warning-text);
+        
+            border-top-color: var(--color-warning-text-rgb-small);
+        
+        }
+
+
+        
+        &[plugin-color="@success"] [plugin-child="@icon"]::before{
+        
+            border-color: var(--color-success-text);
+        
+            border-top-color: var(--color-success-text-rgb-small);
+        
+        }
+
+
+        
+        &[plugin-color="@text"] [plugin-child="@icon"]::before{
+        
+            border-color: var(--color-text);
+        
+            border-top-color: var(--color-text-rgb-small);
+        
+        }
+
+
+        
+        &[plugin-color="@layer"] [plugin-child="@icon"]::before{
+        
+            border-color: var(--color-layer);
+        
+            border-top-color: var(--color-layer-rgb-small);
+        
+        }
+    
+
+    
+
+    
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+:root:not([advance-appearance-disabled~="backdrop-filter"]) kit-loading, 
+:root:not([advance-appearance-disabled~="backdrop-filter"]) kit-loading[plugin-status="0"]{
+    
+    backdrop-filter: blur(0);
+
+}
+
+
+
+
+
+:root:not([advance-appearance-disabled~="backdrop-filter"]) kit-loading[plugin-status="1"]{
+
+    backdrop-filter: blur(1.5rem);
+
+}
+
+
+
+
+
+// Animations
+
+@keyframes KitLoading-Rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+@keyframes KitLoading-TranslateBack {
+
+    0%{
+        transform: translateX(-100%);
+    }
+    
+    70%{
+        transform: translateX(100%);
+    }
+    
+    100%{
+        transform: translateX(-100%);
+    }
+
+}
+
+
+
+
+
+@keyframes KitLoading-Ellipsis-1 {
+    0%{
+        background-color: var(--loading-color-smaller);
+    }
+    33%{
+        background-color: var(--loading-color-bigger);
+    }
+    66%{
+        
+        background-color: var(--loading-color-bigger);
+        
+    }
+    90%{
+        
+        background-color: var(--loading-color-bigger);
+        
+    }
+}
+
+@keyframes KitLoading-Ellipsis-2 {
+    0%{
+        background-color: var(--loading-color-smaller);
+    }
+    33%{
+        background-color: var(--loading-color-smaller);
+    }
+    66%{
+        background-color: var(--loading-color-bigger);
+    }
+    90%{
+        
+        background-color: var(--loading-color-bigger);
+        
+        transform: rotate(0deg);
+        
+    }
+    100%{
+        
+        background-color: var(--loading-color-bigger);
+
+        transform: rotate(360deg);
+    }
+
+}
+
+@keyframes KitLoading-Ellipsis-3 {
+    0%{
+        background-color: var(--loading-color-smaller);
+    }
+    33%{
+        background-color: var(--loading-color-smaller);
+    }
+    66%{
+
+        background-color: var(--loading-color-smaller);
+
+    }
+    90%{
+
+        background-color: var(--loading-color-bigger);
+
+    }
+}
+

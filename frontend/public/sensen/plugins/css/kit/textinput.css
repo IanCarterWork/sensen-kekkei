@@ -1,0 +1,70 @@
+sense-kit-input,
+sense-kit-input * {
+  font-size: inherit;
+}
+
+[ui-textinput] {
+  display: flex;
+  align-items: stretch;
+  border: 1px solid var(--color-layer-lite);
+  background-color: var(--color-layer-lite);
+  margin: 0 calc(var(--enccaps-2x) / 2);
+  position: relative;
+  font-size: inherit;
+  min-height: 40px;
+}
+[ui-textinput] [input-icon],
+[ui-textinput] [input-tools] {
+  padding: var(--encaps-2x) var(--encaps-3x);
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+[ui-textinput] [input-stack] {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1 1 auto;
+}
+[ui-textinput] [input-stack] > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+[ui-textinput] [input-label] {
+  z-index: 0;
+}
+[ui-textinput] input,
+[ui-textinput] select,
+[ui-textinput] textarea {
+  border: 0px solid;
+  background-color: transparent;
+  z-index: 3;
+  opacity: 0;
+}
+[ui-textinput]:focus-within {
+  background-color: var(--color-layer-high-rgb-small);
+}
+[ui-textinput]:focus-within [input-label], [ui-textinput][input-filled] [input-label] {
+  font-size: 50%;
+  font-size-adjust: calc(100% - 3rem);
+  height: auto;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+[ui-textinput]:focus-within input, [ui-textinput]:focus-within select, [ui-textinput]:focus-within textarea [ui-textinput][input-filled] input, [ui-textinput][input-filled] select, [ui-textinput][input-filled] textarea {
+  border-style: solid;
+  border-color: transparent;
+  outline: 0px solid transparent;
+  margin-top: 0.2rem;
+  opacity: 1;
+}
+
+/*# sourceMappingURL=textinput.css.map */

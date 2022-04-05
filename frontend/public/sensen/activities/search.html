@@ -1,0 +1,107 @@
+<scene-header>
+
+    <sense-kit-header-advanced 
+    ui-header="" 
+    ui-box="normal:morphism fill" 
+    prop:title=""
+    > </sense-kit-header-advanced>
+    
+</scene-header>
+
+
+
+
+
+<scene-body>
+
+
+
+
+    <section >
+
+
+
+        <form ui-form action="" ui-box="fill height-8x-min" ui-flex="column" flex="fill" @submit.prevent="this.methods.connect" enctype="multipart/form-data">
+
+
+            <!-- Entete de page - Begin -->
+
+            <div 
+            ui-padding="h:3x top:3x bottom:3x"
+            ui-flex="row align-center-v"
+            ui-box="">
+
+                <!-- <div 
+                ui-padding="h:4x"
+                ui-box="square-x2">
+
+                    <i ui-text="m-small" class="fa-thin fa-search 3x"></i>
+                    
+                </div>
+
+                <div 
+                ui-text="align-left m-medium weight-black">Recherche</div> -->
+
+                <div 
+                ui-padding="top:3x"
+                ui-text="m-smaller"
+                flex="fill">
+
+                    <sense-kit-input prop:icon="search" prop:label="Recherche" prop:type="search" prop:name="query" ></sense-kit-input>
+
+                </div>
+                
+
+            </div>
+                
+
+            <!-- Entete de page - End -->
+
+
+
+            <div 
+            ui-margin="2x"
+            ui-grid="column" grid-column="4x" grid-gap="small"
+            ui-box=" height-13x-min">
+
+
+            
+            {% (this.state.posts||[]).map(item=>{ %}
+            
+                <div grid-case >
+
+                    <sense-shop-card 
+                    prop:slug="{%= item.slug %}"
+                    prop:storename="{%= item.storename %}"
+                    prop:about="{%= item.about %}"
+                    prop:description="{%= item.description %}"
+                    prop:liked="{%= item.liked %}"
+                    prop:commented="{%= item.commented %}"
+                    prop:shared="{%= item.shared %}"
+                    prop:galery="{%= JSON.stringify(item.galery) %}"
+                    prop:tags="{%= JSON.stringify(item.tags) %}"
+
+                    ></sense-shop-card>
+
+                </div>
+                
+                
+            {% }) %}
+
+
+            </div>
+
+
+        </form>
+
+
+    </section>
+
+
+
+    
+</scene-body>
+
+
+
+

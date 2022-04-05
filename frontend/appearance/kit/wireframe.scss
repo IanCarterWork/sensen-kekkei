@@ -1,0 +1,87 @@
+
+@import "../config";
+
+
+[ui-wireframe]{
+    display: flex;
+}
+
+
+[ui-wireframe~="column"]{
+    flex-direction: row;
+}
+
+[ui-wireframe~="row"]{
+    flex-direction: column;
+}
+
+
+@media (max-width: #{ $device-size-medium }) {
+
+    [ui-wireframe~="column"]{
+        flex-direction: column !important;
+    }
+
+}
+
+
+
+
+// Features
+[wireframe~="content"]{
+    flex: 1 1 auto;
+}
+
+
+
+// Panel
+[ui-wireframe~="panel-3x"]{
+
+    [wireframe~="side"]{
+
+        max-width: 320px;
+
+        &[wireframe~="left"]{
+            width: 320px;
+        }
+
+        &[wireframe~="right"]{
+            width: 380px;
+        }
+        
+        
+    }
+    
+
+    
+}
+
+
+
+@media (max-width: #{ $device-size-medium }) {
+
+
+    // Panel
+    [ui-wireframe~="panel-3x"]{
+
+        [wireframe~="side"]{
+
+            max-width: 100vw;
+
+            &[wireframe~="left"]{
+                width: 100%;
+            }
+
+            &[wireframe~="right"]{
+                width: 100%;
+            }
+            
+            
+        }
+        
+
+        
+    }
+
+
+}

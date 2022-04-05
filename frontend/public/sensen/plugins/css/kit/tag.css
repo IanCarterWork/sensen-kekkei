@@ -1,0 +1,23 @@
+[ui-tags] {
+  position: relative;
+}
+[ui-tags][ui-tags~=absolute] {
+  position: absolute;
+}
+[ui-tags][ui-tags~=fixed] {
+  position: fixed;
+}
+[ui-tags][ui-tags~=top] {
+  top: 0;
+}
+[ui-tags][ui-tags~=left] {
+  left: 0;
+}
+[ui-tags][ui-tags~=right] {
+  right: 0;
+}
+[ui-tags][ui-tags~=bottom] {
+  bottom: 0;
+}
+
+/*# sourceMappingURL=tag.css.map */

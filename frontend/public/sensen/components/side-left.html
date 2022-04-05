@@ -1,0 +1,165 @@
+
+
+
+<!-- Block Utilisateur : Photo - Begin -->
+
+<div 
+ui-hide="md" 
+ui-padding="top:5x h:3x"
+ui-box="clean">
+
+    <div 
+    ui-circle
+    ui-box="thumb aspect-square">
+
+        <img src="/assets/images/app-icon-square.png" alt="">
+        
+    </div>
+    
+</div>
+
+<!-- Block Utilisateur : Photo - End -->
+
+
+
+
+<!-- Menu - Begin -->
+
+<div ui-box="clean sticky pos:safetop pos:left">
+
+
+    <!-- Block Utilisateur : Nom d'Utilisateur - Begin -->
+
+    <div 
+    ui-hide="md"
+    ui-box="clean"
+    ui-padding="3x"
+    ui-margin="3x">
+
+        <div ui-text="small">Bonjour,</div>
+
+        <div ui-text="big">IanCarter</div>
+
+    </div>
+
+    <!-- Block Utilisateur : Nom d'Utilisateur - End -->
+
+
+
+
+
+    <!-- Block Rapide : Ajouter un post  - Begin -->
+
+    <div 
+    ui-flex="column"
+    ui-box="clean"
+    ui-padding="3x"
+    ui-margin="3x">
+
+        <button 
+        ui-flex="row align-start"
+        @click="this.methods.publishArticle"
+        ui-rounded="large"
+        ui-fx="transition"
+        ui-box="one two::hover">
+            <span button-icon class="fa-thin fa-plus"></span>
+            <span button-label class="">Publier</span>
+        </button>
+    
+    </div>
+
+    <!-- Block Rapide : Ajouter un post  - End -->
+
+
+
+
+
+    <!-- Menu Boutique - Begin -->
+
+    <div 
+    ui-padding="h:4x top:5x"
+    ui-text="small">Ma boutique</div>
+
+    <div 
+    ui-rounded
+    ui-margin="3x"
+    ui-box="layer fill">
+
+
+        <div 
+        md-ui-flex="row align-center-h"
+        ui-flex="column"
+        ui-toolbox="">
+
+
+            {% (this.state.dashboardMenu||[]).map(item=>{ %}
+        
+            <div tabindex="0" onclick="location.href='{%= item.route %}'" ui-mouse="pointer" toolbox-item="">
+                <span toolbox-icon="">
+                    <i class="fa-solid fa-{%= item.icon %}"></i>
+                </span>
+                <span ui-hide="md" toolbox-label="">{%= item.label %}</span>
+            </div>
+            
+            {% }) %}
+
+
+        </div>
+        
+    </div>
+
+    <!-- Menu Boutique - End -->
+
+
+
+
+
+
+
+    <!-- Menu Utilisateur - Begin -->
+
+    <div 
+    ui-hide="md"
+    ui-padding="h:4x top:5x"
+    ui-text="small">Mon Compte</div>
+
+    <div 
+    ui-hide="md"
+    ui-rounded
+    ui-margin="v:3x"
+    ui-box="clean fill">
+
+
+        <div 
+        sm-ui-flex="row align-center-h"
+        ui-flex="column"
+        ui-toolbox="">
+
+
+            {% (this.state.accountMenu||[]).map(item=>{ %}
+        
+            <div tabindex="0" onclick="location.href='{%= item.route %}'" ui-mouse="pointer" toolbox-item="">
+                <span toolbox-icon="">
+                    <i class="fa-solid fa-{%= item.icon %}"></i>
+                </span>
+                <span ui-hide="md" toolbox-label="">{%= item.label %}</span>
+            </div>
+            
+            {% }) %}
+
+
+        </div>
+        
+    </div>
+
+    <!-- Menu Utilisateur - End -->
+
+
+
+
+    
+
+</div>
+
+<!-- Menu - End -->
+
