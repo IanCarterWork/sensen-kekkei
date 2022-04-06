@@ -1,0 +1,59 @@
+[ui-toolbox] {
+  position: relative;
+  border-radius: inherit;
+  max-width: calc(100vw - 2rem);
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+[ui-toolbox] > * {
+  border-radius: inherit;
+}
+[ui-toolbox][ui-toolbox~=absolute] {
+  position: absolute;
+}
+[ui-toolbox][ui-toolbox~=fixed] {
+  position: fixed;
+}
+[ui-toolbox][ui-toolbox~=top] {
+  top: 0;
+}
+[ui-toolbox][ui-toolbox~=left] {
+  left: 0;
+}
+[ui-toolbox][ui-toolbox~=right] {
+  right: 0;
+}
+[ui-toolbox][ui-toolbox~=bottom] {
+  bottom: 0;
+}
+[ui-toolbox] [toolbox-item] {
+  padding: var(--encaps-3x);
+  border-bottom: 1px dashed var(--color-layer);
+}
+[ui-toolbox] [toolbox-item] [toolbox-icon] {
+  padding-left: var(--encaps-2x);
+  padding-right: var(--encaps-2x);
+}
+[ui-toolbox] [toolbox-item]:hover {
+  background-color: var(--color-one);
+  color: var(--color-white);
+  border-width: 0px;
+  border-style: solid;
+}
+[ui-toolbox] [toolbox-item]:last-child {
+  border-bottom-width: 0px;
+}
+
+@media (max-width: 960px) {
+  [ui-toolbox] {
+    max-width: calc(100vw - 2rem);
+    overflow-y: hidden;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  [ui-toolbox]::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=toolbox.css.map */

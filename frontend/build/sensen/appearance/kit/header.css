@@ -1,0 +1,40 @@
+[ui-header],
+[header-left],
+[header-center],
+[header-right] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[ui-header] {
+  min-height: 48px;
+  flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  padding: 0 !important;
+  box-shadow: none;
+  z-index: 999;
+}
+[ui-header] [header-center] {
+  flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+}
+[ui-header] [header-left], [ui-header] [header-right] {
+  padding: 0 var(--encaps-2x);
+}
+[ui-header] [header-icon] {
+  min-width: 48px;
+  min-height: 48px;
+  font-size: var(--icon-medium);
+}
+[ui-header] [header-icon] img {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+}
+[ui-header] [header-label] {
+  font-size: var(--icon-medium);
+  padding: var(--encaps-0x) var(--encaps-2x);
+}
+
+/*# sourceMappingURL=header.css.map */

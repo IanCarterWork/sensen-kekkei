@@ -1,0 +1,11 @@
+{
+  "name": "sensen-kekkei",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "IanCarterWork",
+  "license": "MIT",
+  "path":{
+    "back": "./backend",
+    "front": "./frontend"
+  }
+}

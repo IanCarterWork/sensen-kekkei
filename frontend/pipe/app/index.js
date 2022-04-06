@@ -3,7 +3,7 @@ import { SensenRouter, SensenRouterEntry } from "sensen-jutsu/router";
 import { HomeActivity } from "./activities/home";
 Jutsu.Kuchiyoce('sandbox', {
     state: {
-        appName: 'Hell Guys'
+        appName: 'Sensen Terminal'
     },
     main(state, canvas) {
         return (new SensenRouter({

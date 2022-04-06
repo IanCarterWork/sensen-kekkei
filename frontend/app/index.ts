@@ -9,7 +9,7 @@ Jutsu.Kuchiyoce<AppState>('sandbox', {
 
     state:{
 
-        appName: 'Hell Guys'
+        appName: 'Sensen Terminal'
 
     },
     
