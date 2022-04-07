@@ -13,7 +13,7 @@
             
         </div>
 
-        <div header-label="">
+        <div ui-hide="sm" header-label="">
 
             {{ this.$state.activityname }}
             
@@ -42,7 +42,7 @@
                 ui-mouse="pointer"
             >
 
-                <span ui-padding="right:2x" tool-label="">Changer de ton</span>
+                <span ui-hide="sm" ui-padding="right:2x" tool-label="">Changer de ton</span>
 
                 <sense-icon 
                 
@@ -164,13 +164,7 @@
                                     flex="fill"
                                     ui-flex="column align-start-v"
                                 >
-
-                                    <div ui-box="thumb aspect-square clean">
-
-                                        <img ui-box="width-3x" src="{%= post.thumb %}" alt="">
-                                        
-                                    </div>
-
+                                
                                     <div 
                                         flex="fill" 
                                         ui-box=""
@@ -181,6 +175,13 @@
                                         </div>
                                         
                                     </div>
+
+                                    <div ui-box="thumb aspect-square clean">
+
+                                        <img ui-box="width-3x" src="{%= post.thumb %}" alt="">
+                                        
+                                    </div>
+
                                     
                                 </div>
                                 
@@ -269,14 +270,14 @@
 
             <div ui-padding="h:2x" ui-box="">
 
-                <span ui-text="color-text">Version : {{ this.$state.version }}</span> 
+                <span ui-text="color-text">Version {{ this.$state.version }}</span> 
 
             </div>
 
 
             <div ui-padding="h:2x" ui-box="">
 
-                <span ui-text="color-text">License : MIT</span> 
+                <span ui-text="color-text">License (MIT)</span> 
 
             </div>
 
