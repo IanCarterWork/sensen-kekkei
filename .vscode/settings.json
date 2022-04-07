@@ -3,5 +3,10 @@
         "backend/*.kernel": "php",
         "*.smake": "php",
         "*.settings": "json"
-    }
+    },
+    "colorize.languages": [
+        "javascript",
+        "typescript",
+        "php",
+      ]
 }

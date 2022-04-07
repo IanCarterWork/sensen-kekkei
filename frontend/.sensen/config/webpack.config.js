@@ -1,6 +1,7 @@
 /**
  * Système Utilities
  */
+
  const path = require('path');
 
  const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -14,30 +15,58 @@
  const WatchExternalFilesPlugin = require('webpack-watch-files-plugin');
 
  const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const { default: SensenRawCli } = require('sensen.raw.cli');
  
- const sensenConfig = require('./env');
+ const mainPath = path.relative(__dirname, '../../')
+
+
+ /**
+  * @type { ProjectFrontendConfig }
+  */
+ const sensenConfig = require(`${ path.resolve(), "../../sensen.config" }`)
  
  
+
  
 
  const defaultCSSLoaders = [
-	
-	// "style-loader", 
 
 	{
+
 		loader: "css-loader",
+
 		options:{
+
 			url: false,
+
 			import: false,
+
 			importLoaders: 2,
+
 			sourceMap: false,
+
 		}
+
 	},
 
 
 ]
  
  
+
+
+SensenRawCli.$Console.Notice('Build on', 
+	(
+				
+		sensenConfig.mode == 'development' 
+
+		? `${ sensenConfig.development.protocol || 'http' }://${ sensenConfig.development.host }:${ sensenConfig.development.port || sensenConfig.development.port || 9162 }/`
+
+		: `${ sensenConfig.production.protocol || 'http' }://${ sensenConfig.production.host }:${ sensenConfig.production.port || sensenConfig.production.port || 80 }/`
+		
+	)
+
+)
  
  
  module.exports = {
@@ -50,15 +79,25 @@
 
 	entry: {
 		
-		app: `${ sensenConfig.path.pipe }/app/index.js`,
+		app: `${ sensenConfig.paths.pipe }/app/index.js`,
 	
 	},
  
 	output: {
 	 
-		filename: 'assets/js/sensen.bundle.[name].[chunkhash:32].js',
+		filename: 'sensen.[name].js',
 	 
-		path: `${ sensenConfig.path.public }`,
+		path: `${ sensenConfig.paths.build }`,
+
+		publicPath: (
+			
+			sensenConfig.mode == 'development' 
+
+			? `${ sensenConfig.development.protocol || 'http' }://${ sensenConfig.development.host }:${ sensenConfig.development.port || sensenConfig.development.port || 9162 }/`
+
+			: `${ sensenConfig.production.protocol || 'http' }://${ sensenConfig.production.host }:${ sensenConfig.production.port || sensenConfig.production.port || 80 }/`
+			
+		),
 	 
 		clean: false,
 	 
@@ -76,6 +115,29 @@
 				use: defaultCSSLoaders,
 				
 			},
+
+
+
+			{
+				test: /\.(html|activity|component|sense|htm)$/i,
+				exclude: path.resolve(__dirname, '../template/index.html'),
+				use: [
+					{
+						loader: 'html-loader',
+						options:{
+							sources: false,
+							// preprocessor: (content, loaderContext) => {
+
+							// 	console.log('PREPROCESSOR', content, HTMLParser.parseFromString(content) )
+								
+							// 	return content
+								
+							// }
+						}
+					}
+				]
+			},
+
 			
 			{
 				
@@ -121,7 +183,7 @@
 						loader: `url-loader`,
 						options:{
 							limit: 8192,
-							context: path.resolve(process.cwd(), sensenConfig.path.public, './assets/'),
+							context: path.resolve(process.cwd(), sensenConfig.paths.build, './assets/'),
 							name:'[path]/[name].[ext]'
 						}
 					},
@@ -137,20 +199,6 @@
 
 			},
 
-
-			{
-
-				test: /\.(woff2|eot|ttf)(\?.*)$/i,
-
-				loader: 'file-loader',
-
-				options:{
-					context: path.resolve(process.cwd(), sensenConfig.path.public, './assets/'),
-					name:'[path]/[name].[ext]',
-				}
-
-			},
-
 			
 
 		]
@@ -163,31 +211,31 @@
  
 		alias:{
 
-			'@Components' : `${ sensenConfig.path.pipeComponents }`,
+			'@Components' : `${ sensenConfig.paths.pipeComponents }`,
 
-			'@Activities' : `${ sensenConfig.path.pipeActivities }`,
+			'@Activities' : `${ sensenConfig.paths.pipeActivities }`,
 
-			'@Palette' : `${ sensenConfig.path.pipeThemePalette }`,
+			'@Palette' : `${ sensenConfig.paths.pipeThemePalette }`,
 
-			'@Tone' : `${ sensenConfig.path.pipeThemeTone }`,
+			'@Tone' : `${ sensenConfig.paths.pipeThemeTone }`,
 
-			'@Themes' : `${ sensenConfig.path.pipeTheme }`,
+			'@Themes' : `${ sensenConfig.paths.pipeTheme }`,
 
-			'@Plugins' : `${ sensenConfig.path.plugins }`,
+			// '@Plugins' : `${ sensenConfig.paths.plugins }`,
 			
-			'@PluginsScript' : `${ sensenConfig.path.pipePluginsScript }`,
+			// '@PluginsScript' : `${ sensenConfig.paths.pipePluginsScript }`,
 
-			'@AssetsCSS' : `${ sensenConfig.path.assetsCSS }`,
+			'@AssetsCSS' : `${ sensenConfig.paths.css }`,
 			
-			'@AssetsJS' : `${ sensenConfig.path.assetsJS }`,
+			'@AssetsJS' : `${ sensenConfig.paths.assetsJS }`,
 
-			'@AssetsFonts' : `${ sensenConfig.path.assetsFonts }`,
+			'@AssetsFonts' : `${ sensenConfig.paths.assetsFonts }`,
 
-			'@AssetsImages' : `${ sensenConfig.path.assetsImages }`,
+			'@AssetsImages' : `${ sensenConfig.paths.assetsImages }`,
 
-			'@Assets' : `${ sensenConfig.path.assets }`,
+			'@Assets' : `${ sensenConfig.paths.assets }`,
 
-			'@App' : `${ sensenConfig.path.pipeApp }`,
+			'@App' : `${ sensenConfig.paths.pipeApp }`,
 				
 		},
 
@@ -203,13 +251,28 @@
  
 	 devServer: {
  
-		 open: true,
-	 
-		 hot: true,
-	 
-		 compress: true,
-	 
-		 port: sensenConfig.port || 9162,
+		open: true,
+	
+		hot: true,
+	
+		compress: true,
+	
+		port: sensenConfig.mode == 'development' 
+			
+			? sensenConfig.development.port
+
+			: sensenConfig.production.port
+			
+		,
+
+		historyApiFallback: true,
+
+
+		
+
+		allowedHosts : 'all',
+
+		static: sensenConfig.paths.build
 	 
 	 },
  
@@ -217,12 +280,18 @@
 
 		new CleanWebpackPlugin({
 
-			root: `${ sensenConfig.path.public }/assets/js/`,
+			root: `${ sensenConfig.paths.build }`,
+			
 			verbose: true,
+			
 			dry: false,
+			
 			cleanOnceBeforeBuildPatterns: [
-				'assets/js/sensen.bundle.*.js',
+			
+				'sensen.bundle.*.js',
+			
 			],
+
 		}),
 
 
@@ -236,9 +305,9 @@
 				 * Assets : Fonts
 				 */
 				{ 
-					from: `${ sensenConfig.path.assetsFonts }`, 
+					from: `${ sensenConfig.paths.fonts }`, 
 					
-					to: `${ sensenConfig.path.public }/assets/fonts`,
+					to: `${ sensenConfig.paths.build }/assets/fonts`,
 					
 					force: true,
 	
@@ -248,9 +317,9 @@
 				 * Assets : Images
 				 */
 				{ 
-					from: `${ sensenConfig.path.assetsImages }`, 
+					from: `${ sensenConfig.paths.images }`, 
 					
-					to: `${ sensenConfig.path.public }/assets/images`,
+					to: `${ sensenConfig.paths.build }/assets/images`,
 					
 					force: true,
 	
@@ -260,9 +329,9 @@
 				 * Assets : CSS
 				 */
 				{ 
-					from: `${ sensenConfig.path.assetsCSS }`, 
+					from: `${ sensenConfig.paths.css }`, 
 					
-					to: `${ sensenConfig.path.public }/assets/css`,
+					to: `${ sensenConfig.paths.build }/assets/css`,
 					
 					// force: true,
 	
@@ -272,9 +341,9 @@
 				 * Assets : JS
 				 */
 				{ 
-					from: `${ sensenConfig.path.assetsJS }`, 
+					from: `${ sensenConfig.paths.js }`, 
 					
-					to: `${ sensenConfig.path.public }/assets/js`,
+					to: `${ sensenConfig.paths.build }/assets/js`,
 					
 					// force: true,
 	
@@ -284,9 +353,9 @@
 				 * Assets : Sounds
 				 */
 				{ 
-					from: `${ sensenConfig.path.assetsSounds }`, 
+					from: `${ sensenConfig.paths.sounds }`, 
 					
-					to: `${ sensenConfig.path.public }/assets/sounds`,
+					to: `${ sensenConfig.paths.build }/assets/sounds`,
 					
 					force: true,
 	
@@ -296,9 +365,9 @@
 				 * Assets : Videos
 				 */
 				{ 
-					from: `${ sensenConfig.path.assetsVideos }`, 
+					from: `${ sensenConfig.paths.videos }`, 
 					
-					to: `${ sensenConfig.path.public }/assets/videos`,
+					to: `${ sensenConfig.paths.build }/assets/videos`,
 					
 					force: true,
 	
@@ -308,15 +377,15 @@
 				 * Assets : Documents
 				 */
 				{ 
-					from: `${ sensenConfig.path.assetsDocuments }`, 
+					from: `${ sensenConfig.paths.documents }`, 
 					
-					to: `${ sensenConfig.path.public }/assets/documents`,
+					to: `${ sensenConfig.paths.build }/assets/documents`,
 					
 					force: true,
 	
 				},
 
-				// { from: sensenConfig.path.assets, to: sensenConfig.path.public + '/assets', },
+				// { from: sensenConfig.paths.assets, to: sensenConfig.paths.build + '/assets', },
 		
 			],
 		
@@ -358,26 +427,32 @@
 		
 			title: `${ sensenConfig.title || 'Sensen Jutsu Demo' }`,
 
-			iD: `${ sensenConfig.iD || 'com.sensen.demo' }`,
+			iD: `${ sensenConfig.name || 'com.sensen.demo' }`,
 		
-			template: `${ sensenConfig.path.indexTemplate }`,
+			template: `${ sensenConfig.paths.buildTemplateFile }`,
 		
 			viewport: 'user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi, viewport-fit=cover',
 		
 			themeColor: '#4285f4',
 
-			port: sensenConfig.port || 9162,
+			port: sensenConfig.mode == 'development' 
+				
+				? sensenConfig.development.port
+
+				: sensenConfig.production.port
+
+			,
 
 			appURL: sensenConfig.mode == 'development' 
 
-				? `${ sensenConfig.development.host }:${ sensenConfig.development.port || sensenConfig.port || 9162 }/`
+				? `${ sensenConfig.development.protocol }://${ sensenConfig.development.host }:${ sensenConfig.development.port || sensenConfig.development.port || 9162 }/`
 
-				: `${ sensenConfig.production.host }:${ sensenConfig.production.port || sensenConfig.port || 80 }/`
+				: `${ sensenConfig.production.protocol }://${ sensenConfig.production.host }:${ sensenConfig.production.port || sensenConfig.production.port || 80 }/`
 				
+			,
 
-				,
 		
-			// inject: 'body',
+			inject: true,
 
 			links:[]
 		 

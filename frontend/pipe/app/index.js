@@ -1,13 +1,18 @@
 import { Jutsu } from "sensen-jutsu";
 import { SensenRouter, SensenRouterEntry } from "sensen-jutsu/router";
 import { HomeActivity } from "./activities/home";
-Jutsu.Kuchiyoce('sandbox', {
+import INITIALIZE_COMPONENTS from "./components";
+import INITIALIZE_THEME_COLOR from "./theme/color";
+window.SENSE_ICON_DEFAULT_STYLE = 'light';
+INITIALIZE_THEME_COLOR('default', 'light');
+INITIALIZE_COMPONENTS();
+Jutsu.Kuchiyoce('root', {
     state: {
         appName: 'Sensen Terminal'
     },
     main(state, canvas) {
         return (new SensenRouter({
-            default: 'home/coming/home',
+            default: 'home',
             canvas
         }))
             .add(new SensenRouterEntry({

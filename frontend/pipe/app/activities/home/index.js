@@ -1,7 +1,7 @@
-import { Component } from "sensen-jutsu";
+import { Activity } from "sensen-jutsu/activity";
 import { FxSlideHorizontal } from "sensen-jutsu/animation/preset";
 import mockup from "./index.activity";
-export const HomeActivity = Component({
+export const HomeActivity = Activity({
     name: 'hello',
     state: {
         ref: 'SubTitle',
