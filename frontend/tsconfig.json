@@ -46,6 +46,7 @@
         "./node_modules/sensen-jutsu/framework.d.ts",
         "./node_modules/sensen-wireframe/**/*",
         "./node_modules/sensen-plugin-themecolor/**/*",
+        "./node_modules/sensen-plugin-modal/**/*",
     ],
 
     "exclude": [

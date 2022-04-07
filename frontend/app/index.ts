@@ -18,7 +18,7 @@ Jutsu.Kuchiyoce<AppState>('root', {
     main(state, canvas){
         
         
-        window.SENSE_ICON_DEFAULT_STYLE = 'light';
+        window.SENSE_ICON_DEFAULT_SECTION = 'light';
         
         window.THEME_COLOR = INITIALIZE_THEME_COLOR('default', 'dark')
         

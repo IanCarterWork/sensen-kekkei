@@ -20,6 +20,9 @@ declare interface IDataStackCategory{
 }
 
 
+declare type IDataStackPostMediaType = '-image' | '-video' | '-sound' | '-document';
+
+
 declare interface IDataStackPost{
 
     id: number;
@@ -32,7 +35,7 @@ declare interface IDataStackPost{
 
     thumb?: string;
 
-    mediaType?: '-image' | '-video' | '-sound' | '-document';
+    mediaType?: IDataStackPostMediaType;
 
     mediaURL?: string;
     
@@ -43,5 +46,9 @@ declare interface IDataStackPost{
     updated?: string;
 
     avail: boolean;
+
+    colorone?: string;
+
+    colortwo?: string;
 
 }

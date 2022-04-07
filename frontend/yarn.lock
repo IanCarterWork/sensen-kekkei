@@ -6218,13 +6218,18 @@ send@0.17.2:
     range-parser "~1.2.1"
     statuses "~1.5.0"
 
-sensen-jutsu@^0.0.101:
-  version "0.0.101"
-  resolved "https://registry.yarnpkg.com/sensen-jutsu/-/sensen-jutsu-0.0.101.tgz#76fcb8beab4b198d960338223c385ddf416db0a4"
-  integrity sha512-mIFSD7yTmbL0/sHUsiPfOP78eaWCeGsKtAJqTDfhcXYwcenVT5EBy68R63thqUfgRcT1UedP9Uzj/+ermYtNAg==
+sensen-jutsu@^0.0.102:
+  version "0.0.102"
+  resolved "https://registry.yarnpkg.com/sensen-jutsu/-/sensen-jutsu-0.0.102.tgz#0949ffa57001d6025fbfe021ec9d23ea6cd9f38e"
+  integrity sha512-16erellXyiXMYuueDoRnNjBZzSZflej+S9TofJhmkflKs3/E40hdt5wl6kxRJSnsQUVQFSsAV8zOgjGOqRNjYg==
   dependencies:
     "@types/ejs" "^3.1.0"
     ejs "^3.1.6"
+
+sensen-plugin-modal@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/sensen-plugin-modal/-/sensen-plugin-modal-0.0.6.tgz#2a14a1d956ceaa498a2b17a292fdfa0ea9968bb4"
+  integrity sha512-SFphChELi7LCwKgx5lDL4I3FQfHgQ0VNtyUBN12MNWVtOdYY1jH+z1C/R/7/ZRG+sUrXOmVX9QUX9ZF9jVOrbA==
 
 sensen-plugin-themecolor@^0.0.2:
   version "0.0.2"

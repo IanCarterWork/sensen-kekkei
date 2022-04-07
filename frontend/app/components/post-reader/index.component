@@ -1,0 +1,105 @@
+
+
+<div 
+    ui-flex="column align-center-h align-start-v"
+    ui-box="width-16x"
+>
+
+    <div 
+        ui-rounded="larger"
+        ui-box="container layer smaller fill"
+        style="overflow:hidden"
+    >
+
+
+        <div 
+            ui-flex="row align-center"
+            ui-box="height-5x gradient:two-four"
+            style="--color-two:{%= this.$state.colorone %};--color-four:{%= this.$state.colortwo %};overflow: hidden;"
+        >
+
+            <div 
+                ui-box="thumb width-16% width-5x-max clean fill aspect-square"
+            >
+
+                <img ui-box="" src="{{ this.$state.thumb }}" alt="">
+                
+            </div>
+            
+        </div>
+
+
+        <div ui-box="content">
+
+            <div ui-text="m-smaller">{{ this.$state.title }}</div>
+
+            <div ui-text="big">{{ this.$state.about }}</div>
+
+            <div 
+                ui-padding="v:5x"
+                ui-text="medium"
+            >{{ this.$state.content }}</div>
+
+            <div 
+                ui-flex="row align-center-v"
+                ui-padding="top:3x"
+            >
+
+                <div 
+                    ui-flex="row align-center-v"
+                    ui-padding="h:2x"
+                >
+                    <sense-icon state:name="clock"></sense-icon>
+                    <span 
+                        ui-padding="left:2x"
+                        ui-text="smaller"
+                    >{{ this.$state.created }}</span>
+                </div>
+                
+
+                <div 
+                    ui-flex="row align-center-v"
+                    ui-padding="h:2x"
+                >
+                    <sense-icon state:name="stopwatch"></sense-icon>
+                    <span 
+                        ui-padding="left:2x"
+                        ui-text="smaller"
+                    >{{ this.$state.updated || 'Jamais' }}</span>
+                </div>
+                
+
+            </div>
+
+            
+
+            <div 
+                ui-flex="row"
+                ui-padding="top:3x bottom:3x"
+            >
+
+                <button 
+                    plug:bind="@sensen-modal"
+                    onclick="this.$plugin.$close()"
+                    flex="fill"
+                    ui-button
+                    ui-box="one one::hover"
+                    ui-text="color-white"
+                    ui-rounded="large"
+                >
+                    <span button-label >Quitter</span>
+                </button>
+                
+
+
+            </div>
+
+
+            
+        </div>
+
+        
+    </div>
+
+
+</div>

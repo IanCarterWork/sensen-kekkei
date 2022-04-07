@@ -31,6 +31,14 @@ declare module '*.activity' {
 	
 }
 
+declare module '*.component' {
+	
+	const value: string;
+
+	export default value
+	
+}
+
 
 
 declare type AppState = SensenElementState & {

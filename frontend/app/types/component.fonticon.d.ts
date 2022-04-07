@@ -1,6 +1,6 @@
 
 
-declare type FontIconStyle = 'light' | 'solid' | 'duotone' | 'thin';
+declare type FontIconSection = 'light' | 'solid' | 'duotone' | 'thin' | 'brands';
 
 
 
@@ -8,7 +8,7 @@ declare interface Window{
 
     SENSE_ICON_DEFAULT_PREFIX ?: string;
 
-    SENSE_ICON_DEFAULT_STYLE ?: FontIconStyle;
+    SENSE_ICON_DEFAULT_SECTION ?: FontIconSection;
     
 }
 
@@ -22,7 +22,7 @@ declare interface FontIconState{
 
     prefix?: string;
 
-    style?: FontIconStyle;
+    section?: FontIconSection;
 
     name: string;
 

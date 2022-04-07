@@ -32,12 +32,17 @@
 
     <div header-right="">
 
+
         <div ui-tools="">
 
             <div 
                 @click="this.methods.toogleTone"
                 tool-item=""
+                ui-padding="right:3x"
+                ui-mouse="pointer"
             >
+
+                <span ui-padding="right:2x" tool-label="">Changer de ton</span>
 
                 <sense-icon 
                 
@@ -56,6 +61,12 @@
     
     
 </wireframe-header>
+
+
+
+
+
+
 
 
 
@@ -127,15 +138,20 @@
                 <!-- Listing des données -->
 
 
-                <div ui-grid="column" grid-gap="medium" grid-column="2x">
+                <div ui-grid="column" grid-gap="medium" grid-column="3x">
 
                     {% $Until(this.$state.posts, post=>{ %}
 
-                        <div grid-case="">
+                        <div 
+                            grid-case=""
+                            style="overflow: initial;"
+                        >
 
                             <div 
                                 ui-rounded=""
                                 ui-box="layer"
+                                ui-flex="column"
+                                style="height: calc(100% - var(--ui-grid-gap))"
                             >
 
                                 <div ui-title="bigger">{%= post.title %}</div>
@@ -144,11 +160,14 @@
                                     {%= post.about %}
                                 </div>
 
-                                <div ui-flex="row align-start-v">
+                                <div 
+                                    flex="fill"
+                                    ui-flex="column align-start-v"
+                                >
 
                                     <div ui-box="thumb aspect-square clean">
 
-                                        <img ui-box="width-3x-max" src="{%= post.thumb %}" alt="">
+                                        <img ui-box="width-3x" src="{%= post.thumb %}" alt="">
                                         
                                     </div>
 
@@ -167,7 +186,12 @@
                                 
                                 <div ui-buttons="">
 
-                                    <button ui-button="">
+                                    <button 
+                                        @click.prevent.stop="this.methods.openPost"
+                                        post-id="{%= post.id %}"
+                                        ui-button=""
+                                        tabindex="0"
+                                    >
 
                                         <sense-icon button-icon="" state:name="long-arrow-right" ></sense-icon>
                                             
@@ -201,6 +225,68 @@
 
 
     </div>
+    
+    
+
+
+
+
+
+    <footer 
+        ui-margin="v:10x"
+        ui-flex="row align-center-h"
+        ui-footer
+    >
+
+
+        <div 
+            ui-flex="row wrap align-center"
+            ui-box="container smaller">
+
+            <div ui-padding="h:2x" ui-box="">
+
+                <a href="//github.com/IanCarterWork/" target="_blank">
+
+                    <span ui-text="color-text">© 2022 IanCarterWork</span> 
+
+                </a>
+                
+            </div>
+
+
+            <div ui-padding="h:2x" ui-box="">
+
+                <a href="//github.com/IanCarterWork/sensen-kekkei" target="_blank">
+
+                    <sense-icon state:name="github" state:section="brands" ></sense-icon>
+
+                    <span ui-text="color-text">Dépôt Github</span> 
+
+                </a>
+                
+            </div>
+
+
+            <div ui-padding="h:2x" ui-box="">
+
+                <span ui-text="color-text">Version : {{ this.$state.version }}</span> 
+
+            </div>
+
+
+            <div ui-padding="h:2x" ui-box="">
+
+                <span ui-text="color-text">License : MIT</span> 
+
+            </div>
+
+
+            
+        </div>
+    
+
+    </footer>
+    
     
     
 </wireframe-main>

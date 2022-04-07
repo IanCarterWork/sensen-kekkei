@@ -11,6 +11,8 @@ declare type HomeActivityState = SensenElementState & {
     welcome: string;
 
     name: string;
+    
+    version?: string;
 
     posts?: IDataStackPost[],
 
