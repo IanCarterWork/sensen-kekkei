@@ -3,13 +3,13 @@ import { SensenPaletteColor } from "sensen-plugin-themecolor/palette-color";
 
 export const AppDefaultPalette = new SensenPaletteColor('default', {
 
-    one: '#af1263',
+    one: '#ca0a80',
 
-    two: '#9F1072',
+    two: '#9c0b74',
 
-    three: '#F79903',
+    three: '#7e1187',
 
-    four: '#871235',
+    four: '#5c0c63',
 
     five: '#ED3E5B',
 

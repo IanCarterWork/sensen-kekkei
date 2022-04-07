@@ -32,11 +32,11 @@ export default function INITIALIZE_THEME_COLOR(
         
         .add(SensenDarkTone)
         
-        .add(SensenNightTone)
+        // .add(SensenNightTone)
         
         .add(SensenLightTone)
         
-        .add(SensenSnowTone)
+        // .add(SensenSnowTone)
         
         .render(true)
         

@@ -21,6 +21,7 @@
         "esModuleInterop": true,
         "types": ["node"],
         "paths": {
+            "@Main/*": ["./*"],
             "@App/*": ["./app/*"],
             "@Components/*": ["./app/components/*"],
             "@Activities/*": ["./app/activities/*"],
@@ -39,15 +40,17 @@
     },
 
 	"include": [
-        "app/**/*", 
+        "**/*", 
         "/Volumes/WorkStation/dev/git/npx/sensen-senju/app/env.d.ts",
         // "sensen-senju/types/**/*",
         "./node_modules/sensen-jutsu/framework.d.ts",
+        "./node_modules/sensen-wireframe/**/*",
         "./node_modules/sensen-plugin-themecolor/**/*",
     ],
 
     "exclude": [
         "./build",
+        "./pipe",
     ]
     
 }

@@ -21,6 +21,7 @@
 		"esm": "^3.2.25",
 		"sensen-jutsu": "^0.0.101",
 		"sensen-plugin-themecolor": "^0.0.2",
+		"sensen-wireframe": "^0.0.2",
 		"typescript": "^4.5.5"
 	},
 	"devDependencies": {

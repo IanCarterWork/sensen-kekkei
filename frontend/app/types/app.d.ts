@@ -41,3 +41,11 @@ declare type AppState = SensenElementState & {
 
 
 
+declare interface Window{
+
+	THEME_COLOR : object
+	
+}
+
+
+

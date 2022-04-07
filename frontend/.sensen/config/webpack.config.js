@@ -236,6 +236,8 @@ SensenRawCli.$Console.Notice('Build on',
 			'@Assets' : `${ sensenConfig.paths.assets }`,
 
 			'@App' : `${ sensenConfig.paths.pipeApp }`,
+
+			'@Main' : `${ path.resolve(__dirname, '../../') }`,
 				
 		},
 
