@@ -1,5 +1,5 @@
 {
-	"name": "sensen-wapp",
+	"name": "sensen-katon",
 	"version": "0.0.1",
 	"description": "a sensen app env",
 	"main": "pipe/index.js",
