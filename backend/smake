@@ -9,5 +9,3 @@ require dirname(__FILE__) . "/.sensen/kernel.smake";
 
 (new Console())->Run($_SERVER['argv']);
 
-
-

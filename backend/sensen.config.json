@@ -1,19 +1,36 @@
 {
- "name": "com.sensen.futon",
- "version": "0.0.1",
- "alias": {
-  "Services": "services",
-  "Smake": ".sensen/smake",
-  "Package": "packages",
-  "Sensen": "components"
- },
- "packages": {
-  "sensen-package-hello": {
-   "id": "sensen-package-hello",
-   "name": "Hello",
-   "version": "0.0.1",
-   "respository": "https://github.com/IanCarterWork/sensen-package-hello.git",
-   "type": "-chakra"
-  }
- }
+    "name": "com.sensen.futon",
+    "version": "0.0.1",
+    "paths":{
+        "public": "/public",
+        "services": "/services",
+        "packages": "/packages",
+        "components": "/components",
+        "settings": "/settings"
+    },
+    "development":{
+        "protocol": "http",
+        "host": "127.0.0.1",
+        "port": 19960
+    },
+    "production":{
+        "protocol": "https",
+        "host": "exemple.com",
+        "port": 80
+    },
+    "alias": {
+        "Services": "services",
+        "Smake": ".sensen/smake",
+        "Package": "packages",
+        "Sensen": "components"
+    },
+    "packages": {
+    "sensen-package-hello": {
+    "id": "sensen-package-hello",
+    "name": "Hello",
+    "version": "0.0.1",
+    "respository": "https://github.com/IanCarterWork/sensen-package-hello.git",
+    "type": "-chakra"
+    }
+    }
 }

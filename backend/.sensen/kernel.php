@@ -17,11 +17,15 @@ namespace Sensen{
 
         global $Sensen;
 
+        // var_dump('AUTOLOAD', $ns, $Sensen->Alias);exit;
+
         if(is_object($Sensen->Alias)){
 
             foreach( $Sensen->Alias as $namespace => $dir){
                 
                 $match = substr($ns, 0, strlen($namespace)) == $namespace;
+
+                // var_dump('Autoload', $namespace, $dir);
 
                 
                 if($match){
@@ -143,6 +147,61 @@ namespace Sensen\Encryption{
 
     }
 
+
+
+
+}
+
+
+
+
+
+
+
+namespace Sensen\Database{
+
+
+
+    class Configuration{
+
+
+        public $Host;
+
+        public $Name;
+
+        public $User;
+
+        public $Password;
+
+        public $Charset = "utf8mb4";
+
+
+
+        public function __construct(
+            
+            String $Host,
+
+            String $Name,
+
+            String $User,
+
+            String $Password
+
+        ) {
+
+
+            $this->Host = $Host;
+
+            $this->Name = $Name;
+
+            $this->User = $User;
+
+            $this->Password = $Password;
+            
+        }
+        
+
+    }
 
 
 

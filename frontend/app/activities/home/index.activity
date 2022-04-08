@@ -242,9 +242,10 @@
 
         <div 
             ui-flex="row wrap align-center"
+            sm-ui-flex="column"
             ui-box="container smaller">
 
-            <div ui-padding="h:2x" ui-box="">
+            <div ui-padding="2x" ui-box="">
 
                 <a href="//github.com/IanCarterWork/" target="_blank">
 
@@ -255,7 +256,7 @@
             </div>
 
 
-            <div ui-padding="h:2x" ui-box="">
+            <div ui-padding="2x" ui-box="">
 
                 <a href="//github.com/IanCarterWork/sensen-kekkei" target="_blank">
 
@@ -268,14 +269,14 @@
             </div>
 
 
-            <div ui-padding="h:2x" ui-box="">
+            <div ui-padding="2x" ui-box="">
 
                 <span ui-text="color-text">Version {{ this.$state.version }}</span> 
 
             </div>
 
 
-            <div ui-padding="h:2x" ui-box="">
+            <div ui-padding="2x" ui-box="">
 
                 <span ui-text="color-text">License (MIT)</span> 
 

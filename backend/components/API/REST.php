@@ -109,6 +109,7 @@ class REST{
     /** USER 1.8 : Higher Level */
     public const HIGHER_USER_LEVEL = false;
 
+    
 
 
     /** GUEST O.O : Smaller Level */
@@ -146,8 +147,13 @@ class REST{
      */
     public function __construct() {
 
-        var_dump('The API COnstruct', $this::REQUIRE_USER_SESSION );
-        exit;
+        // var_dump('The API COnstruct', $this::REQUIRE_USER_SESSION ); exit;
+
+        if($this->REQUIRE_USER_SESSION === true){
+
+            
+
+        }
         
     }
     

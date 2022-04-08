@@ -75,7 +75,7 @@
 
             <div 
                 ui-flex="row"
-                ui-padding="top:3x bottom:3x"
+                ui-padding="top:3x bottom:2x"
             >
 
                 <button 

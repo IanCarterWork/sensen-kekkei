@@ -29,10 +29,12 @@ class Run extends Module{
              */
             
             case '-run':
+
+                
                 
                 exec(
                     
-                    'cd ' . $Sensen->Public . 
+                    'cd ' . $Sensen->Paths->Public . 
                     
                     ' && php -S ' . $Sensen->Development->Host . ':' . $Sensen->Development->Port . ' '
                 
