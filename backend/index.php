@@ -2,4 +2,8 @@
 
 require dirname(__FILE__) . "/.sensen/index.php";
 
-header("location: " . Sensen\HTTP\URL() . "");
+header("location: " 
+    
+    . Sensen\HTTP\URL() . 
+    
+"");
