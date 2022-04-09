@@ -2,7 +2,7 @@
   "name": "sensen-kekkei",
   "version": "0.0.1",
   "main": "index.js",
-  "author": "IanCarterWork",
+  "author": "",
   "license": "MIT",
   "path":{
     "back": "./backend",
