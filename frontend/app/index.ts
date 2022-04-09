@@ -20,7 +20,7 @@ Jutsu.Kuchiyoce<AppState>('root', {
         
         window.SENSE_ICON_DEFAULT_SECTION = 'light';
         
-        window.THEME_COLOR = INITIALIZE_THEME_COLOR('default', 'dark')
+        window.THEME_COLOR = INITIALIZE_THEME_COLOR('default', 'flow')
         
         INITIALIZE_COMPONENTS();
         

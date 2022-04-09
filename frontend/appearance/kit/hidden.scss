@@ -41,6 +41,15 @@
 
 
 
+[theme-color-tone="flow"]{
+
+    [ui-hide~="tone:flow"]{display: none !important;}
+    
+    [ui-show~="tone:flow"]{display: block !important;}
+
+}
+
+
 
 
 [ui-hide]{

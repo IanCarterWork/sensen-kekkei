@@ -93,6 +93,8 @@
                     <img ui-show="tone:light" src="assets/images/icon/app-icon-black.png" alt="">
 
                     <img ui-show="tone:dark" src="assets/images/icon/app-icon-original.png" alt="">
+
+                    <img ui-show="tone:flow" src="assets/images/icon/app-icon-original.png" alt="">
                     
                 </div>
 
